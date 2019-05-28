@@ -6,6 +6,7 @@ The project is divided into seven work packages that work together within two st
 Most activity is now in work streams
 
 [Stream 1 (WP1+4+6+7)](https://github.com/fairgenomes/wiki/wiki/requirements): Requirement analysis
+
 [Stream 2 (WP1+2+3+5)](https://github.com/fairgenomes/wiki/wiki/Stream2): Inventory of available tools and infrastructure supporting FAIR data stewardship of genomics data
 
 For organisation below also the work-package spaces
