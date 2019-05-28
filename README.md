@@ -1,15 +1,17 @@
-Welcome to the repository of the FAIR genomes project. 
+# Welcome to the repository of the FAIR genomes project. 
+
 FAIR genomes is a project made possible by a [ZonMw subsidy](https://www.zonmw.nl/nl/onderzoek-resultaten/geneesmiddelen/programmas/project-detail/personalised-medicine/fair-genomes-a-national-guideline-to-promote-optimal-reuse-of-ngs-data-in-research-and-healthcare/verslagen/). Within the project we aim to develop a national guideline to promote optimal (re)use of NGS data in research and healthcare.
 
 The project is divided into seven work packages that work together within two streams.
 
-Most activity is now in work streams
+## Most activity is now in work streams
+Supporting FAIR data stewardship of genomics data:
 
 [Stream 1 'Requirement analysis' (WP1+4+6+7)](https://github.com/fairgenomes/wiki/wiki/requirements)
 
-[Stream 2 'Inventory of available tools and infrastructure supporting FAIR data stewardship of genomics data' (WP1+2+3+5)](https://github.com/fairgenomes/wiki/wiki/Stream2): 
+[Stream 2 'Inventory of available tools and infrastructure' (WP1+2+3+5)](https://github.com/fairgenomes/wiki/wiki/Stream2): 
 
-For organisation below also the work-package spaces
+## For organisation below also the work-package spaces
 
 [WP1: Unifying workflow and manual to promote FAIRness of NGS data](https://github.com/fairgenomes/wiki/wiki/WP1)  
 [WP2: FAIR (meta)data schema: from sample to data](https://github.com/fairgenomes/wiki/wiki/WP2)  
