@@ -17,11 +17,21 @@
 
 ## Clinical Information
 
-| Meta-data element | Compulsory / optional | Preferred ontology term for meta-data | Value types | Issue Number | Solved / unsolved |
-|-------------------|-----------------------|---------------------------------------|-------------|--------------|-------------------|
-|                   |                       |                                       |             |              |                   |
-|                   |                       |                                       |             |              |                   |
-|                   |                       |                                       |             |              |                   |
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved |
+|----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
+|Phenotypic terms | compulsory | [MESH:D010641](http://bioportal.bioontology.org/ontologies/MESH?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMESH%2FD010641) |  |  |  |
+Unobserved phenotypes | optional | [HL7:C0442737](http://purl.bioontology.org/ontology/HL7/C0442737) |  |  |  |
+Type of phenotypic data | compulsory | [DC:DCMIType](http://bioportal.bioontology.org/ontologies/DC?p=classes&conceptid=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FDCMIType) |  |  |  |
+Clinical diagnosis | optional | [SNOMEDCT:39154008](http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F39154008) |  |  |  |
+Genetic diagnosis | optional | [CRISP:1254-8491](http://bioportal.bioontology.org/ontologies/CRISP?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FCSP%2F1254-8491) |  |  |  |
+Age at diagnosis | optional | [SNOMEDCT:423493009](http://bioportal.bioontology.org/ontologies/SNOMEDCT/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F423493009) |  |  |  |
+Age at last screening (if part of a cohort) | optional | [NCIT:C81258](http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C81258) |  |  |  |
+Medication information | optional | [EDAM:data_3103](http://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Fdata_3103) |  |  |  |
+Dosage | optional | |  |  |  |
+Family members affected | compulsory | []() |  |  |  |
+Family members sequenced | optional | []() |  |  |  |
+Procedural history | optional | UMLS: C1138431 (Current procedural history) |  |  |  |
+Age of onset | optional | [HP:0003674](http://bioportal.bioontology.org/ontologies/HP/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FHP_0003674) |  |  |  |
 ## Materials Information
 
 | Meta-data element | Compulsory / optional | Preferred ontology term for meta-data | Value types | Issue Number | Solved / unsolved |
