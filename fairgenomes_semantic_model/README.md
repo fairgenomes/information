@@ -35,11 +35,22 @@ Age of onset | optional | [HP:0003674](http://bioportal.bioontology.org/ontologi
 
 ## Materials Information
 
-| Meta-data element | Compulsory / optional | Preferred ontology term for meta-data | Value types | Issue Number | Solved / unsolved |
-|-------------------|-----------------------|---------------------------------------|-------------|--------------|-------------------|
-|                   |                       |                                       |             |              |                   |
-|                   |                       |                                       |             |              |                   |
-|                   |                       |                                       |             |              |                   |
+| Meta\-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Solved / unsolved |
+|------------------------------------------|-----------------------|----------------------------------------|-------------|--------------|-------------------|
+| Sampling TimeStamp                       | compulsory            |                                        |             |              |                   |
+| Registration TimesStamp                  | compulsory            |                                        |             |              |                   |
+| Sampling collection protocol             | optional              |                                        |             |              |                   |
+| Deviations from Sample protocol          | optional              |                                        |             |              |                   |
+| Reasons for protocol deviation           | optional              |                                        |             |              |                   |
+| Material type                            | compulsory            |                                        |             |              |                   |
+| Anatomical source                        | optional              |                                        |             |              |                   |
+| Storage conditions                       | optional              |                                        |             |              |                   |
+| Expiration date                          | optional              |                                        |             |              |                   |
+| Estimated percentage of tumor cells      | optional              |                                        |             |              |                   |
+| Amount of input material used            | optional              |                                        |             |              |                   |
+| Location of sample \(Physical location\) | optional              |                                        |             |              |                   |
+| "is deritative or not"?                  | optional              |                                        |             |              |                   |
+
 ## Technical Information
 
 | Meta-data element | Compulsory / optional | Preferred ontology term for meta-data | Value types | Issue Number | Solved / unsolved |
