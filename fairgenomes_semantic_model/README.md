@@ -37,19 +37,20 @@ Age of onset | optional | [HP:0003674](http://bioportal.bioontology.org/ontologi
 
 | Meta\-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Solved / unsolved |
 |------------------------------------------|-----------------------|----------------------------------------|-------------|--------------|-------------------|
-| Sampling TimeStamp                       | compulsory            |                                        |             |              |                   |
-| Registration TimesStamp                  | compulsory            |                                        |             |              |                   |
-| Sampling collection protocol             | optional              |                                        |             |              |                   |
-| Deviations from Sample protocol          | optional              |                                        |             |              |                   |
+| Sampling TimeStamp                       | compulsory            | UMLS \[C0870078\] Sampling             |             |              |                   |
+| Registration TimesStamp                  | compulsory            | [CTO:Registration](http://bioportal.bioontology.org/ontologies/CTO?p=classes&conceptid=http%3A%2F%2Fwww.co-ode.org%2Fontologies%2Font.owl%23Registration)                       |             |              |                   |
+| Sampling collection protocol             | optional              | [EFO:0005518](http://bioportal.bioontology.org/ontologies/EFO?p=classes&conceptid=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0005518)                            |             |              |                   |
+| Deviations from Sample protocol          | optional              | [NCIT:C50996](http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C50996)                            |             |              |                   |
 | Reasons for protocol deviation           | optional              |                                        |             |              |                   |
-| Material type                            | compulsory            |                                        |             |              |                   |
-| Anatomical source                        | optional              |                                        |             |              |                   |
-| Storage conditions                       | optional              |                                        |             |              |                   |
-| Expiration date                          | optional              |                                        |             |              |                   |
+| Material type                            | compulsory            | UMLS:C2986062                          |             |              |                   |
+| Anatomical source                        | optional              | [UBERON:0001062](http://bioportal.bioontology.org/ontologies/UBERON?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001062)                         |             |              |                   |
+| Storage conditions                       | optional              | UMLS:C3272596                          |             |              |                   |
+| Expiration date                          | optional              | [LNC:LP173684-4](http://bioportal.bioontology.org/ontologies/LOINC?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FLNC%2FLP173684-4)                         |             |              |                   |
 | Estimated percentage of tumor cells      | optional              |                                        |             |              |                   |
 | Amount of input material used            | optional              |                                        |             |              |                   |
-| Location of sample \(Physical location\) | optional              |                                        |             |              |                   |
-| "is deritative or not"?                  | optional              |                                        |             |              |                   |
+| Location of sample \(Physical location\) | optional              | [DUO:GAZ\_00000448](http://bioportal.bioontology.org/ontologies/DUO?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000448)                      |             |              |                   |
+| "is deritative or not"?                  | optional              | [NCIT:C28355](http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C28355)                            |             |              |                   |
+
 
 ## Technical Information
 
