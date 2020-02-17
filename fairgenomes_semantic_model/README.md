@@ -1,5 +1,6 @@
 # FAIR genomes meta-data elements 
 
+<span style="color:red">*NOTE Please do not put any comments in the tables here, comment on the issue number. Issues will always keep a track of this information </span>.
 
 ## Personal Information
 
