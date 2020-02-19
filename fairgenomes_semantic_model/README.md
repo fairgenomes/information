@@ -3,7 +3,7 @@
 
 ## Personal Information
 
-| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Usecase 1: Hinri Kersten,PMCU) |
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 | Individual ID              | compulsory            | [SDO:PatientID](https://bioportal.bioontology.org/ontologies/SDO?p=classes&conceptid=http%3A%2F%2Fmimi.case.edu%2Fontologies%2F2009%2F1%2FSDO.owl%23PatientID)     |      ID [string]       |       [#3](https://github.com/fairgenomes/information/issues/3)       |     unsolved             |
 | Biological sex             | optional              | [SIO:010029](http://semanticscience.org/resource/SIO_010029.rdf)|       Male [SIO:010048](http://semanticscience.org/resource/SIO_010048)  <br> Female [SIO:010048](http://semanticscience.org/resource/SIO_010048) <br> Unknown / Undetermined []()|   [#4](https://github.com/fairgenomes/information/issues/4)           |         unsolved          |
@@ -17,7 +17,7 @@
 
 ## Clinical Information
 
-| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Usecase 1: Hinri Kersten,PMCU) |
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 |Phenotypic terms | compulsory | [MESH:D010641](http://bioportal.bioontology.org/ontologies/MESH?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMESH%2FD010641) | Ontological terms based on [HPO](http://bioportal.bioontology.org/ontologies/HP) / [ORDO](http://bioportal.bioontology.org/ontologies/ORDO) | [#12](https://github.com/fairgenomes/information/issues/12) |unsolved|
 Unobserved phenotypes | optional | [HL7:C0442737](http://purl.bioontology.org/ontology/HL7/C0442737) | Ontological terms based on [HPO](http://bioportal.bioontology.org/ontologies/HP) / [ORDO](http://bioportal.bioontology.org/ontologies/ORDO) | [#13](https://github.com/fairgenomes/information/issues/13) |unsolved|
@@ -35,7 +35,7 @@ Age of onset | optional | [HP:0003674](http://bioportal.bioontology.org/ontologi
 
 ## Materials Information
 
-| Meta\-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Solved / unsolved |
+| Meta\-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Testcase 1:Solved / unsolved |
 |------------------------------------------|-----------------------|----------------------------------------|-------------|--------------|-------------------|
 | Sampling time stamp                       | compulsory            | UMLS \[C0870078\] Sampling | YYYY-MM-DD HH-MM-SS | [#25](https://github.com/fairgenomes/information/issues/25) |unsolved|
 | Registration time stamp                  | compulsory            | [CTO:Registration](http://bioportal.bioontology.org/ontologies/CTO?p=classes&conceptid=http%3A%2F%2Fwww.co-ode.org%2Fontologies%2Font.owl%23Registration)                       | YYYY-MM-DD HH-MM-SS | [#26](https://github.com/fairgenomes/information/issues/26) |unsolved|        
@@ -53,7 +53,7 @@ Age of onset | optional | [HP:0003674](http://bioportal.bioontology.org/ontologi
 
 ## Technical Information
 
-| Meta\\\-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Usecase 1: Hinri Kersten,PMCU\\\) |
+| Meta\\\-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
 | Sequencing date                                                 | compulsory            | GENEPIO:0000069                                                                                             | YYYY-MM-DD | [#39](https://github.com/fairgenomes/information/issues/39) |unsolved|
 | Sample prep kit                                                 | optional              | GENEPIO\\\_0000081                                                                                          | URL  | [#40](https://github.com/fairgenomes/information/issues/40) |unsolved|
