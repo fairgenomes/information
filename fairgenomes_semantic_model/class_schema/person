@@ -1,0 +1,17 @@
+PREFIX : <http://purl.org/FAIRGenomes/shex/personalinformation/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX sdo: <http://mimi.case.edu/ontologies/2009/1/SDO.owl#>
+PREFIX sio: <https://semanticscience.org/resource/>  
+PREFIX snomedct: http://purl.bioontology.org/ontology/SNOMEDCT/276205001
+:individual_ID IRI { 
+  a [sdo:PatientID];
+}
+
+:biological_sex IRI {
+  a [sio:SIO_010029]
+} 
+
+:country_of_residence{
+ a [snomedct:276205001]
+}
+
