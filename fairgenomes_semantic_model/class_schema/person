@@ -2,7 +2,10 @@ PREFIX : <http://purl.org/FAIRGenomes/shex/personalinformation/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX sdo: <http://mimi.case.edu/ontologies/2009/1/SDO.owl#>
 PREFIX sio: <https://semanticscience.org/resource/>  
-PREFIX snomedct: http://purl.bioontology.org/ontology/SNOMEDCT/276205001
+PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/276205001>
+PREFIX lnc: <http://purl.bioontology.org/ontology/LNC/>
+PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+
 :individual_ID IRI { 
   a [sdo:PatientID];
 }
@@ -11,7 +14,30 @@ PREFIX snomedct: http://purl.bioontology.org/ontology/SNOMEDCT/276205001
   a [sio:SIO_010029]
 } 
 
-:country_of_residence{
+:country_of_residence IRI {
  a [snomedct:276205001]
 }
 
+:ethnicity IRI {
+ a [lnc:MTHU010275]
+}
+
+:country_of_birth IRI {
+ a [snomedct:370159000]
+}
+:year_of_birth IRI {
+ a [ncit:C83164]
+}
+
+patient_status IRI {
+ a [snomedct:246097001]
+}
+
+age_at_death IRI {
+ a [ncit:C135383]
+}
+
+inclusion_criterion IRI {
+ a [obo:OBI_0500027]
+}
+ 

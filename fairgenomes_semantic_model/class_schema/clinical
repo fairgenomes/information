@@ -1,0 +1,43 @@
+PREFIX : <http://purl.org/FAIRGenomes/shex/clinicalinformation/>
+PREFIX MESH: <http://purl.bioontology.org/ontology/MESH/>
+PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/276205001>
+PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+PREFIX HL7: <http://bioportal.bioontology.org/ontologies/HL7>
+PREFIX DC: <http://purl.org/dc/terms/>
+PREFIX HP: <http://bioportal.bioontology.org/ontologies/HP>
+
+:phenotypic_terms IRI { 
+  a [MESH:D010641];
+}
+
+Unobserved phenotypes IRI { 
+  a [HL7:C0442737];
+}
+
+Type of phenotypic data IRI { 
+  a [DC:DCMIType];
+}
+
+Clinical diagnosis IRI { 
+  a [SNOMEDCT:39154008];
+}
+
+Genetic diagnosis IRI { 
+  a [CRISP:1254-8491];
+}
+
+Age at diagnosis IRI { 
+  a [SNOMEDCT:423493009];
+}
+
+Age at last screening IRI { 
+  a [NCIT:C81258];
+}
+
+Medication information IRI { 
+  a [EDAM:data_3103];
+}
+	
+Age of onset IRI { 
+  a [HP:0003674];
+}
