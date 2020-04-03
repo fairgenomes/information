@@ -34,6 +34,9 @@ Family members affected | compulsory | []() |Free text [string]  | [#21](https:/
 Family members sequenced | optional | []() |Free text [string]  | [#22](https://github.com/fairgenomes/information/issues/22) |unsolved|
 Procedural history | optional | UMLS: C1138431 (Current procedural history) | Ontological terms based on [CPT](http://bioportal.bioontology.org/ontologies/CPT) | [#23](https://github.com/fairgenomes/information/issues/23) |unsolved|
 Age of onset | optional | [HP:0003674](http://bioportal.bioontology.org/ontologies/HP/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FHP_0003674) | [positive integer] | [#24](https://github.com/fairgenomes/information/issues/24) |unsolved|
+First contact with specialised center | optional | | YYYY-MM-DD |  |unsolved|
+
+
 
 ## Materials Information
 
