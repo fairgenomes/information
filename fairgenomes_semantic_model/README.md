@@ -14,10 +14,9 @@
 | Patient Status             | optional              | [SNOMEDCT:246097001](http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F246097001) |   Alive / Dead / Lost in follow-up / 
 Opted-out |[#9](https://github.com/fairgenomes/information/issues/9) |unsolved|
 | Age at death               | optional              |  [NCIT:C135383](https://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C135383) | [Positive integer] |[#10](https://github.com/fairgenomes/information/issues/10) |solved|
-| Inclusion criterion        | optional              | [OBI:0500027](https://bioportal.bioontology.org/ontologies/OBI?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0500027)| Free text [string] |[#11](https://github.com/fairgenomes/information/issues/11) |unsolved|
-| Primary affiliated institute        | optional              | | Free text [string] | |unsolved|
-| Data available in other institutes        | optional              | | Free text [string] | |unsolved|
-
+| Inclusion criterion        | optional              | [OBI:0500027](https://bioportal.bioontology.org/ontologies/OBI?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0500027)| Free text [string] |[#11](https://github.com/fairgenomes/information/issues/11) |solved|
+| Primary affiliated institute        | optional              | [SIO:000688](http://semanticscience.org/resource/SIO_000688) | List of Dutch institutes in BBMRI-ERIC | |solved|
+| Data available in other institutes        | optional              | http://semanticscience.org/resource/SIO_000688 |List of Dutch institutes in BBMRI-ERIC | |solved|
 ## Clinical Information
 
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
