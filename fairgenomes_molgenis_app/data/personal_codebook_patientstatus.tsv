@@ -1,0 +1,5 @@
+value_en	description_en	codesystem	code	description_code
+Alive	Alive	obo	PATO_0001421	A viability quality inhering in a bearer by virtue of the bearer's condition before death.
+Dead	Dead	obo	PATO_0001422	A viability quality inhering in a bearer by virtue of the cessation of the bearer's life
+Lost in follow-up	Lost in follow-up	snomedCT	399307001	Lost to follow-up
+Opted-out	Opted-out	HL7	C4291647	opt-out with exceptions

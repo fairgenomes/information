@@ -1,0 +1,12 @@
+name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+individualid	Individual ID	personal	string	TRUE	FALSE			
+biologicalsex	Biological sex	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_biologicalsex		
+countryofresidence	Country of residence	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_countryofresidence		
+ethnicity	Ethnicity	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_ethnicity		
+countryofbirth	Country of Birth	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_countryofbirth		
+yearofbirth	Year of birth	personal	date	FALSE	TRUE			
+patientstatus	Patient Status	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_patientstatus		
+ageatdeath	Age at death	personal	int	FALSE	TRUE		0	150
+inclusioncriterion	Inclusion criterion	personal	text	FALSE	TRUE			
+primaryaffiliatedinstitute	Primary affiliated institute	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_primaryaffiliatedinstitute		
+datainotherinstitutes	Data available in other institutes	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_datainotherinstitutes		
