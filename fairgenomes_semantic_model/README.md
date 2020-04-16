@@ -1,8 +1,7 @@
 # FAIR genomes meta-data elements 
 \* **NOTE Please do not put any comments in the tables here, comment on the issue number. Issues will always keep a track of this information**.
 
-## Personal Information
-
+## Personal information
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 | Individual ID              | compulsory            | [NCIT:C164337](https://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C164337)     |      ID [string]       |       [#3](https://github.com/fairgenomes/information/issues/3)       |     solved             |
@@ -16,8 +15,8 @@
 | Inclusion criterion        | optional              | [OBI:0500027](https://bioportal.bioontology.org/ontologies/OBI?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0500027)| Free text [string] |[#11](https://github.com/fairgenomes/information/issues/11) |solved|
 | Primary affiliated institute        | optional              | [SIO:000688](http://semanticscience.org/resource/SIO_000688) | List of Dutch institutes in BBMRI-ERIC | [#60](https://github.com/fairgenomes/information/issues/60) |solved|
 | Data available in other institutes        | optional              | [SIO:000688](http://semanticscience.org/resource/SIO_000688)  |List of Dutch institutes in BBMRI-ERIC | [#62](https://github.com/fairgenomes/information/issues/62) |solved|
-## Clinical Information
 
+## Clinical information
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 |Phenotypic terms | compulsory | [MESH:D010641](http://bioportal.bioontology.org/ontologies/MESH?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMESH%2FD010641) | Ontological terms based on [HPO](http://bioportal.bioontology.org/ontologies/HP) / [ORDO](http://bioportal.bioontology.org/ontologies/ORDO) | [#12](https://github.com/fairgenomes/information/issues/12) |solved|
@@ -37,9 +36,8 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 
 
 
-## Materials Information
-
-| Meta\-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Testcase 1:Solved / unsolved |
+## Materials information
+| Meta-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Testcase 1:Solved / unsolved |
 |------------------------------------------|-----------------------|----------------------------------------|-------------|--------------|-------------------|
 | Sampling time stamp                       | compulsory            | [EFO:0000689](http://www.ebi.ac.uk/efo/EFO_0000689) | YYYY-MM-DD HH-MM-SS | [#25](https://github.com/fairgenomes/information/issues/25) |unsolved|
 | Registration time stamp                  | compulsory            | [CTO:Registration](http://bioportal.bioontology.org/ontologies/CTO?p=classes&conceptid=http%3A%2F%2Fwww.co-ode.org%2Fontologies%2Font.owl%23Registration)                       | YYYY-MM-DD HH-MM-SS | [#26](https://github.com/fairgenomes/information/issues/26) |unsolved|        
@@ -51,24 +49,30 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 | Storage conditions                       | optional              | UMLS:C3272596                          | Ontological terms based on [OBIB](https://bioportal.bioontology.org/ontologies/OBIB) ontology | [#33](https://github.com/fairgenomes/information/issues/33) |unsolved|
 | Expiration date                          | optional              | [LNC:LP173684-4](http://bioportal.bioontology.org/ontologies/LOINC?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FLNC%2FLP173684-4)                         | YYYY-MM-DD | [#34](https://github.com/fairgenomes/information/issues/34) |unsolved|
 | Estimated percentage of tumor cells      | optional              | [NCIT:C127771](http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C127771)                                        | 0-100[decimals] | [#35](https://github.com/fairgenomes/information/issues/35) |unsolved|
-| Amount of input material used            | optional              | [AFRL_0000010](http://bioportal.bioontology.org/ontologies/AFO?p=classes&conceptid=http%3A%2F%2Fpurl.allotrope.org%2Fontologies%2Frole%23AFRL_0000010) | [decimals] + [units] | [#36](https://github.com/fairgenomes/information/issues/36) |unsolved|
 | Location of sample \(Physical location\) | optional              | [DUO:GAZ\_00000448](http://bioportal.bioontology.org/ontologies/DUO?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000448)                      |             | [#37](https://github.com/fairgenomes/information/issues/37) |unsolved|
 | "is a deritative or not"?                  | optional              | [NCIT:C28355](http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C28355)                            | [boolean] | [#38](https://github.com/fairgenomes/information/issues/38) |unsolved|
 
-## Technical Information
-
-| Meta\\\-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
+## Sample preparation information
+| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
-| Sequencing date                                                 | compulsory            | GENEPIO:0000069                                                                                             | YYYY-MM-DD | [#39](https://github.com/fairgenomes/information/issues/39) |unsolved|
+| Amount of input material used            | optional              | [AFRL_0000010](http://bioportal.bioontology.org/ontologies/AFO?p=classes&conceptid=http%3A%2F%2Fpurl.allotrope.org%2Fontologies%2Frole%23AFRL_0000010) | [decimals] + [units] | [#36](https://github.com/fairgenomes/information/issues/36) |unsolved|
 | Sample prep kit                                                 | optional              | GENEPIO\\\_0000081                                                                                          | URL  | [#40](https://github.com/fairgenomes/information/issues/40) |unsolved|
-| Sequencing platform                                             | compulsory            | GENEPIO\\\_0000071                                                                                          | Free text with brands that are subclasses of GENEPIO\\\_0000071 | [#41](https://github.com/fairgenomes/information/issues/41) |unsolved|
-| Sequencing datatypes                                            | compulsory            | NCIT:C18881                                                                                                 | Ontological term subclasses of NCIT:C18881| [#42](https://github.com/fairgenomes/information/issues/42) |unsolved|                            
 | PCR-free yes/no                                              | optional              | NCIT:C17003                                                                                                 | [boolean]| [#43](https://github.com/fairgenomes/information/issues/43) |unsolved|
-| Sequencing average read depth                                   | compulsory            | NCIT:C155320                                                                                                | [positive iteger]| [#44](https://github.com/fairgenomes/information/issues/44) |unsolved|
 | Enrichment panel used                                           | compulsory            | NCIT:C154307                                                                                                | Free text with companies from BAO\\\_0002091| [#45](https://github.com/fairgenomes/information/issues/45) |unsolved|
 | UMIs present yes/no                                             | optional              | EFO:0010199, UMI barcode                                                                                    | [boolean]| [#46](https://github.com/fairgenomes/information/issues/46) |unsolved|
-| Read length                                                     | compulsory            | NCIT:C153362                                                                                                | [positive integer] | [#47](https://github.com/fairgenomes/information/issues/47) |unsolved|
-| Insert size                                                     | optional              | NA                                                                                                          | [positive integer] | [#48](https://github.com/fairgenomes/information/issues/48) |unsolved|
+| Observed insert size                                                     | optional              | NA                                                                                                          | [positive integer] | [#64](https://github.com/fairgenomes/information/issues/64) |unsolved|
+| Observed read length                                                     | compulsory            | NCIT:C153362                                                                                                | [positive integer] | [#63](https://github.com/fairgenomes/information/issues/63) |unsolved|
+
+
+## Technical information
+| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
+|-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
+| Sequencing date                                                 | compulsory            | GENEPIO:0000069                                                                                             | YYYY-MM-DD | [#39](https://github.com/fairgenomes/information/issues/39) |unsolved|
+| Sequencing platform                                             | compulsory            | GENEPIO\\\_0000071                                                                                          | Free text with brands that are subclasses of GENEPIO\\\_0000071 | [#41](https://github.com/fairgenomes/information/issues/41) |unsolved|
+| Sequencing datatypes                                            | compulsory            | NCIT:C18881                                                                                                 | Ontological term subclasses of NCIT:C18881| [#42](https://github.com/fairgenomes/information/issues/42) |unsolved|                            
+| Sequencing average read depth                                   | compulsory            | NCIT:C155320                                                                                                | [positive iteger]| [#44](https://github.com/fairgenomes/information/issues/44) |unsolved|
+| Observed read length                                                     | compulsory            | NCIT:C153362                                                                                                | [positive integer] | [#47](https://github.com/fairgenomes/information/issues/47) |unsolved|
+| Observed insert size                                                     | optional              | NA                                                                                                          | [positive integer] | [#48](https://github.com/fairgenomes/information/issues/48) |unsolved|
 | Location of data (Physical location)                      | compulsory            | DUO:GAZ_00000448 |  | [#49](https://github.com/fairgenomes/information/issues/49) |unsolved|
 | Location of data (abstract location) / Data owner etc\\\. | compulsory |  |  | [#50](https://github.com/fairgenomes/information/issues/50) |unsolved|
 | Data formats stored | compulsory | EDAM:FORMAT_1915 | Ontological term subclasses of EDAM:FORMAT_1915 | [#51](https://github.com/fairgenomes/information/issues/51) |unsolved|
