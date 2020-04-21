@@ -52,6 +52,13 @@ sh importGenericCodebookAttributesAs.sh personal_codebook_countryofbirth
 sh importGenericCodebookAttributesAs.sh personal_codebook_patientstatus
 sh importGenericCodebookAttributesAs.sh personal_codebook_primaryaffiliatedinstitute
 sh importGenericCodebookAttributesAs.sh personal_codebook_datainotherinstitutes
+sh importGenericCodebookAttributesAs.sh clinical_codebook_phenotypicterms
+sh importGenericCodebookAttributesAs.sh clinical_codebook_unobservedphenotypes
+sh importGenericCodebookAttributesAs.sh clinical_codebook_typeofphenotypicdata
+sh importGenericCodebookAttributesAs.sh clinical_codebook_clinicaldiagnosis
+sh importGenericCodebookAttributesAs.sh clinical_codebook_geneticdiagnosis
+sh importGenericCodebookAttributesAs.sh clinical_codebook_medicationinfo
+sh importGenericCodebookAttributesAs.sh clinical_codebook_proceduralhistory
 
 # Third, import the actual codebook tables.
 # Add null flavours to each (see: https://www.hl7.org/fhir/v3/NullFlavor/cs.html).
@@ -63,9 +70,17 @@ sh addNullFlavorsAndImportCodebook.sh personal_codebook_patientstatus
 sh addNullFlavorsAndImportCodebook.sh personal_codebook_primaryaffiliatedinstitute
 sh addNullFlavorsAndImportCodebook.sh personal_codebook_biologicalsex
 sh addNullFlavorsAndImportCodebook.sh personal_codebook_datainotherinstitutes
+sh addNullFlavorsAndImportCodebook.sh clinical_codebook_phenotypicterms
+sh addNullFlavorsAndImportCodebook.sh clinical_codebook_unobservedphenotypes
+sh addNullFlavorsAndImportCodebook.sh clinical_codebook_typeofphenotypicdata
+sh addNullFlavorsAndImportCodebook.sh clinical_codebook_clinicaldiagnosis
+sh addNullFlavorsAndImportCodebook.sh clinical_codebook_geneticdiagnosis
+sh addNullFlavorsAndImportCodebook.sh clinical_codebook_medicationinfo
+sh addNullFlavorsAndImportCodebook.sh clinical_codebook_proceduralhistory
 
-# Third, import FAIR Genomes model attributes for Personal, Clinical, etc.
+# Fourth, import FAIR Genomes model attributes for Personal, Clinical, etc.
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
 
 # TODO: the other sections: Clinical, Technical, Material, etc.
 # TODO: example data in actual tables for Personal, Clinical, etc?
