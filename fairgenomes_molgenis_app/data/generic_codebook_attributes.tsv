@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable	refEntity
 value_en	REPLACEME	Value (English)	string	TRUE	FALSE	
-description_en	REPLACEME	Description (English)	string	FALSE	TRUE	
+description_en	REPLACEME	Description (English)	text	FALSE	TRUE	
 codesystem	REPLACEME	Codesystem	string	FALSE	TRUE	
 code	REPLACEME	Code	string	FALSE	TRUE	
-description_code	REPLACEME	Description of code	string	FALSE	TRUE	
+description_code	REPLACEME	Description of code	text	FALSE	TRUE	
