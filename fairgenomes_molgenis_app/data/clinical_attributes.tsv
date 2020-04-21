@@ -1,0 +1,16 @@
+name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+clinicalid	Clinical record ID	clinical	string	TRUE	FALSE			
+phenotypicterms	Phenotypic terms	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_phenotypicterms		
+unobservedphenotypes	Unobserved phenotypes	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_unobservedphenotypes		
+typeofphenotypicdata	Type of phenotypic data	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_typeofphenotypicdata		
+clinicaldiagnosis	Clinical diagnosis	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_clinicaldiagnosis		
+geneticdiagnosis	Genetic diagnosis	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_geneticdiagnosis		
+ageatdiagnosis	Age at diagnosis	clinical	int	FALSE	TRUE		0	150
+ageatlastscreening	Age at last screening	clinical	int	FALSE	TRUE		0	150
+medicationinfo	Medication information	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_medicationinfo		
+dosage	Dosage	clinical	string	FALSE	TRUE			
+familymembersaff	Family members affected	clinical	string	FALSE	TRUE			
+familymembersseq	Family members sequenced	clinical	string	FALSE	TRUE			
+proceduralhistory	Procedural history	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_proceduralhistory		
+ageofonset	Age of onset	clinical	int	FALSE	TRUE		0	150
+firstconwspeccenter	First contact with specialised center	clinical	date	FALSE	TRUE			

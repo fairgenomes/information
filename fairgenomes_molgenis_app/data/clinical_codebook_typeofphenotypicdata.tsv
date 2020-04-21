@@ -1,0 +1,17 @@
+value_en	description_en	codesystem	code	description_code
+Interactive Resource	Interactive Resource	DCMITypes	http://purl.org/dc/dcmitype/InteractiveResource	Interactive Resource
+Vocabulary Encoding Scheme	Vocabulary Encoding Scheme	DCMITypes	http://purl.org/dc/dcam/VocabularyEncodingScheme	Vocabulary Encoding Scheme
+Software	Software	DCMITypes	http://purl.org/dc/dcmitype/Software	Software
+Image	Image	DCMITypes	http://purl.org/dc/dcmitype/Image	Image
+Moving Image	Moving Image	DCMITypes	http://purl.org/dc/dcmitype/MovingImage	Moving Image
+Still Image	Still Image	DCMITypes	http://purl.org/dc/dcmitype/StillImage	Still Image
+Collection	Collection	DCMITypes	http://purl.org/dc/dcmitype/Collection	Collection
+Physical Object	Physical Object	DCMITypes	http://purl.org/dc/dcmitype/PhysicalObject	Physical Object
+Sound	Sound	DCMITypes	http://purl.org/dc/dcmitype/Sound	Sound
+Text	Text	DCMITypes	http://purl.org/dc/dcmitype/Text	Text
+Concept	Concept	DCMITypes	http://www.w3.org/2004/02/skos/core#Concept	Concept
+Service	Service	DCMITypes	http://purl.org/dc/dcmitype/Service	Service
+Concept Scheme	Concept Scheme	DCMITypes	http://www.w3.org/2004/02/skos/core#ConceptScheme	Concept Scheme
+Ordered Collection	Ordered Collection	DCMITypes	http://www.w3.org/2004/02/skos/core#OrderedCollection	Ordered Collection
+Event	Event	DCMITypes	http://purl.org/dc/dcmitype/Event	Event
+Dataset	Dataset	DCMITypes	http://purl.org/dc/dcmitype/Dataset	Dataset
