@@ -66,7 +66,7 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 | Intended read length                                                     | compulsory            | NCIT:C153362                                                                                                | [positive integer] | [#63](https://github.com/fairgenomes/information/issues/63) |unsolved|
 
 
-## Technical information
+## Sequence information
 | Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
 | Sequencing date                                                 | compulsory            | GENEPIO:0000069                                                                                             | YYYY-MM-DD | [#39](https://github.com/fairgenomes/information/issues/39) |unsolved|
@@ -75,6 +75,11 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 | Sequencing average read depth                                   | compulsory            | NCIT:C155320                                                                                                | [positive iteger]| [#44](https://github.com/fairgenomes/information/issues/44) |unsolved|
 | Observed read length                                                     | compulsory            | NCIT:C153362                                                                                                | [positive integer] | [#47](https://github.com/fairgenomes/information/issues/47) |unsolved|
 | Observed insert size                                                     | optional              | NA                                                                                                          | [positive integer] | [#48](https://github.com/fairgenomes/information/issues/48) |unsolved|
+| Follows international WGS guidelines | optional | NCIT:C17564 | URL or NULL | [#55](https://github.com/fairgenomes/information/issues/55) |unsolved|
+
+## Analysis information
+| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
+|-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
 | Location of data (Physical location)                      | compulsory            | DUO:GAZ_00000448 |  | [#49](https://github.com/fairgenomes/information/issues/49) |unsolved|
 | Location of data (abstract location) / Data owner etc\\\. | compulsory |  |  | [#50](https://github.com/fairgenomes/information/issues/50) |unsolved|
 | Data formats stored | compulsory | EDAM:FORMAT_1915 | Ontological term subclasses of EDAM:FORMAT_1915 | [#51](https://github.com/fairgenomes/information/issues/51) |unsolved|
