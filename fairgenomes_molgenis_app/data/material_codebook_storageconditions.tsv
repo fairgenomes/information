@@ -1,0 +1,11 @@
+value_en	description_en	codesystem	code	description_code
+anticoagulant tube storage of blood specimen	anticoagulant tube storage of blood specimen	obo	obo:OBI_0000819	anticoagulant tube storage of blood specimen
+freezing storage	freezing storage	obo	obo:OBI_0000915	freezing storage
+lyophilization storage	lyophilization storage	obo	obo:OBI_0000927	lyophilization storage
+paraffin storage	paraffin storage	obo	obo:OBI_0000977	paraffin storage
+agar stab storage	agar stab storage	obo	obo:OBI_0001003	agar stab storage
+storage	storage	obo	obo:OBI_0302893	storage
+specimen freezing	specimen freezing	obo	obo:OMIABIS_0001045	specimen freezing
+vaccine storage	vaccine storage	obo	obo:VO_0000800	vaccine storage
+vaccine storage at room temperature	vaccine storage at room temperature	obo	obo:VO_0000801	vaccine storage at room temperature
+vaccine storage in refrigerator	vaccine storage in refrigerator	obo	obo:VO_0000802	vaccine storage in refrigerator
