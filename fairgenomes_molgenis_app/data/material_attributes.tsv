@@ -1,0 +1,14 @@
+name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+materialid	Material identifier	material	string	TRUE	FALSE			
+samplingtimestamp	Sampling time stamp	material	date	FALSE	FALSE			
+registrationtimestamp	Registration time stamp	material	date	FALSE	FALSE			
+samplingcollectionprotocol	Sampling collection protocol	material	text	FALSE	TRUE			
+deviationsfromsampleprotocol	Deviations from sample protocol	material	text	FALSE	TRUE			
+reasonsforprotocoldeviation	Reasons for protocol deviation	material	text	FALSE	TRUE			
+materialtype	Material type	material	xref	FALSE	FALSE	fair-genomes_material_codebook_materialtype		
+anatomicalsource	Anatomical source	material	xref	FALSE	TRUE	fair-genomes_material_codebook_anatomicalsource		
+storageconditions	Storage conditions	material	xref	FALSE	TRUE	fair-genomes_material_codebook_storageconditions		
+expirationdate	Expiration date	material	date	FALSE	TRUE			
+estimatedpercoftumorcells	Estimated percentage of tumor cells	material	int	FALSE	TRUE		0	100
+physicallocation	Physical location	material	text	FALSE	TRUE			
+derivedfrom	Derived from	material	xref	FALSE	TRUE	material		
