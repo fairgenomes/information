@@ -1,17 +1,17 @@
-NI 	NoInformation	HL7 v3 	1_NI	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.
-INV	invalid	HL7 v3 	2_INV	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.
-DER	derived	HL7 v3 	3_DER	An actual value may exist, but it must be derived from the provided information.
-OTH	other	HL7 v3 	3_OTH	The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.
-NINF	negative infinity	HL7 v3 	4_NINF	Negative infinity of numbers.
-PINF	positive infinity	HL7 v3 	4_PINF	Positive infinity of numbers.
-UNC	un-encoded	HL7 v3	3_UNC	The actual value has not yet been encoded within the approved value domain.
-MSK	masked	HL7 v3	2_MSK	There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons.
-NA	not applicable	HL7 v3	2_NA	Known to have no proper value.
-UNK	unknown	HL7 v3	2_UNK	A proper value is applicable, but not known.
-ASKU	asked but unknown	HL7 v3	3_ASKU	Information was sought but not found.
-NAV	temporarily unavailable	HL7 v3	4_NAV	Information is not available at this time but it is expected that it will be available later.
-NASK	not asked	HL7 v3	3_NASK	This information has not been sought.
-NAVU	not available	HL7 v3	3_NAVU	Information is not available at this time.
-QS	sufficient quantity	HL7 v3	3_QS	The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material.
-TRC	trace	HL7 v3	3_TRC	The content is greater than zero, but too small to be quantified.
-NP	not present	HL7 v3	1_NP	Value is not present in a message.
+No information (NI, nullflavor)	NoInformation	HL7 v3 	1_NI	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.
+Invalid (INV, nullflavor)	invalid	HL7 v3 	2_INV	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.
+Derived (DER, nullflavor)	derived	HL7 v3 	3_DER	An actual value may exist, but it must be derived from the provided information.
+Other (OTH, nullflavor)	other	HL7 v3 	3_OTH	The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.
+Negative infinity (NINF, nullflavor)	negative infinity	HL7 v3 	4_NINF	Negative infinity of numbers.
+Positive infinity (PINF, nullflavor)	positive infinity	HL7 v3 	4_PINF	Positive infinity of numbers.
+Un-encoded (UNC, nullflavor)	un-encoded	HL7 v3	3_UNC	The actual value has not yet been encoded within the approved value domain.
+Masked (MSK, nullflavor)	masked	HL7 v3	2_MSK	There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons.
+Not applicable (NA, nullflavor)	not applicable	HL7 v3	2_NA	Known to have no proper value.
+Unknown (UNK, nullflavor)	unknown	HL7 v3	2_UNK	A proper value is applicable, but not known.
+Asked but unknown (ASKU, nullflavor)	asked but unknown	HL7 v3	3_ASKU	Information was sought but not found.
+Temporarily unavailable (NAV, nullflavor)	temporarily unavailable	HL7 v3	4_NAV	Information is not available at this time but it is expected that it will be available later.
+Not asked (NASK, nullflavor)	not asked	HL7 v3	3_NASK	This information has not been sought.
+Not available (NAVU, nullflavor)	not available	HL7 v3	3_NAVU	Information is not available at this time.
+Sufficient quantity (QS, nullflavor)	sufficient quantity	HL7 v3	3_QS	The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material.
+Trace (TRC, nullflavor)	trace	HL7 v3	3_TRC	The content is greater than zero, but too small to be quantified.
+Not present (NP, nullflavor)	not present	HL7 v3	1_NP	Value is not present in a message.
