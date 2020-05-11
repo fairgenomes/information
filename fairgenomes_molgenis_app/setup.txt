@@ -65,6 +65,9 @@ sh importGenericCodebookAttributesAs.sh clinical_codebook_proceduralhistory
 sh importGenericCodebookAttributesAs.sh material_codebook_materialtype
 sh importGenericCodebookAttributesAs.sh material_codebook_anatomicalsource
 sh importGenericCodebookAttributesAs.sh material_codebook_storageconditions
+# Sample preparation
+sh importGenericCodebookAttributesAs.sh sampleprep_codebook_targetenrichmentkit
+sh importGenericCodebookAttributesAs.sh sampleprep_codebook_librarypreparationkit
 
 
 # Third, import the actual codebook tables.
@@ -90,11 +93,15 @@ sh addNullFlavorsAndImportCodebook.sh clinical_codebook_proceduralhistory
 sh addNullFlavorsAndImportCodebook.sh material_codebook_materialtype
 sh addNullFlavorsAndImportCodebook.sh material_codebook_anatomicalsource
 sh addNullFlavorsAndImportCodebook.sh material_codebook_storageconditions
+# Sample preparation
+sh addNullFlavorsAndImportCodebook.sh sampleprep_codebook_targetenrichmentkit
+sh addNullFlavorsAndImportCodebook.sh sampleprep_codebook_librarypreparationkit
 
 # Fourth, import FAIR Genomes model attributes for Personal, Clinical, etc.
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p sampleprep_attributes.tsv --as attributes --in fair-genomes
 
 
 # TODO: the other sections: Clinical, Technical, Material, etc.
