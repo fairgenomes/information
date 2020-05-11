@@ -1,0 +1,9 @@
+name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+sampleprepid	SamplePrep record ID	sampleprep	string	TRUE	FALSE			
+amountofinputmaterialinng	Amount of input material in ng	sampleprep	int	FALSE	TRUE		0	1000000000
+librarypreparationkit	Library preparation kit used	sampleprep	xref	FALSE	TRUE	fair-genomes_sampleprep_codebook_librarypreparationkit		
+pcrfree	PCR-free	sampleprep	bool	FALSE	TRUE			
+targetenrichmentkit	Target enrichment kit used	sampleprep	xref	FALSE	FALSE	fair-genomes_sampleprep_codebook_targetenrichmentkit		
+umispresent	UMIs present	sampleprep	bool	FALSE	TRUE			
+intendedinsertsize	Intended insert size	sampleprep	int	FALSE	TRUE		0	1000000000
+intendedreadlength	Intended read length	sampleprep	int	FALSE	FALSE		0	1000000000
