@@ -1,0 +1,9 @@
+name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+analysisid	Analysis ID	analysis	string	TRUE	FALSE			
+physicaldatalocation	Physical data location	analysis	xref	FALSE	FALSE	fair-genomes_analysis_codebook_physicaldatalocation		
+abstractdatalocation	Abstract data location	analysis	string	FALSE	FALSE			
+dataformatsstored	Data formats stored	analysis	mref	FALSE	FALSE	fair-genomes_analysis_codebook_dataformatsstored		
+algorithmsused	Algorithms used	analysis	string	FALSE	TRUE			
+bioinformaticprotocolsused	Bioinformatic protocols used	analysis	text	FALSE	TRUE			
+specialparametersused	Special parameters used	analysis	string	FALSE	TRUE			
+followsintrnlwgsguidelines	Follows international WGS guidelines	analysis	hyperlink	FALSE	TRUE			

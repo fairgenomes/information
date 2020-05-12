@@ -71,7 +71,13 @@ sh importGenericCodebookAttributesAs.sh material_codebook_storageconditions
 # Sample preparation
 sh importGenericCodebookAttributesAs.sh sampleprep_codebook_targetenrichmentkit
 sh importGenericCodebookAttributesAs.sh sampleprep_codebook_librarypreparationkit
-
+# Sequencing
+sh importGenericCodebookAttributesAs.sh sequencing_codebook_sequencingplatform
+sh importGenericCodebookAttributesAs.sh sequencing_codebook_sequencinginstrumentmodel
+sh importGenericCodebookAttributesAs.sh sequencing_codebook_typeofsequencing
+# Analysis
+sh importGenericCodebookAttributesAs.sh analysis_codebook_dataformatsstored
+sh importGenericCodebookAttributesAs.sh analysis_codebook_physicaldatalocation
 
 # Third, import the actual codebook tables.
 # Add null flavours to each (see: https://www.hl7.org/fhir/v3/NullFlavor/cs.html).
@@ -99,15 +105,24 @@ sh addNullFlavorsAndImportCodebook.sh material_codebook_storageconditions
 # Sample preparation
 sh addNullFlavorsAndImportCodebook.sh sampleprep_codebook_targetenrichmentkit
 sh addNullFlavorsAndImportCodebook.sh sampleprep_codebook_librarypreparationkit
+# Sequencing
+sh addNullFlavorsAndImportCodebook.sh sequencing_codebook_sequencingplatform
+sh addNullFlavorsAndImportCodebook.sh sequencing_codebook_sequencinginstrumentmodel
+sh addNullFlavorsAndImportCodebook.sh sequencing_codebook_typeofsequencing
+# Analysis
+sh addNullFlavorsAndImportCodebook.sh analysis_codebook_dataformatsstored
+sh addNullFlavorsAndImportCodebook.sh analysis_codebook_physicaldatalocation
 
 # Fourth, import FAIR Genomes model attributes for Personal, Clinical, etc.
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sampleprep_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p sequencing_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
 
-
-# TODO: the remaining sections
 # TODO: example data in actual tables for Personal, Clinical, etc?
-# TODO: check XREFs, labels, datatypes, etc.
-
+# TODO: check data types: XREFs (replace with 'categorical'?), labels, datatypes (date/datetime?), etc.
+# TODO: add 'Study' as grouping mechanism?
+# TODO: link the tables, determine cardinality
+# TODO: design and implement GUI
