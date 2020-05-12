@@ -1,0 +1,36 @@
+value_en	description_en	codesystem	code	description_code
+Next Generation Sequencing	Next Generation Sequencing	NCIT	NCIT_C101293	Next Generation Sequencing
+Whole Genome Sequencing	Whole Genome Sequencing	NCIT	NCIT_C101294	Whole Genome Sequencing
+Whole Exome Sequencing	Whole Exome Sequencing	NCIT	NCIT_C101295	Whole Exome Sequencing
+Large-Scale Sequencing	Large-Scale Sequencing	NCIT	NCIT_C19645	Large-Scale Sequencing
+454 Sequencing	454 Sequencing	NCIT	NCIT_C146809	454 Sequencing
+ABI SOLiD Sequencing	ABI SOLiD Sequencing	NCIT	NCIT_C146811	ABI SOLiD Sequencing
+BGISEQ-500 Sequencing	BGISEQ-500 Sequencing	NCIT	NCIT_C146812	BGISEQ-500 Sequencing
+Capillary Sequencing	Capillary Sequencing	NCIT	NCIT_C146814	Capillary Sequencing
+Complete Genomics Sequencing	Complete Genomics Sequencing	NCIT	NCIT_C146815	Complete Genomics Sequencing
+Helicos Sequencing	Helicos Sequencing	NCIT	NCIT_C146816	Helicos Sequencing
+Illumina Sequencing	Illumina Sequencing	NCIT	NCIT_C146817	Illumina Sequencing
+Oxford Nanopore Sequencing	Oxford Nanopore Sequencing	NCIT	NCIT_C146818	Oxford Nanopore Sequencing
+SMRT Sequencing	SMRT Sequencing	NCIT	NCIT_C146819	SMRT Sequencing
+Immune Repertoire Deep Sequencing	Immune Repertoire Deep Sequencing	NCIT	NCIT_C158249	Immune Repertoire Deep Sequencing
+Targeted Transcriptome Sequencing	Targeted Transcriptome Sequencing	NCIT	NCIT_C158252	Targeted Transcriptome Sequencing
+Targeted Genome Sequencing	Targeted Genome Sequencing	NCIT	NCIT_C158253	Targeted Genome Sequencing
+mRNA Sequencing	mRNA Sequencing	NCIT	NCIT_C129432	mRNA Sequencing
+Next Generation Targeted Sequencing	Next Generation Targeted Sequencing	NCIT	NCIT_C130177	Next Generation Targeted Sequencing
+Sequence-based Typing	Sequence-based Typing	NCIT	NCIT_C130180	Sequence-based Typing
+Dideoxy Chain Termination DNA Sequencing	Dideoxy Chain Termination DNA Sequencing	NCIT	NCIT_C19641	Dideoxy Chain Termination DNA Sequencing
+Shotgun Sequencing	Shotgun Sequencing	NCIT	NCIT_C19646	Shotgun Sequencing
+Whole-Genome Shotgun Sequencing	Whole-Genome Shotgun Sequencing	NCIT	NCIT_C19653	Whole-Genome Shotgun Sequencing
+Radioactive Sequencing	Radioactive Sequencing	NCIT	NCIT_C19658	Radioactive Sequencing
+Paired-End Sequencing	Paired-End Sequencing	NCIT	NCIT_C150423	Paired-End Sequencing
+Second-strand Library Sequencing	Second-strand Library Sequencing	NCIT	NCIT_C150426	Second-strand Library Sequencing
+Unstranded Library Sequencing	Unstranded Library Sequencing	NCIT	NCIT_C150427	Unstranded Library Sequencing
+First-strand Library Sequencing	First-strand Library Sequencing	NCIT	NCIT_C150428	First-strand Library Sequencing
+Whole Transcriptome Sequencing	Whole Transcriptome Sequencing	NCIT	NCIT_C124261	Whole Transcriptome Sequencing
+Population Sequencing	Population Sequencing	NCIT	NCIT_C135457	Population Sequencing
+Pyrosequencing	Pyrosequencing	NCIT	NCIT_C99481	Pyrosequencing
+Ion Semiconductor Sequencing	Ion Semiconductor Sequencing	NCIT	NCIT_C125894	Ion Semiconductor Sequencing
+Nucleic Acid Sequencing	Nucleic Acid Sequencing	NCIT	NCIT_C18881	Nucleic Acid Sequencing
+DNA Resequencing	DNA Resequencing	NCIT	NCIT_C41254	DNA Resequencing
+DNA Sequencing	DNA Sequencing	NCIT	NCIT_C153598	DNA Sequencing
+MicroRNA Sequencing	MicroRNA Sequencing	NCIT	NCIT_C156057	MicroRNA Sequencing

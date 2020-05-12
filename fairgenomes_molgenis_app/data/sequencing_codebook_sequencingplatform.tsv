@@ -1,0 +1,8 @@
+value_en	description_en	codesystem	code	description_code
+Helicos platform	Helicos platform	GENEPIO	0002682	Helicos platform
+Ion Torrent platform	Ion Torrent platform	GENEPIO	0002683	Ion Torrent platform
+SOLiD sequening platform	SOLiD sequening platform	GENEPIO	0002684	SOLiD sequening platform
+Illumina platform	Illumina platform	GENEPIO	0001923	Illumina platform
+Complete Genomics platform	Complete Genomics platform	GENEPIO	0001924	Complete Genomics platform
+Roche LS454 platform	Roche LS454 platform	GENEPIO	0001926	Roche LS454 platform
+PacBio platform	PacBio platform	GENEPIO	0001927	PacBio platform
