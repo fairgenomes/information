@@ -7,4 +7,4 @@ typeofsequencing	Type of sequencing	sequencing	xref	FALSE	FALSE	fair-genomes_seq
 sequencingaveragereaddepth	Sequencing average read depth	sequencing	int	FALSE	FALSE		0	1000000000
 observedreadlength	Observed read length	sequencing	int	FALSE	FALSE		0	1000000000
 observedinsertsize	Observed insert size	sequencing	int	FALSE	TRUE		0	1000000000
-followsintrnlwgsguidelines	Follows international WGS guidelines	sequencing	string	FALSE	TRUE			
+followsintrnlwgsguidelines	Follows international WGS guidelines	sequencing	hyperlink	FALSE	TRUE			
