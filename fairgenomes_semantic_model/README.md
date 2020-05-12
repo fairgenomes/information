@@ -66,7 +66,7 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 | Intended read length                                                     | compulsory            | [NCIT:C153362](http://purl.obolibrary.org/obo/NCIT_C153362)                                                                                                | [positive integer] | [#63](https://github.com/fairgenomes/information/issues/63) |unsolved|
 
 
-## Sequence information
+## Sequencing information
 | Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
 | Sequencing date                                                 | compulsory            | [GENEPIO:0000069](http://purl.obolibrary.org/obo/GENEPIO_0000069)                                                                                             | YYYY-MM-DD | [#39](https://github.com/fairgenomes/information/issues/39) |unsolved|
