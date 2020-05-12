@@ -1,0 +1,10 @@
+name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+sequencingid	Sequencing ID	sequencing	string	TRUE	FALSE			
+sequencingdate	Sequencing date	sequencing	date	FALSE	FALSE			
+sequencingplatform	Sequencing platform	sequencing	xref	FALSE	FALSE	fair-genomes_sequencing_codebook_sequencingplatform		
+sequencinginstrumentmodel	Sequencing instrument model	sequencing	xref	FALSE	TRUE	fair-genomes_sequencing_codebook_sequencinginstrumentmodel		
+typeofsequencing	Type of sequencing	sequencing	xref	FALSE	FALSE	fair-genomes_sequencing_codebook_typeofsequencing		
+sequencingaveragereaddepth	Sequencing average read depth	sequencing	int	FALSE	FALSE		0	1000000000
+observedreadlength	Observed read length	sequencing	int	FALSE	FALSE		0	1000000000
+observedinsertsize	Observed insert size	sequencing	int	FALSE	TRUE		0	1000000000
+followsintrnlwgsguidelines	Follows international WGS guidelines	sequencing	string	FALSE	TRUE			
