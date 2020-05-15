@@ -18,9 +18,16 @@
 | Data available in other institutes        | optional              | [SIO:000688](http://semanticscience.org/resource/SIO_000688)  |List of Dutch institutes in BBMRI-ERIC | [#62](https://github.com/fairgenomes/information/issues/62) |solved|
 
 
+
 ## Study information
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
+| ID              | compulsory            | MIABIS-2.0-01     |      ID [string]       |           |     unsolved             |
+| Name              | compulsory            | MIABIS-2.0-02     |     String      |           |     unsolved             |
+| Description              | compulsory            | MIABIS-2.0-08     |      String       |           |     unsolved             |
+| Principal Investigator              | compulsory            | MIABIS-2.0-18    |      String      |           |     unsolved             |
+| Contact information             | compulsory            | MIABIS-2.0-07     |      String       |           |     unsolved             |
+| Study design             | compulsory            | MIABIS-2.0-19     |     String       |           |     unsolved             |
 
 
 ## Clinical information
