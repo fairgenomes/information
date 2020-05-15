@@ -32,6 +32,14 @@
 ## General consent information
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Issue (solved / unsolved) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
+| Information on leaflet: Title | compulsory | [DC:title](http://purl.org/dc/terms/title) | Free text [string] | [#92](https://github.com/fairgenomes/information/issues/92) | unsolved |
+| Information on leaflet: Identifier | compulsory | [DC:identifier](http://purl.org/dc/terms/identifier) | URL | [#93](https://github.com/fairgenomes/information/issues/93) | unsolved |
+| Information on leaflet: Date | compulsory | [DC:date](http://purl.org/dc/terms/date) | YYYY-MM-DD HH-MM-SS | [#94](https://github.com/fairgenomes/information/issues/94) | unsolved |
+| Information on leaflet: Version | compulsory | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#95](https://github.com/fairgenomes/information/issues/95) | unsolved |
+| validation date | compulsory | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD HH-MM-SS | [#96](https://github.com/fairgenomes/information/issues/96)  | unsolved |
+| Data of accepted | compulsory | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | YYYY-MM-DD HH-MM-SS | [#97](https://github.com/fairgenomes/information/issues/97)  | unsolved |
+| Organisation creating the consent | compulsory | [OBI:0000245](http://purl.obolibrary.org/obo/OBI_0000245) | OrganisationID or name ? | [#98](https://github.com/fairgenomes/information/issues/98)  | unsolved |
+| version | compulsory | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#99](https://github.com/fairgenomes/information/issues/99) | unsolved |
 
 
 ## Individual consent information
