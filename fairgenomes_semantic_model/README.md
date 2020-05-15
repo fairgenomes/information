@@ -2,7 +2,7 @@
 \* **NOTE Please do not put any comments in the tables here, comment on the issue number. Issues will always keep a track of this information**.
 
 ## Personal information
-| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Issue (solved / unsolved) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 | Individual ID              | compulsory            | [NCIT:C164337](https://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C164337)     |      ID [string]       |       [#3](https://github.com/fairgenomes/information/issues/3)       |     solved             |
 | Gender            | optional              | [SIO:010029](http://semanticscience.org/resource/SIO_010029.rdf)|       Male [SIO:010048](http://semanticscience.org/resource/SIO_010048)  <br> Female [SIO:010048](http://semanticscience.org/resource/SIO_010048) <br> Unknown / Undetermined []()|   [#4](https://github.com/fairgenomes/information/issues/4)           |         solved          |
@@ -20,7 +20,7 @@
 
 
 ## Study information
-| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Issue (solved / unsolved) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 | ID              | compulsory            | MIABIS-2.0-01     |      ID [string]       |       [#79](https://github.com/fairgenomes/information/issues/79)    |     unsolved             |
 | Name              | compulsory            | MIABIS-2.0-02     |     String      |     [#80](https://github.com/fairgenomes/information/issues/80)      |     unsolved             |
@@ -31,7 +31,7 @@
 
 
 ## Clinical information
-| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Issue (solved / unsolved) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 |Phenotypic terms | compulsory | [MESH:D010641](http://bioportal.bioontology.org/ontologies/MESH?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMESH%2FD010641) | Ontological terms based on [HPO](http://bioportal.bioontology.org/ontologies/HP) / [ORDO](http://bioportal.bioontology.org/ontologies/ORDO) | [#12](https://github.com/fairgenomes/information/issues/12) |solved|
 Unobserved phenotypes | optional | [HL7:C0442737](http://purl.bioontology.org/ontology/HL7/C0442737) | Ontological terms based on [HPO](http://bioportal.bioontology.org/ontologies/HP) / [ORDO](http://bioportal.bioontology.org/ontologies/ORDO) | [#13](https://github.com/fairgenomes/information/issues/13) |solved|
@@ -52,7 +52,7 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 
 
 ## Materials information
-| Meta-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Testcase 1:Solved / unsolved |
+| Meta-data element                       | Compulsory / optional | Preferred ontology term for meta\-data | Value types | Issue Number | Issue (solved / unsolved) |
 |------------------------------------------|-----------------------|----------------------------------------|-------------|--------------|-------------------|
 | Sampling time stamp                       | compulsory            | [EFO:0000689](http://www.ebi.ac.uk/efo/EFO_0000689) | YYYY-MM-DD HH-MM-SS | [#25](https://github.com/fairgenomes/information/issues/25) |unsolved|
 | Registration time stamp                  | compulsory            | [CTO:Registration](http://bioportal.bioontology.org/ontologies/CTO?p=classes&conceptid=http%3A%2F%2Fwww.co-ode.org%2Fontologies%2Font.owl%23Registration)                       | YYYY-MM-DD HH-MM-SS | [#26](https://github.com/fairgenomes/information/issues/26) |unsolved|        
@@ -68,7 +68,7 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 | Derived from                  | optional              | [NCIT:C28355](http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C28355)                            | [link to Material] | [#38](https://github.com/fairgenomes/information/issues/38) |unsolved|
 
 ## Sample preparation information
-| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
+| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Issue (solved / unsolved) |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
 | Amount of input material in ng            | optional              | [AFRL_0000010](http://bioportal.bioontology.org/ontologies/AFO?p=classes&conceptid=http%3A%2F%2Fpurl.allotrope.org%2Fontologies%2Frole%23AFRL_0000010) | [positive integer] | [#36](https://github.com/fairgenomes/information/issues/36) |unsolved|
 | Library preparation kit                                                 | optional              | [GENEPIO:0000081](http://purl.obolibrary.org/obo/GENEPIO_0000081)                                                                                          | Codebook based on biocompare.com NGS kit listing  | [#40](https://github.com/fairgenomes/information/issues/40) |unsolved|
@@ -80,7 +80,7 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 
 
 ## Sequencing information
-| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
+| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Issue (solved / unsolved) |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
 | Sequencing date                                                 | compulsory            | [GENEPIO:0000069](http://purl.obolibrary.org/obo/GENEPIO_0000069)                                                                                             | YYYY-MM-DD | [#39](https://github.com/fairgenomes/information/issues/39) |unsolved|
 | Sequencing platform                                             | compulsory            | [GENEPIO:0000071](http://purl.obolibrary.org/obo/GENEPIO_0000071)                                                                                          | Free text with brands that are subclasses of GENEPIO\\\_0000071 | [#41](https://github.com/fairgenomes/information/issues/41) |unsolved|
@@ -92,7 +92,7 @@ First contact with specialised center | optional | [LOINC:MTHU048806](https://bi
 | Follows international WGS guidelines | optional | [NCIT:C17564](http://purl.obolibrary.org/obo/NCIT_C17564) | URL or NULL | [#55](https://github.com/fairgenomes/information/issues/55) |unsolved|
 
 ## Analysis information
-| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Solved / unsolved \\\(Test case 1: Hinri Kersten,PMCU\\\) |
+| Meta-data element                                            | Compulsory / optional | Preferred ontology term for meta\\\-data                                                                    | Value types                                                                                                   | Issue Number | Issue (solved / unsolved) |
 |-----------------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------|
 | Physical data location                      | compulsory            | [GAZ:00000448](http://purl.obolibrary.org/obo/GAZ_00000448) | propose: [subclass of [SNOMEDCT:370159000](http://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&conceptid=370159000)] | [#49](https://github.com/fairgenomes/information/issues/49) |unsolved|
 | Abstract data location | compulsory |  | propose: Free text [string] | [#50](https://github.com/fairgenomes/information/issues/50) |unsolved|
