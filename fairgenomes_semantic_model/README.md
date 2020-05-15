@@ -22,12 +22,12 @@
 ## Study information
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
-| ID              | compulsory            | MIABIS-2.0-01     |      ID [string]       |           |     unsolved             |
-| Name              | compulsory            | MIABIS-2.0-02     |     String      |           |     unsolved             |
-| Description              | compulsory            | MIABIS-2.0-08     |      String       |           |     unsolved             |
-| Principal Investigator              | compulsory            | MIABIS-2.0-18    |      String      |           |     unsolved             |
-| Contact information             | compulsory            | MIABIS-2.0-07     |      String       |           |     unsolved             |
-| Study design             | compulsory            | MIABIS-2.0-19     |     String       |           |     unsolved             |
+| ID              | compulsory            | MIABIS-2.0-01     |      ID [string]       |       [#79](https://github.com/fairgenomes/information/issues/79)    |     unsolved             |
+| Name              | compulsory            | MIABIS-2.0-02     |     String      |     [#80](https://github.com/fairgenomes/information/issues/80)      |     unsolved             |
+| Description              | compulsory            | MIABIS-2.0-08     |      String       |    [#81](https://github.com/fairgenomes/information/issues/81)       |     unsolved             |
+| Principal Investigator              | compulsory            | MIABIS-2.0-18    |      String      |      [#82](https://github.com/fairgenomes/information/issues/82)     |     unsolved             |
+| Contact information             | compulsory            | MIABIS-2.0-07     |      String       |      [#83](https://github.com/fairgenomes/information/issues/83)     |     unsolved             |
+| Study design             | compulsory            | MIABIS-2.0-19     |     String       |   [#84](https://github.com/fairgenomes/information/issues/84)       |     unsolved             |
 
 
 ## Clinical information
