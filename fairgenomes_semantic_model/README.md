@@ -17,6 +17,12 @@
 | Primary affiliated institute        | optional              | [SIO:000688](http://semanticscience.org/resource/SIO_000688) | List of Dutch institutes in BBMRI-ERIC | [#60](https://github.com/fairgenomes/information/issues/60) |solved|
 | Data available in other institutes        | optional              | [SIO:000688](http://semanticscience.org/resource/SIO_000688)  |List of Dutch institutes in BBMRI-ERIC | [#62](https://github.com/fairgenomes/information/issues/62) |solved|
 
+
+## Study information
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
+|----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
+
+
 ## Clinical information
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Solved / unsolved (Testcase 1: Hinri Kersten,PMCU) |
 |----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
