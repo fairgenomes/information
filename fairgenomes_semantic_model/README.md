@@ -29,6 +29,22 @@
 | Contact information             | compulsory            | MIABIS-2.0-07     |      String       |      [#83](https://github.com/fairgenomes/information/issues/83)     |     unsolved             |
 | Study design             | compulsory            | MIABIS-2.0-19     |     String       |   [#84](https://github.com/fairgenomes/information/issues/84)       |     unsolved             |
 
+## General consent information
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Issue (solved / unsolved) |
+|----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
+
+
+## Individual consent information
+| Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Issue (solved / unsolved) |
+|----------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
+| is about subject | compulsory | [IAO:0000136](http://purl.obolibrary.org/obo/IAO_0000136) |  PATIENT([ICO:0000321](http://purl.obolibrary.org/obo/ico.owl/ICO_0000321)) <br> human subject unable to give informed consent([ICO:0000062](http://purl.obolibrary.org/obo/ICO_0000062)) <br> is represented by ([sio:000205](http://semanticscience.org/resource/SIO_000205))|       [#85](https://github.com/fairgenomes/information/issues/85)  | unsolved |
+| collect by | compulsory | [NCIT:C45262](http://purl.obolibrary.org/obo/NCIT_C45262)  | ID or name of the person collecting consent | [#86](https://github.com/fairgenomes/information/issues/86)    | unsolved |
+| information consent form signing date | compulsory | [ICO:0000036](http://purl.obolibrary.org/obo/ICO_0000036) | YYYY-MM-DD HH-MM-SS | [#87](https://github.com/fairgenomes/information/issues/87) | unsolved |
+| version | compulsory | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#88](https://github.com/fairgenomes/information/issues/88) | unsolved |
+| validation date | compulsory | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD HH-MM-SS | [#89](https://github.com/fairgenomes/information/issues/89)  | unsolved |
+| is restricted to | compulsory | [DUO:0000010](http://purl.obolibrary.org/obo/DUO_0000010) | Free text [string] |       [#90](https://github.com/fairgenomes/information/issues/90) | unsolved |
+|is represented by | compulsory | [sio:000205](http://semanticscience.org/resource/SIO_000205)  | person (name or id) | [#91](https://github.com/fairgenomes/information/issues/91)    |     unsolved             |
+
 
 ## Clinical information
 | Meta-data element          | Compulsory / optional | Preferred ontology term for meta-data| Value types | Issue Number | Issue (solved / unsolved) |
