@@ -125,9 +125,10 @@ mcmd import -p sampleprep_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p consent_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 
 # TODO: example data in actual tables for Personal, Clinical, etc?
+# TODO: add Descriptions of (ontological) data types!
 # TODO: check data types: XREFs (replace with 'categorical'?), labels, datatypes (date/datetime?), etc.
-# TODO: add 'Study' as grouping mechanism?
-# TODO: link the tables, determine cardinality
+# TODO: link the tables according to cardinality
 # TODO: design and implement GUI
