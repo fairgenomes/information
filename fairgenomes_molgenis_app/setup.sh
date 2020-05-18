@@ -127,6 +127,21 @@ mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p consent_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 
+# Fifth, upload GUI and required assets
+mcmd import -p sys_StaticContent.tsv
+cd ../img
+mcmd add logo -p analysis.png
+mcmd add logo -p codebooks.png
+mcmd add logo -p clinical.png
+mcmd add logo -p consent.png
+mcmd add logo -p info.png
+mcmd add logo -p material.png
+mcmd add logo -p personal.png
+mcmd add logo -p sampleprep.png
+mcmd add logo -p sequencing.png
+mcmd add logo -p study.png
+mcmd add logo -p fair_genomes_logo.png
+
 # TODO: example data in actual tables for Personal, Clinical, etc?
 # TODO: add Descriptions of (ontological) data types!
 # TODO: check data types: XREFs (replace with 'categorical'?), labels, datatypes (date/datetime?), etc.
