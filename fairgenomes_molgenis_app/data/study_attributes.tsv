@@ -1,0 +1,7 @@
+name	label	description	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+studyid	Study ID	MIABIS-2.0-01	study	string	TRUE	FALSE			
+name	Name	MIABIS-2.0-02	study	string	FALSE	FALSE			
+description	Description	MIABIS-2.0-08	study	string	FALSE	FALSE			
+principalinvestigator	Principal Investigator	MIABIS-2.0-18	study	string	FALSE	FALSE			
+contactinformation	Contact information	MIABIS-2.0-07	study	string	FALSE	FALSE			
+studydesign	Study design	MIABIS-2.0-19	study	string	FALSE	FALSE			

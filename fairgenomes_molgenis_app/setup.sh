@@ -78,6 +78,8 @@ sh importGenericCodebookAttributesAs.sh sequencing_codebook_typeofsequencing
 # Analysis
 sh importGenericCodebookAttributesAs.sh analysis_codebook_dataformatsstored
 sh importGenericCodebookAttributesAs.sh analysis_codebook_physicaldatalocation
+# Consent
+sh importGenericCodebookAttributesAs.sh consent_codebook_isrestrictedto
 
 # Third, import the actual codebook tables.
 # Add null flavours to each (see: https://www.hl7.org/fhir/v3/NullFlavor/cs.html).
@@ -112,6 +114,8 @@ sh addNullFlavorsAndImportCodebook.sh sequencing_codebook_typeofsequencing
 # Analysis
 sh addNullFlavorsAndImportCodebook.sh analysis_codebook_dataformatsstored
 sh addNullFlavorsAndImportCodebook.sh analysis_codebook_physicaldatalocation
+# Consent
+sh addNullFlavorsAndImportCodebook.sh consent_codebook_isrestrictedto
 
 # Fourth, import FAIR Genomes model attributes for Personal, Clinical, etc.
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
@@ -120,9 +124,26 @@ mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sampleprep_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p consent_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
+
+# Fifth, upload GUI and required assets
+mcmd import -p sys_StaticContent.tsv
+cd ../img
+mcmd add logo -p analysis.png
+mcmd add logo -p codebooks.png
+mcmd add logo -p clinical.png
+mcmd add logo -p consent.png
+mcmd add logo -p info.png
+mcmd add logo -p material.png
+mcmd add logo -p personal.png
+mcmd add logo -p sampleprep.png
+mcmd add logo -p sequencing.png
+mcmd add logo -p study.png
+mcmd add logo -p fair_genomes_logo.png
 
 # TODO: example data in actual tables for Personal, Clinical, etc?
+# TODO: add Descriptions of (ontological) data types!
 # TODO: check data types: XREFs (replace with 'categorical'?), labels, datatypes (date/datetime?), etc.
-# TODO: add 'Study' as grouping mechanism?
-# TODO: link the tables, determine cardinality
+# TODO: link the tables according to cardinality
 # TODO: design and implement GUI
