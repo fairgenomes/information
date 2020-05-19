@@ -136,7 +136,9 @@ cd ../img
 mcmd add logo -p analysis.png
 mcmd add logo -p codebooks.png
 mcmd add logo -p clinical.png
-mcmd add logo -p consent.png
+mcmd add logo -p generalconsent.png
+mcmd add logo -p individualconsent.png
+mcmd add logo -p contribute.png
 mcmd add logo -p info.png
 mcmd add logo -p material.png
 mcmd add logo -p personal.png
