@@ -79,7 +79,8 @@ sh importGenericCodebookAttributesAs.sh sequencing_codebook_typeofsequencing
 sh importGenericCodebookAttributesAs.sh analysis_codebook_dataformatsstored
 sh importGenericCodebookAttributesAs.sh analysis_codebook_physicaldatalocation
 # Consent
-sh importGenericCodebookAttributesAs.sh consent_codebook_isrestrictedto
+sh importGenericCodebookAttributesAs.sh generalconsent_codebook_orgcreatingconsent
+sh importGenericCodebookAttributesAs.sh individualconsent_codebook_isrestrictedto
 
 # Third, import the actual codebook tables.
 # Add null flavours to each (see: https://www.hl7.org/fhir/v3/NullFlavor/cs.html).
@@ -115,7 +116,8 @@ sh addNullFlavorsAndImportCodebook.sh sequencing_codebook_typeofsequencing
 sh addNullFlavorsAndImportCodebook.sh analysis_codebook_dataformatsstored
 sh addNullFlavorsAndImportCodebook.sh analysis_codebook_physicaldatalocation
 # Consent
-sh addNullFlavorsAndImportCodebook.sh consent_codebook_isrestrictedto
+sh addNullFlavorsAndImportCodebook.sh generalconsent_codebook_orgcreatingconsent
+sh addNullFlavorsAndImportCodebook.sh individualconsent_codebook_isrestrictedto
 
 # Fourth, import FAIR Genomes model attributes for Personal, Clinical, etc.
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
@@ -124,7 +126,8 @@ mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sampleprep_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p consent_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p generalconsent_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 
 # Fifth, upload GUI and required assets

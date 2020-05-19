@@ -1,0 +1,10 @@
+name	label	description	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+generalconsentid	General consent ID	Internal database identifier	generalconsent	string	TRUE	FALSE			
+leafletid	Information on leaflet: Identifier	DC:identifier	generalconsent	hyperlink	FALSE	FALSE			
+leaflettitle	Information on leaflet: Title	DC:title	generalconsent	string	FALSE	FALSE			
+leafletdate	Information on leaflet: Date	DC:date	generalconsent	datetime	FALSE	FALSE			
+leafletversion	Information on leaflet: Version	DC:hasVersion	generalconsent	string	FALSE	FALSE			
+validationdate	Validation date	DC:valid	generalconsent	datetime	FALSE	FALSE			
+dateofaccepted	Data of accepted	DC:dateAccepted	generalconsent	datetime	FALSE	FALSE			
+orgcreatingconsent	Organisation creating the consent	OBI:0000245	generalconsent	xref	FALSE	FALSE	fair-genomes_generalconsent_codebook_orgcreatingconsent		
+version	Version	DC:hasVersion	generalconsent	string	FALSE	FALSE			

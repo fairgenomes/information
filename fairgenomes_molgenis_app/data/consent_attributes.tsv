@@ -1,9 +1,0 @@
-name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-consentid	Consent ID	consent	string	TRUE	FALSE			
-isaboutsubject	is about subject	consent	xref	FALSE	FALSE	fair-genomes_personal		
-collectedby	collected by	consent	string	FALSE	FALSE			
-infconsformsigningdate	informed consent form signing date	consent	datetime	FALSE	FALSE			
-version	version	consent	string	FALSE	FALSE			
-validationdate	validation date	consent	datetime	FALSE	FALSE			
-isrestrictedto	is restricted to	consent	xref	FALSE	FALSE	fair-genomes_consent_codebook_isrestrictedto		
-isrepresentedby	is represented by	consent	string	FALSE	FALSE			
