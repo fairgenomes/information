@@ -5,3 +5,4 @@ description	Description	MIABIS-2.0-08	study	string	FALSE	FALSE
 principalinvestigator	Principal Investigator	MIABIS-2.0-18	study	string	FALSE	FALSE			
 contactinformation	Contact information	MIABIS-2.0-07	study	string	FALSE	FALSE			
 studydesign	Study design	MIABIS-2.0-19	study	string	FALSE	FALSE			
+containspersonal	Contains Personal records	Reference to Personal records that are grouped together by this Study	study	mref	FALSE	TRUE	fair-genomes_personal		

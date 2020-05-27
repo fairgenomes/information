@@ -1,12 +1,12 @@
-name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-individualid	Individual ID	personal	string	TRUE	FALSE			
-biologicalsex	Biological sex	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_biologicalsex		
-countryofresidence	Country of residence	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_countryofresidence		
-ethnicity	Ethnicity	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_ethnicity		
-countryofbirth	Country of Birth	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_countryofbirth		
-yearofbirth	Year of birth	personal	date	FALSE	TRUE			
-patientstatus	Patient Status	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_patientstatus		
-ageatdeath	Age at death	personal	int	FALSE	TRUE		0	150
-inclusioncriterion	Inclusion criterion	personal	text	FALSE	TRUE			
-primaryaffiliatedinstitute	Primary affiliated institute	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_primaryaffiliatedinstitute		
-datainotherinstitutes	Data available in other institutes	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_datainotherinstitutes		
+name	label	description	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
+individualid	Individual ID	NCIT:C164337	personal	string	TRUE	FALSE			
+biologicalsex	Biological sex	SIO:010029	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_biologicalsex		
+countryofresidence	Country of residence	PATO:0020000	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_countryofresidence		
+ethnicity	Ethnicity	SNOMEDCT:276205001	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_ethnicity		
+countryofbirth	Country of Birth	LNC:MTHU010275	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_countryofbirth		
+yearofbirth	Year of birth	SNOMEDCT:370159000	personal	date	FALSE	TRUE			
+patientstatus	Patient Status	SNOMEDCT:246097001	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_patientstatus		
+ageatdeath	Age at death	NCIT:C135383	personal	int	FALSE	TRUE		0	150
+inclusioncriterion	Inclusion criterion	OBI:0500027	personal	text	FALSE	TRUE			
+primaryaffiliatedinstitute	Primary affiliated institute	SIO:000688	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_primaryaffiliatedinstitute		
+datainotherinstitutes	Data available in other institutes	SIO:000688	personal	xref	FALSE	TRUE	fair-genomes_personal_codebook_datainotherinstitutes		
