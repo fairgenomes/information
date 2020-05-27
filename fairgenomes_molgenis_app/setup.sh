@@ -121,14 +121,14 @@ sh addNullFlavorsAndImportCodebook.sh individualconsent_codebook_isrestrictedto
 
 # Fourth, import FAIR Genomes model attributes for Personal, Clinical, etc.
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p generalconsent_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sampleprep_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p generalconsent_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p individualconsent_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 
 # Fifth, upload GUI and required assets
 mcmd import -p sys_StaticContent.tsv
