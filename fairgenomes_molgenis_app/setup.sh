@@ -147,8 +147,28 @@ mcmd add logo -p sequencing.png
 mcmd add logo -p study.png
 mcmd add logo -p fair_genomes_logo.png
 
-# TODO: example data in actual tables for Personal, Clinical, etc?
-# TODO: add Descriptions of (ontological) data types!
+# Sixth, assign rights and permissions
+# NB: in the demo, we allow anonymous (not-logged in users) to edit data!
+mcmd make --role ANONYMOUS fair-genomes_EDITOR
+mcmd give anonymous view sys_md
+
+# Seventh, import some dummy data
+mcmd import -p dummy_personal.tsv --as fair-genomes_personal
+mcmd import -p dummy_generalconsent.tsv --as fair-genomes_generalconsent
+mcmd import -p dummy_study.tsv --as fair-genomes_study
+mcmd import -p dummy_material.tsv --as fair-genomes_material
+
+# Optional: commands to remove all table definitions
+#mcmd delete fair-genomes_analysis --force
+#mcmd delete fair-genomes_sequencing --force
+#mcmd delete fair-genomes_sampleprep --force
+#mcmd delete fair-genomes_individualconsent --force
+#mcmd delete fair-genomes_clinical --force
+#mcmd delete fair-genomes_material --force
+#mcmd delete fair-genomes_study --force
+#mcmd delete fair-genomes_generalconsent --force
+#mcmd delete fair-genomes_personal --force
+
+# TODO: example data in all tables
 # TODO: check data types: XREFs (replace with 'categorical'?), labels, datatypes (date/datetime?), etc.
-# TODO: link the tables according to cardinality
 # TODO: design and implement GUI
