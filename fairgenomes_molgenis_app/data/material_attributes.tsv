@@ -1,15 +1,15 @@
-name	label	description	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-materialid	Material identifier	Local MOLGENIS database identifier	material	string	TRUE	FALSE			
-samplingtimestamp	Sampling time stamp	EFO:0000689	material	date	FALSE	FALSE			
-registrationtimestamp	Registration time stamp	CTO:Registration	material	date	FALSE	FALSE			
-samplingcollectionprotocol	Sampling collection protocol	EFO:0005518	material	text	FALSE	TRUE			
-deviationsfromsampleprotocol	Deviations from sample protocol	NCIT:C50996	material	text	FALSE	TRUE			
-reasonsforprotocoldeviation	Reasons for protocol deviation	Semantic definition not available	material	text	FALSE	TRUE			
-materialtype	Material type	UMLS:C2986062	material	xref	FALSE	FALSE	fair-genomes_material_codebook_materialtype		
-anatomicalsource	Anatomical source	UBERON:0001062	material	xref	FALSE	TRUE	fair-genomes_material_codebook_anatomicalsource		
-storageconditions	Storage conditions	UMLS:C3272596	material	xref	FALSE	TRUE	fair-genomes_material_codebook_storageconditions		
-expirationdate	Expiration date	LNC:LP173684-4	material	date	FALSE	TRUE			
-estimatedpercoftumorcells	Estimated percentage of tumor cells	NCIT:C127771	material	int	FALSE	TRUE		0	100
-physicallocation	Physical location	DUO:GAZ_00000448	material	text	FALSE	TRUE			
-derivedfrom	Derived from	NCIT:C28355	material	xref	FALSE	TRUE	material		
-belongstopersonal	Belongs to Personal record	Reference to a Personal record from whom this Material was taken	material	xref	FALSE	TRUE	fair-genomes_personal		
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity	rangeMin	rangeMax
+materialid	Material ID	Unique label or human-interpretable identifier for this Material record	material	string	TRUE	TRUE	TRUE	FALSE			
+samplingtimestamp	Sampling time stamp	EFO:0000689	material	datetime	FALSE	FALSE	TRUE	FALSE			
+registrationtimestamp	Registration time stamp	CTO:Registration	material	datetime	FALSE	FALSE	TRUE	FALSE			
+samplingcollectionprotocol	Sampling collection protocol	EFO:0005518	material	text	FALSE	FALSE	TRUE	TRUE			
+deviationsfromsampleprotocol	Deviations from sample protocol	NCIT:C50996	material	text	FALSE	FALSE	TRUE	TRUE			
+reasonsforprotocoldeviation	Reasons for protocol deviation	Semantic definition not available	material	text	FALSE	FALSE	TRUE	TRUE			
+materialtype	Material type	UMLS:C2986062	material	xref	FALSE	FALSE	TRUE	FALSE	fair-genomes_material_codebook_materialtype		
+anatomicalsource	Anatomical source	UBERON:0001062	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_codebook_anatomicalsource		
+storageconditions	Storage conditions	UMLS:C3272596	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_codebook_storageconditions		
+expirationdate	Expiration date	LNC:LP173684-4	material	datetime	FALSE	FALSE	TRUE	TRUE			
+estimatedpercoftumorcells	Estimated percentage of tumor cells	NCIT:C127771	material	int	FALSE	FALSE	TRUE	TRUE		0	100
+physicallocation	Physical location	DUO:GAZ_00000448	material	text	FALSE	FALSE	TRUE	TRUE			
+derivedfrom	Derived from	NCIT:C28355	material	xref	FALSE	FALSE	TRUE	TRUE	material		
+belongstopersonal	Belongs to Personal record	Reference to a Personal record from whom this Material was taken	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal		

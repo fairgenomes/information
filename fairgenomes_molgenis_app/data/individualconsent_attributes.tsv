@@ -1,10 +1,10 @@
-name	label	description	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-individualconsentid	Individual consent ID	Local MOLGENIS database identifier	individualconsent	string	TRUE	FALSE			
-isaboutsubject	is about subject	IAO:0000136	individualconsent	xref	FALSE	FALSE	fair-genomes_personal		
-belongstogenconsent	Belongs to General Consent record	Reference to a General Consent record that is part of this Individual Consent	individualconsent	xref	FALSE	FALSE	fair-genomes_generalconsent		
-collectedby	collected by	NCIT:C45262	individualconsent	string	FALSE	FALSE			
-infconsformsigningdate	informed consent form signing date	ICO:0000036	individualconsent	datetime	FALSE	FALSE			
-version	version	DC:hasVersion	individualconsent	string	FALSE	FALSE			
-validationdate	validation date	DC:valid	individualconsent	datetime	FALSE	FALSE			
-isrestrictedto	is restricted to	DUO:0000010	individualconsent	xref	FALSE	FALSE	fair-genomes_individualconsent_codebook_isrestrictedto		
-isrepresentedby	is represented by	sio:000205	individualconsent	string	FALSE	FALSE			
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity	rangeMin	rangeMax
+individualconsentid	Individual Consent ID	Unique label or human-interpretable identifier for this Individual Consent record	individualconsent	string	TRUE	TRUE	TRUE	FALSE			
+isaboutsubject	is about subject	IAO:0000136	individualconsent	xref	FALSE	FALSE	TRUE	FALSE	fair-genomes_personal		
+belongstogenconsent	Belongs to General Consent record	Reference to a General Consent record that is part of this Individual Consent	individualconsent	xref	FALSE	FALSE	TRUE	FALSE	fair-genomes_generalconsent		
+collectedby	collected by	NCIT:C45262	individualconsent	string	FALSE	FALSE	TRUE	FALSE			
+infconsformsigningdate	informed consent form signing date	ICO:0000036	individualconsent	datetime	FALSE	FALSE	TRUE	FALSE			
+version	version	DC:hasVersion	individualconsent	string	FALSE	FALSE	TRUE	FALSE			
+validationdate	validation date	DC:valid	individualconsent	datetime	FALSE	FALSE	TRUE	FALSE			
+isrestrictedto	is restricted to	DUO:0000010	individualconsent	xref	FALSE	FALSE	TRUE	FALSE	fair-genomes_individualconsent_codebook_isrestrictedto		
+isrepresentedby	is represented by	sio:000205	individualconsent	string	FALSE	FALSE	TRUE	FALSE			
