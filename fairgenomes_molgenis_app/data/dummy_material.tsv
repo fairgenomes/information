@@ -1,0 +1,2 @@
+materialid	samplingtimestamp	registrationtimestamp	samplingcollectionprotocol	deviationsfromsampleprotocol	reasonsforprotocoldeviation	materialtype	anatomicalsource	storageconditions	expirationdate	estimatedpercoftumorcells	physicallocation	derivedfrom	belongstopersonal
+Bloodsample 1234	2020-03-13T13:00:00Z	2020-03-13T15:00:00Z	Default blood sampling protocol from Hospital X	Slightly thinner needle used	We were out of regular needles	Blood	arm blood vessel	agar stab storage	2020-10-10T11:00:00Z		Freezer nr 2		Patient123

@@ -1,10 +1,11 @@
-name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-sequencingid	Sequencing ID	sequencing	string	TRUE	FALSE			
-sequencingdate	Sequencing date	sequencing	date	FALSE	FALSE			
-sequencingplatform	Sequencing platform	sequencing	xref	FALSE	FALSE	fair-genomes_sequencing_codebook_sequencingplatform		
-sequencinginstrumentmodel	Sequencing instrument model	sequencing	xref	FALSE	TRUE	fair-genomes_sequencing_codebook_sequencinginstrumentmodel		
-typeofsequencing	Type of sequencing	sequencing	xref	FALSE	FALSE	fair-genomes_sequencing_codebook_typeofsequencing		
-sequencingaveragereaddepth	Sequencing average read depth	sequencing	int	FALSE	FALSE		0	1000000000
-observedreadlength	Observed read length	sequencing	int	FALSE	FALSE		0	1000000000
-observedinsertsize	Observed insert size	sequencing	int	FALSE	TRUE		0	1000000000
-followsintrnlwgsguidelines	Follows international WGS guidelines	sequencing	hyperlink	FALSE	TRUE			
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity	rangeMin	rangeMax
+sequencingid	Sequencing ID	Unique label or human-interpretable identifier for this Sequencing record	sequencing	string	TRUE	TRUE	TRUE	FALSE			
+sequencingdate	Sequencing date	GENEPIO:0000069	sequencing	datetime	FALSE	FALSE	TRUE	FALSE			
+sequencingplatform	Sequencing platform	GENEPIO:0000071	sequencing	xref	FALSE	FALSE	TRUE	FALSE	fair-genomes_sequencing_codebook_sequencingplatform		
+sequencinginstrumentmodel	Sequencing instrument model	GENEPIO:0001921	sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_sequencing_codebook_sequencinginstrumentmodel		
+typeofsequencing	Type of sequencing	NCIT:C18881	sequencing	xref	FALSE	FALSE	TRUE	FALSE	fair-genomes_sequencing_codebook_typeofsequencing		
+sequencingaveragereaddepth	Sequencing average read depth	NCIT:C155320	sequencing	int	FALSE	FALSE	TRUE	FALSE		0	1000000000
+observedreadlength	Observed read length	NCIT:C153362	sequencing	int	FALSE	FALSE	TRUE	FALSE		0	1000000000
+observedinsertsize	Observed insert size	Semantic definition not available	sequencing	int	FALSE	FALSE	TRUE	TRUE		0	1000000000
+followsintrnlwgsguidelines	Follows international WGS guidelines	NCIT:C17564	sequencing	hyperlink	FALSE	FALSE	TRUE	TRUE			
+belongstosampleprep	Belongs to Sample Preparation record	Reference to a Sample Preparation record to which this Sequencing information belongs	sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_sampleprep		

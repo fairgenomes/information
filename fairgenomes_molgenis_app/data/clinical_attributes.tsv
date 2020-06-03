@@ -1,16 +1,18 @@
-name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-clinicalid	Clinical record ID	clinical	string	TRUE	FALSE			
-phenotypicterms	Phenotypic terms	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_phenotypicterms		
-unobservedphenotypes	Unobserved phenotypes	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_unobservedphenotypes		
-typeofphenotypicdata	Type of phenotypic data	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_typeofphenotypicdata		
-clinicaldiagnosis	Clinical diagnosis	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_clinicaldiagnosis		
-geneticdiagnosis	Genetic diagnosis	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_geneticdiagnosis		
-ageatdiagnosis	Age at diagnosis	clinical	int	FALSE	TRUE		0	150
-ageatlastscreening	Age at last screening	clinical	int	FALSE	TRUE		0	150
-medicationinfo	Medication information	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_medicationinfo		
-dosage	Dosage	clinical	string	FALSE	TRUE			
-familymembersaff	Family members affected	clinical	string	FALSE	TRUE			
-familymembersseq	Family members sequenced	clinical	string	FALSE	TRUE			
-proceduralhistory	Procedural history	clinical	mref	FALSE	TRUE	fair-genomes_clinical_codebook_proceduralhistory		
-ageofonset	Age of onset	clinical	int	FALSE	TRUE		0	150
-firstconwspeccenter	First contact with specialised center	clinical	date	FALSE	TRUE			
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity	rangeMin	rangeMax
+clinicalid	Clinical ID	Unique label or human-interpretable identifier for this Clinical record	clinical	string	TRUE	TRUE	TRUE	FALSE			
+phenotypicterms	Phenotypic terms	MESH:D010641	clinical	mref	FALSE	FALSE	TRUE	FALSE	fair-genomes_clinical_codebook_phenotypicterms		
+unobservedphenotypes	Unobserved phenotypes	HL7:C0442737	clinical	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_clinical_codebook_unobservedphenotypes		
+typeofphenotypicdata	Type of phenotypic data	DC:DCMIType	clinical	mref	FALSE	FALSE	TRUE	FALSE	fair-genomes_clinical_codebook_typeofphenotypicdata		
+clinicaldiagnosis	Clinical diagnosis	SNOMEDCT:39154008	clinical	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_clinical_codebook_clinicaldiagnosis		
+geneticdiagnosis	Genetic diagnosis	CRISP:1254-8491	clinical	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_clinical_codebook_geneticdiagnosis		
+ageatdiagnosis	Age at diagnosis	SNOMEDCT:423493009	clinical	int	FALSE	FALSE	TRUE	TRUE		0	150
+ageatlastscreening	Age at last screening	NCIT:C81258	clinical	int	FALSE	FALSE	TRUE	TRUE		0	150
+medicationinfo	Medication information	EDAM:data_3103	clinical	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_clinical_codebook_medicationinfo		
+dosage	Dosage	SNOMEDCT:260911001	clinical	string	FALSE	FALSE	TRUE	TRUE			
+familymembersaff	Family members affected	Semantic definition not available	clinical	string	FALSE	FALSE	TRUE	FALSE			
+familymembersseq	Family members sequenced	Semantic definition not available	clinical	string	FALSE	FALSE	TRUE	TRUE			
+consanguinityinfo	Consanguinity information	Semantic definition not available	clinical	string	FALSE	FALSE	TRUE	TRUE			
+proceduralhistory	Procedural history	UMLS: C1138431 (Current procedural history)	clinical	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_clinical_codebook_proceduralhistory		
+ageofonset	Age of onset	HP:0003674	clinical	int	FALSE	FALSE	TRUE	TRUE		0	150
+firstconwspeccenter	First contact with specialised center	LOINC:MTHU048806	clinical	date	FALSE	FALSE	TRUE	TRUE			
+belongstopersonal	Belongs to Personal record	Reference to a Personal record to whom this Clinical information belongs	clinical	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal		

@@ -1,0 +1,2 @@
+analysisid	physicaldatalocation	abstractdatalocation	dataformatsstored	algorithmsused	bioinformaticprotocolsused	specialparametersused	followsintrnlwgsguidelines	belongstosequencing
+PAT123ANALYSIS001	The Netherlands 	RUMC Datacenter	VCF,BAM,FASTQ	FastQC, BWA-MEM, GATK4, VEP100	UMCG NGS analysis protocol v4	GATK4 with 8GB ram allocated instead of 4	https://www.nature.com/articles/s41598-018-25022-6	SEQ001

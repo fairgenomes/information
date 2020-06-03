@@ -1,0 +1,2 @@
+sequencingid	sequencingdate	sequencingplatform	sequencinginstrumentmodel	typeofsequencing	sequencingaveragereaddepth	observedreadlength	observedinsertsize	followsintrnlwgsguidelines	belongstosampleprep
+SEQ001	2020-04-16T10:00:00Z	Illumina platform	Illumina HiSeq 3000	Next Generation Targeted Sequencing	50	343	102	https://www.eurl-ar.eu/CustomerData/Files/Folders/21-protocols/527_eurl-protocol-for-wgs-v1.pdf	PAT123SEQ001

@@ -1,7 +1,8 @@
-name	label	description	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-studyid	Study ID	MIABIS-2.0-01	study	string	TRUE	FALSE			
-name	Name	MIABIS-2.0-02	study	string	FALSE	FALSE			
-description	Description	MIABIS-2.0-08	study	string	FALSE	FALSE			
-principalinvestigator	Principal Investigator	MIABIS-2.0-18	study	string	FALSE	FALSE			
-contactinformation	Contact information	MIABIS-2.0-07	study	string	FALSE	FALSE			
-studydesign	Study design	MIABIS-2.0-19	study	string	FALSE	FALSE			
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity	rangeMin	rangeMax
+studyid	Study ID	MIABIS-2.0-01 (The unique ID or acronym of the study)	study	string	TRUE	TRUE	TRUE	FALSE			
+name	Name	MIABIS-2.0-02 (The name of the study in English)	study	string	FALSE	FALSE	TRUE	FALSE			
+description	Description	MIABIS-2.0-08 (A description of the study aim. Recommendation max. 2000 char.)	study	string	FALSE	FALSE	TRUE	FALSE			
+principalinvestigator	Principal Investigator	MIABIS-2.0-18 (The name of the person responsible for the study e.g. the principal investigator)	study	string	FALSE	FALSE	TRUE	FALSE			
+contactinformation	Contact information	MIABIS-2.0-07 (Contact information for the contact person of the study MIABIS-2.0-07 and MIABIS-2.0-23)	study	string	FALSE	FALSE	TRUE	FALSE			
+studydesign	Study design	MIABIS-2.0-19 (The design of the study. Can be one or several values: MIABIS-2.0-19)	study	string	FALSE	FALSE	TRUE	FALSE			
+containspersonal	Contains Personal records	Reference to Personal records that are grouped together by this Study	study	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal		

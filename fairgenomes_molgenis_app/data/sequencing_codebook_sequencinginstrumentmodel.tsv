@@ -5,15 +5,10 @@ AB SOLiD System	AB SOLiD System	OBI	OBI_0000696	AB SOLiD System
 Illumina Genome Analyzer II	Illumina Genome Analyzer II	OBI	OBI_0000703	Illumina Genome Analyzer II
 HeliScope Single Molecule Sequencer	HeliScope Single Molecule Sequencer	OBI	OBI_0000717	HeliScope Single Molecule Sequencer
 Genome Analyzer IIx	Genome Analyzer IIx	OBI	OBI_0002000	Genome Analyzer IIx
-specimen position	specimen position	OBI	OBI_0002000	specimen position
 Illumina HiSeq 2000	Illumina HiSeq 2000	OBI	OBI_0002001	Illumina HiSeq 2000
-specimen integrity	specimen integrity	OBI	OBI_0002001	specimen integrity
 Illumina HiSeq 2500	Illumina HiSeq 2500	OBI	OBI_0002002	Illumina HiSeq 2500
-specimen weight	specimen weight	OBI	OBI_0002002	specimen weight
 MiSeq	MiSeq	OBI	OBI_0002003	MiSeq
-specimen slide ID	specimen slide ID	OBI	OBI_0002003	specimen slide ID
 SOLiD 3 Plus System	SOLiD 3 Plus System	OBI	OBI_0002007	SOLiD 3 Plus System
-specimen gross appearance of tumor edge	specimen gross appearance of tumor edge	OBI	OBI_0002007	specimen gross appearance of tumor edge
 PacBio RS II	PacBio RS II	OBI	OBI_0002012	PacBio RS II
 3-severe autolysis	3-severe autolysis	OBI	OBI_0002012	3-severe autolysis
 NextSeq 500	NextSeq 500	OBI	OBI_0002021	NextSeq 500

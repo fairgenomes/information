@@ -121,14 +121,14 @@ sh addNullFlavorsAndImportCodebook.sh individualconsent_codebook_isrestrictedto
 
 # Fourth, import FAIR Genomes model attributes for Personal, Clinical, etc.
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p generalconsent_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sampleprep_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p generalconsent_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p individualconsent_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 
 # Fifth, upload GUI and required assets
 mcmd import -p sys_StaticContent.tsv
@@ -145,10 +145,35 @@ mcmd add logo -p personal.png
 mcmd add logo -p sampleprep.png
 mcmd add logo -p sequencing.png
 mcmd add logo -p study.png
+mcmd add logo -p fair_genomes_logo_notext.png
 mcmd add logo -p fair_genomes_logo.png
 
-# TODO: example data in actual tables for Personal, Clinical, etc?
-# TODO: add Descriptions of (ontological) data types!
+# Sixth, assign rights and permissions
+# NB: in the demo, we allow anonymous (not-logged in users) to edit data!
+mcmd make --role ANONYMOUS fair-genomes_EDITOR
+mcmd give anonymous view sys_md
+
+# Seventh, import some dummy data
+cd ../data
+mcmd import -p dummy_personal.tsv --as fair-genomes_personal
+mcmd import -p dummy_generalconsent.tsv --as fair-genomes_generalconsent
+mcmd import -p dummy_study.tsv --as fair-genomes_study
+mcmd import -p dummy_material.tsv --as fair-genomes_material
+mcmd import -p dummy_clinical.tsv --as fair-genomes_clinical
+mcmd import -p dummy_individualconsent.tsv --as fair-genomes_individualconsent
+mcmd import -p dummy_sampleprep.tsv --as fair-genomes_sampleprep
+mcmd import -p dummy_sequencing.tsv --as fair-genomes_sequencing
+mcmd import -p dummy_analysis.tsv --as fair-genomes_analysis
+
+# Optional: commands to remove all table definitions
+#mcmd delete fair-genomes_analysis --force
+#mcmd delete fair-genomes_sequencing --force
+#mcmd delete fair-genomes_sampleprep --force
+#mcmd delete fair-genomes_individualconsent --force
+#mcmd delete fair-genomes_clinical --force
+#mcmd delete fair-genomes_material --force
+#mcmd delete fair-genomes_study --force
+#mcmd delete fair-genomes_generalconsent --force
+#mcmd delete fair-genomes_personal --force
+
 # TODO: check data types: XREFs (replace with 'categorical'?), labels, datatypes (date/datetime?), etc.
-# TODO: link the tables according to cardinality
-# TODO: design and implement GUI

@@ -1,9 +1,10 @@
-name	label	entity	dataType	idAttribute	nillable	refEntity	rangeMin	rangeMax
-analysisid	Analysis ID	analysis	string	TRUE	FALSE			
-physicaldatalocation	Physical data location	analysis	xref	FALSE	FALSE	fair-genomes_analysis_codebook_physicaldatalocation		
-abstractdatalocation	Abstract data location	analysis	string	FALSE	FALSE			
-dataformatsstored	Data formats stored	analysis	mref	FALSE	FALSE	fair-genomes_analysis_codebook_dataformatsstored		
-algorithmsused	Algorithms used	analysis	string	FALSE	TRUE			
-bioinformaticprotocolsused	Bioinformatic protocols used	analysis	text	FALSE	TRUE			
-specialparametersused	Special parameters used	analysis	string	FALSE	TRUE			
-followsintrnlwgsguidelines	Follows international WGS guidelines	analysis	hyperlink	FALSE	TRUE			
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity	rangeMin	rangeMax
+analysisid	Analysis ID	Unique label or human-interpretable identifier for this Analysis record	analysis	string	TRUE	TRUE	TRUE	FALSE			
+physicaldatalocation	Physical data location	GAZ:00000448	analysis	xref	FALSE	FALSE	TRUE	FALSE	fair-genomes_analysis_codebook_physicaldatalocation		
+abstractdatalocation	Abstract data location	Semantic definition not available	analysis	string	FALSE	FALSE	TRUE	FALSE			
+dataformatsstored	Data formats stored	EDAM:FORMAT_1915	analysis	mref	FALSE	FALSE	TRUE	FALSE	fair-genomes_analysis_codebook_dataformatsstored		
+algorithmsused	Algorithms used	NCIT:C16275	analysis	string	FALSE	FALSE	TRUE	TRUE			
+bioinformaticprotocolsused	Bioinformatic protocols used	EDAM:DATA_2531	analysis	text	FALSE	FALSE	TRUE	TRUE			
+specialparametersused	Special parameters used	NCIT:C44175	analysis	string	FALSE	FALSE	TRUE	TRUE			
+followsintrnlwgsguidelines	Follows international WGS guidelines	NCIT:C17564	analysis	hyperlink	FALSE	FALSE	TRUE	TRUE			
+belongstosequencing	Belongs to Sequencing record	Reference to a Sequencing record to which this Analysis information belongs	analysis	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_sequencing		
