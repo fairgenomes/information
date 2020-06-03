@@ -1,0 +1,2 @@
+clinicalid	phenotypicterms	unobservedphenotypes	typeofphenotypicdata	clinicaldiagnosis	geneticdiagnosis	ageatdiagnosis	ageatlastscreening	medicationinfo	dosage	familymembersaff	familymembersseq	consanguinityinfo	proceduralhistory	ageofonset	firstconwspeccenter	belongstopersonal
+Visit 001	Abnormal B cell count,Abnormality of skull size	10 pairs of ribs	Image,Moving Image	4q21 microdeletion syndrome	12q14 microdeletion syndrome	7	5	hydroxychloroquine	10 mg per day	No	Mother and Father	Not consanguineous	Appendectomy	2	2019-08-06	Patient123
