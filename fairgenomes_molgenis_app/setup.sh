@@ -145,6 +145,7 @@ mcmd add logo -p personal.png
 mcmd add logo -p sampleprep.png
 mcmd add logo -p sequencing.png
 mcmd add logo -p study.png
+mcmd add logo -p fair_genomes_logo_notext.png
 mcmd add logo -p fair_genomes_logo.png
 
 # Sixth, assign rights and permissions
@@ -153,10 +154,16 @@ mcmd make --role ANONYMOUS fair-genomes_EDITOR
 mcmd give anonymous view sys_md
 
 # Seventh, import some dummy data
+cd ../data
 mcmd import -p dummy_personal.tsv --as fair-genomes_personal
 mcmd import -p dummy_generalconsent.tsv --as fair-genomes_generalconsent
 mcmd import -p dummy_study.tsv --as fair-genomes_study
 mcmd import -p dummy_material.tsv --as fair-genomes_material
+mcmd import -p dummy_clinical.tsv --as fair-genomes_clinical
+mcmd import -p dummy_individualconsent.tsv --as fair-genomes_individualconsent
+mcmd import -p dummy_sampleprep.tsv --as fair-genomes_sampleprep
+mcmd import -p dummy_sequencing.tsv --as fair-genomes_sequencing
+mcmd import -p dummy_analysis.tsv --as fair-genomes_analysis
 
 # Optional: commands to remove all table definitions
 #mcmd delete fair-genomes_analysis --force
@@ -169,6 +176,4 @@ mcmd import -p dummy_material.tsv --as fair-genomes_material
 #mcmd delete fair-genomes_generalconsent --force
 #mcmd delete fair-genomes_personal --force
 
-# TODO: example data in all tables
 # TODO: check data types: XREFs (replace with 'categorical'?), labels, datatypes (date/datetime?), etc.
-# TODO: design and implement GUI
