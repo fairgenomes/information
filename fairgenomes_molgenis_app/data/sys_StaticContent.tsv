@@ -1,7 +1,7 @@
 key_	content
 home	"<div class=""jumbotron jumbotron-fluid"">
 <div class=""container"">
-	<h1 class=""display-4"">FAIR Genomes</h1>
+	<h1 class=""display-4"" style=""color: #353535;font-size: 8.5em; ""><img src=""/logo/fair_genomes_logo_notext.png"" style=""height: 100px;""/>FAIR Genomes</h1>
 	<p class=""lead"">
 		<i>A national guideline to promote optimal (re)use of NGS data in research and healthcare</i>.<br/>
 	</p>
@@ -50,8 +50,8 @@ home	"<div class=""jumbotron jumbotron-fluid"">
 		</tr>
 		<tr>
 			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
-				<p><a href=""navigator/fair-genomes""><img alt=""codebooks"" src=""/logo/codebooks.png"" style=""height: 100px;""/></a></p>
-				<a class=""btn btn-warning btn-lg"" href=""navigator/fair-genomes"" role=""button"">Codebooks</a>
+				<p><a href=""/menu/main/navigator/fair-genomes""><img alt=""codebooks"" src=""/logo/codebooks.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-warning btn-lg"" href=""/menu/main/navigator/fair-genomes"" role=""button"">Codebooks</a>
 			</td>
 			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
 				<p><a href=""https://www.zonmw.nl/nl/onderzoek-resultaten/geneesmiddelen/programmas/project-detail/personalised-medicine/fair-genomes-a-national-guideline-to-promote-optimal-reuse-of-ngs-data-in-research-and-healthcare""><img alt=""info"" src=""/logo/info.png"" style=""height: 100px;""/></a></p>
