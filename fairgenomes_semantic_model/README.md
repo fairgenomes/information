@@ -1,4 +1,11 @@
+
+
+![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/Genomic%20workflow.png)
+
+
 # FAIR genomes meta-data elements 
+
+
 \* **NOTE Please do not put any comments in the tables here, comment on the issue number. Issues will always keep a track of this information**.
 
 ## Personal information
