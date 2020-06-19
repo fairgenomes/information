@@ -40,7 +40,7 @@
 | Meta-data element          | Preferred ontology term for meta-data| Value types | Issue Number | Issue (open / closed) |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 | Information on leaflet: Title | [DC:title](http://purl.org/dc/terms/title) | Free text [string] | [#92](https://github.com/fairgenomes/information/issues/92) | open |
-| Information on leaflet: Identifier | [DC:identifier](http://purl.org/dc/terms/identifier) | URL | [#93](https://github.com/fairgenomes/information/issues/93) | open |
+| Information on leaflet: Identifier | [DC:identifier](http://purl.org/dc/terms/identifier) | URL [Preferred to be a DOI for the document in a repository (e.g. when uploaded to Zenodo)] | [#93](https://github.com/fairgenomes/information/issues/93) | open |
 | Information on leaflet: Date | [DC:date](http://purl.org/dc/terms/date) | YYYY-MM-DD HH-MM-SS | [#94](https://github.com/fairgenomes/information/issues/94) | open |
 | Information on leaflet: Version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#95](https://github.com/fairgenomes/information/issues/95) | open |
 | validation date | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD HH-MM-SS | [#96](https://github.com/fairgenomes/information/issues/96)  | open |
