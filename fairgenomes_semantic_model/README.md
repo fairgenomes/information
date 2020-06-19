@@ -46,7 +46,7 @@
 | validation date | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD HH-MM-SS | [#96](https://github.com/fairgenomes/information/issues/96)  | open |
 | Data of accepted | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | YYYY-MM-DD HH-MM-SS | [#97](https://github.com/fairgenomes/information/issues/97)  | open |
 | Organisation creating the consent | [OBI:0000245](http://purl.obolibrary.org/obo/OBI_0000245) | OrganisationID or name ? | [#98](https://github.com/fairgenomes/information/issues/98)  | open |
-| version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#99](https://github.com/fairgenomes/information/issues/99) | open |
+| Consent form version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#99](https://github.com/fairgenomes/information/issues/99) | open |
 
 
 ## Individual consent information
