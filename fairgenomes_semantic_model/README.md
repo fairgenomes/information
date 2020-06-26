@@ -1,5 +1,5 @@
 
-
+![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/FAIRificationOfNGS.png)
 <!-- ![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/Genomic%20workflow.png) -->
 
 
