@@ -1,6 +1,6 @@
 
 
-![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/Genomic%20workflow.png)
+<!-- ![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/Genomic%20workflow.png) -->
 
 
 # FAIR genomes meta-data elements 
