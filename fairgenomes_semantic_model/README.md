@@ -2,8 +2,11 @@
 ![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/FAIRificationOfNGS.png)
 <!-- ![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/Genomic%20workflow.png) -->
 
+<br/>
+<br/>
+<br/>
 
-# FAIR genomes meta-data elements 
+# FAIR genomes meta-data elements glossary
 
 
 \* **NOTE Please do not put any comments in the tables here, comment on the issue number. Issues will always keep a track of this information**.
