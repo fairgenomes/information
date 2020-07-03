@@ -59,7 +59,7 @@
 | collected by | [NCIT:C45262](http://purl.obolibrary.org/obo/NCIT_C45262)  | employee ID who collected the IC form | [#86](https://github.com/fairgenomes/information/issues/86)    | open |
 | informed consent form signing date | [ICO:0000036](http://purl.obolibrary.org/obo/ICO_0000036) | YYYY-MM-DD HH-MM-SS | [#87](https://github.com/fairgenomes/information/issues/87) | open |
 | Informed consent version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#88](https://github.com/fairgenomes/information/issues/88) | open |
-| validation date | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD HH-MM-SS | [#89](https://github.com/fairgenomes/information/issues/89)  | open |
+| valid | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD / YYYY-MM-DD | [#89](https://github.com/fairgenomes/information/issues/89)  | open |
 | is restricted to | [DUO:0000010](http://purl.obolibrary.org/obo/DUO_0000010) | subclass of [DUO:0000042](http://purl.obolibrary.org/obo/DUO_0000042) |       [#90](https://github.com/fairgenomes/information/issues/90) | open |
 |is represented by | [sio:000205](http://semanticscience.org/resource/SIO_000205)  | person (name or id) | [#91](https://github.com/fairgenomes/information/issues/91)    | open |
 
