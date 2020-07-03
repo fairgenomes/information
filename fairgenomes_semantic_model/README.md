@@ -82,7 +82,7 @@ Family members sequenced | []() |Free text [string]  | [#22](https://github.com/
 Consanguinity information | | Free text [string] | [#70](https://github.com/fairgenomes/information/issues/70) | closed |
 Procedural history | UMLS: C1138431 (Current procedural history) | Ontological terms based on [CPT](http://bioportal.bioontology.org/ontologies/CPT) | [#23](https://github.com/fairgenomes/information/issues/23) | closed |
 Age of onset | [HP:0003674](http://bioportal.bioontology.org/ontologies/HP/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FHP_0003674) | [positive integer] | [#24](https://github.com/fairgenomes/information/issues/24) | closed |
-First contact with specialised center | [LOINC:MTHU048806](https://bioportal.bioontology.org/ontologies/LOINC?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FLNC%2FMTHU048806) | YYYY-MM-DD | [#61](https://github.com/fairgenomes/information/issues/61) | open |
+First contact with specialised center | [LOINC:MTHU048806](https://bioportal.bioontology.org/ontologies/LOINC?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FLNC%2FMTHU048806) | First contact with specialised center in context of disease or inclusion. Format: YYYY-MM-DD | [#61](https://github.com/fairgenomes/information/issues/61) | open |
 
 
 
