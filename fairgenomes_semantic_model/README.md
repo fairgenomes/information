@@ -46,7 +46,7 @@
 | Information on leaflet: Identifier | [DC:identifier](http://purl.org/dc/terms/identifier) | URL [Preferred to be a DOI for the document in a repository (e.g. when uploaded to Zenodo)] | [#93](https://github.com/fairgenomes/information/issues/93) | open |
 | Information on leaflet: Date | [DC:date](http://purl.org/dc/terms/date) | YYYY-MM-DD HH-MM-SS | [#94](https://github.com/fairgenomes/information/issues/94) | open |
 | Information on leaflet: Version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#95](https://github.com/fairgenomes/information/issues/95) | open |
-| validation date | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD HH-MM-SS | [#96](https://github.com/fairgenomes/information/issues/96)  | open |
+| Date valid | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD HH-MM-SS | [#96](https://github.com/fairgenomes/information/issues/96)  | open |
 | Data of accepted | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | YYYY-MM-DD HH-MM-SS | [#97](https://github.com/fairgenomes/information/issues/97)  | open |
 | Organisation creating the consent | [OBI:0000245](http://purl.obolibrary.org/obo/OBI_0000245) | OrganisationID or name ? | [#98](https://github.com/fairgenomes/information/issues/98)  | open |
 | General consent form version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#99](https://github.com/fairgenomes/information/issues/99) | open |
@@ -59,7 +59,7 @@
 | collected by | [NCIT:C45262](http://purl.obolibrary.org/obo/NCIT_C45262)  | employee ID who collected the IC form | [#86](https://github.com/fairgenomes/information/issues/86)    | open |
 | informed consent form signing date | [ICO:0000036](http://purl.obolibrary.org/obo/ICO_0000036) | YYYY-MM-DD HH-MM-SS | [#87](https://github.com/fairgenomes/information/issues/87) | open |
 | Informed consent version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#88](https://github.com/fairgenomes/information/issues/88) | open |
-| valid | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD / YYYY-MM-DD | [#89](https://github.com/fairgenomes/information/issues/89)  | open |
+| Date valid | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD / YYYY-MM-DD | [#89](https://github.com/fairgenomes/information/issues/89)  | open |
 | is restricted to | [DUO:0000010](http://purl.obolibrary.org/obo/DUO_0000010) | subclass of [DUO:0000042](http://purl.obolibrary.org/obo/DUO_0000042) |       [#90](https://github.com/fairgenomes/information/issues/90) | open |
 |is represented by | [sio:000205](http://semanticscience.org/resource/SIO_000205)  | person (name or id) | [#91](https://github.com/fairgenomes/information/issues/91)    | open |
 
