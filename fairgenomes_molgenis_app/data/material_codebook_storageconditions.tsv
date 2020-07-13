@@ -1,11 +1,27 @@
 value_en	description_en	codesystem	code	description_code
-anticoagulant tube storage of blood specimen	anticoagulant tube storage of blood specimen	obo	obo:OBI_0000819	anticoagulant tube storage of blood specimen
-freezing storage	freezing storage	obo	obo:OBI_0000915	freezing storage
-lyophilization storage	lyophilization storage	obo	obo:OBI_0000927	lyophilization storage
-paraffin storage	paraffin storage	obo	obo:OBI_0000977	paraffin storage
-agar stab storage	agar stab storage	obo	obo:OBI_0001003	agar stab storage
-storage	storage	obo	obo:OBI_0302893	storage
-specimen freezing	specimen freezing	obo	obo:OMIABIS_0001045	specimen freezing
-vaccine storage	vaccine storage	obo	obo:VO_0000800	vaccine storage
-vaccine storage at room temperature	vaccine storage at room temperature	obo	obo:VO_0000801	vaccine storage at room temperature
-vaccine storage in refrigerator	vaccine storage in refrigerator	obo	obo:VO_0000802	vaccine storage in refrigerator
+PP tube 0.5–2mL (-85) to (-60)°C	PP tube 0.5–2mL (-85) to (-60)°C	SPREC version 3.0	A	Polypropylene tube 0.5–2mL at (-85) to (-60)°C
+PP tube 0.5–2mL (-35) to (-18)°C	PP tube 0.5–2mL (-35) to (-18)°C	SPREC version 3.0	B	Polypropylene tube 0.5–2mL at (-35) to (-18)°C
+PP tube 0.5–2mL <-135°C	PP tube 0.5–2mL <-135°C	SPREC version 3.0	V	Polypropylene tube 0.5–2mL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer
+Cryotube 1–2mL LN	Cryotube 1–2mL LN	SPREC version 3.0	C	Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase
+Cryotube 1–2mL (-85) to (-60)°C	Cryotube 1–2mL (-85) to (-60)°C	SPREC version 3.0	D	Cryotube 1–2mL at (-85) to (-60)°C
+Cryotube 1–2mL Programmable freezing to <-135°C	Cryotube 1–2mL Programmable freezing to <-135°C	SPREC version 3.0	E	Cryotube 1–2mL at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer
+Plastic cryo straw LN	Plastic cryo straw LN	SPREC version 3.0	F	Plastic cryo straw in liquid nitrogen, refers to either vapor or liquid phase
+Straw (-85) to (-60)°C	Straw (-85) to (-60)°C	SPREC version 3.0	G	Straw at (-85) to (-60)°C
+Straw (-35) to (-18)°C	Straw (-35) to (-18)°C	SPREC version 3.0	H	Straw at (-35) to (-18)°C
+Straw Programmable freezing to <-135°C	Straw Programmable freezing to <-135°C	SPREC version 3.0	I	Straw at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer
+PP tube ≥5mL (-85) to (-60)°C	PP tube ≥5mL (-85) to (-60)°C	SPREC version 3.0	J	Polypropylene tube ≥5mL at (-85) to (-60)°C
+PP tube ≥5mL (-35) to (-18)°C	PP tube ≥5mL (-35) to (-18)°C	SPREC version 3.0	K	Polypropylene tube ≥5mL at (-35) to (-18)°C
+Microplate well (-85) to (-60)°C	Microplate well (-85) to (-60)°C	SPREC version 3.0	L	Microplate well at (-85) to (-60)°C
+Microplate well (-35) to (-18)°C	Microplate well (-35) to (-18)°C	SPREC version 3.0	M	Microplate well at (-35) to (-18)°C
+Cryotube 1–2mL LN after temporary (-85) to (-60)°C	Cryotube 1–2mL LN after temporary (-85) to (-60)°C	SPREC version 3.0	N	Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C
+Straw LN after temporary (-85) to (-60)°C	Straw LN after temporary (-85) to (-60)°C	SPREC version 3.0	O	Straw in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C
+Paraffin block RT or 2 to 10°C	Paraffin block RT or 2 to 10°C	SPREC version 3.0	P	Paraffin block at room temperature or 2 to 10°C
+Paraffin block (-35) to (-18)°C	Paraffin block (-35) to (-18)°C	SPREC version 3.0	U	Paraffin block at (-35) to (-18)°C
+Bag LN	Bag LN	SPREC version 3.0	Q	Bag in liquid nitrogen, refers to either vapor or liquid phase
+Dry technology medium RT	Dry technology medium RT	SPREC version 3.0	R	Dry technology medium at room temperature
+PP tube 40–500 μL (-85) to (-60)°C	PP tube 40–500 μL (-85) to (-60)°C	SPREC version 3.0	S	Polypropylene tube 40–500 μL at (-85) to (-60)°C
+PP tube 40–500 μL (-35) to (-18)°C	PP tube 40–500 μL (-35) to (-18)°C	SPREC version 3.0	T	Polypropylene tube 40–500 μL at (-35) to (-18)°C
+PP tube 40–500 μL <-135°C	PP tube 40–500 μL <-135°C	SPREC version 3.0	W	Polypropylene tube 40–500 μL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer
+Original primary container (-35) to (-18)°C or (-85) to (-60)°C	Original primary container (-35) to (-18)°C or (-85) to (-60)°C	SPREC version 3.0	Y	Original primary container at (-35) to (-18)°C or (-85) to (-60)°C
+Unknown	Unknown	SPREC version 3.0	X	Unknown
+Other	Other	SPREC version 3.0	Z	Other
