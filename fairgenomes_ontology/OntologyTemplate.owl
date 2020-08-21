@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/fairgenomes/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/fairgenomes/ontology"
+     versionIRI="http://purl.org/fairgenomes/ontology1.0.0">
+    <Prefix name="" IRI="http://purl.org/fairgenomes/ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Algorithms_used"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analysis_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consent_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Consent_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual_consent_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_consent_form_signing_date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materials_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NGSkits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phenotypic_terms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sample_preparation_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sampling_time_stamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sequencing_date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sequencing_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_on_leaflet:_Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Algorithms_used"/>
+        <Class IRI="#Analysis_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Consent_information"/>
+        <Class IRI="#Consent_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual_ID"/>
+        <Class IRI="#Personal_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual_consent_information"/>
+        <Class IRI="#Consent_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_consent_form_signing_date"/>
+        <Class IRI="#Individual_consent_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NGSkits"/>
+        <Class IRI="#Sample_preparation_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phenotypic_terms"/>
+        <Class IRI="#Clinical_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sampling_time_stamp"/>
+        <Class IRI="#Materials_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sequencing_date"/>
+        <Class IRI="#Sequencing_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study_ID"/>
+        <Class IRI="#Study_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study_Name"/>
+        <Class IRI="#Study_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_on_leaflet:_Title"/>
+        <Class IRI="#General_Consent_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies"/>
+        <Class IRI="#NGSkits"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">NEXTFLEX Unique Dual Index Barcodes by PerkinElmer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <IRI>#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.biocompare.com/9479-Adapters-Cassettes/13423323-NEXTFLEX-Unique-Dual-Index-Barcodes/</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
