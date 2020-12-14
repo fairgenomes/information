@@ -39,7 +39,7 @@
 | Contact information             | MIABIS-2.0-07     |      String       |      [#83](https://github.com/fairgenomes/information/issues/83)     |     closed             |
 | Study design             | MIABIS-2.0-19     |     String       |   [#84](https://github.com/fairgenomes/information/issues/84)       |     closed             |
 
-## General consent information
+## Informed consent information
 | Meta-data element          | Preferred ontology term for meta-data| Value types | Issue Number | Issue (open / closed) |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------|-------------------|
 | Information on leaflet: Title | [DC:title](http://purl.org/dc/terms/title) | Free text [string] | [#92](https://github.com/fairgenomes/information/issues/92) | open |
@@ -48,8 +48,8 @@
 | Information on leaflet: Version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#95](https://github.com/fairgenomes/information/issues/95) | open |
 | Date valid | [DC:valid](http://purl.org/dc/terms/valid) | YYYY-MM-DD | [#96](https://github.com/fairgenomes/information/issues/96)  | open |
 | Data of accepted | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | YYYY-MM-DD | [#97](https://github.com/fairgenomes/information/issues/97)  | open |
-| Organisation creating the consent | [OBI:0000245](http://purl.obolibrary.org/obo/OBI_0000245) | OrganisationID or name ? | [#98](https://github.com/fairgenomes/information/issues/98)  | open |
-| General consent form version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#99](https://github.com/fairgenomes/information/issues/99) | open |
+| Organisation creating the informed consent | [OBI:0000245](http://purl.obolibrary.org/obo/OBI_0000245) | OrganisationID or name ? | [#98](https://github.com/fairgenomes/information/issues/98)  | open |
+| Informed consent form version | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | Free text [string] | [#99](https://github.com/fairgenomes/information/issues/99) | open |
 
 
 ## Individual consent information
