@@ -1,3 +1,11 @@
+# THIS REPOSITORY IS OBSOLETE, DO NOT MAKE CHANGES.
+# PLEASE, GO TO THE [NEW REPOSITORY](https://github.com/fairgenomes/fairgenomes-semantic-model) INSTEAD.
+
+
+<br/>
+<br/>
+<br/>
+
 
 ![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/FAIRificationOfNGS.png)
 <!-- ![FAIRgenomic workflow](https://github.com/fairgenomes/information/blob/master/fairgenomes_semantic_model/Genomic%20workflow.png) -->
