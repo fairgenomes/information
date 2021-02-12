@@ -35,9 +35,6 @@
         <Class IRI="#Individual_consent_information"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Information_consent_form_signing_date"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Materials_information"/>
     </Declaration>
     <Declaration>
@@ -62,12 +59,6 @@
         <Class IRI="#Sequencing_information"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Study_ID"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Study_Name"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Study_information"/>
     </Declaration>
     <Declaration>
@@ -75,6 +66,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Information_consent_form_signing_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Study_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Study_Name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdf:type"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
@@ -96,10 +99,6 @@
         <Class IRI="#Consent_information"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Information_consent_form_signing_date"/>
-        <Class IRI="#Individual_consent_information"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#NGSkits"/>
         <Class IRI="#Sample_preparation_information"/>
     </SubClassOf>
@@ -116,14 +115,6 @@
         <Class IRI="#Sequencing_information"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Study_ID"/>
-        <Class IRI="#Study_information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Study_Name"/>
-        <Class IRI="#Study_information"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Information_on_leaflet:_Title"/>
         <Class IRI="#General_Consent_information"/>
     </SubClassOf>
@@ -131,6 +122,23 @@
         <Class IRI="#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies"/>
         <Class IRI="#NGSkits"/>
     </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Information_consent_form_signing_date"/>
+        <Class IRI="#Individual_consent_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Study_ID"/>
+        <Class IRI="#Study_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Study_Name"/>
+        <Class IRI="#Study_information"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:type"/>
+        <IRI>#Individual_ID</IRI>
+        <IRI>http://edamontology.org/data_0842</IRI>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies</IRI>
