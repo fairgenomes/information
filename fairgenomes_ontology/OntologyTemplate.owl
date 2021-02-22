@@ -14,61 +14,337 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Algorithms_used"/>
+        <Class IRI="#Analysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Analysis_information"/>
+        <Class IRI="#Clinical"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Clinical_information"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Consent_information"/>
+        <Class IRI="#Consent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#General_Consent_information"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Individual_ID"/>
+        <Class IRI="#IndividualConsent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Individual_consent_information"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Materials_information"/>
+        <Class IRI="#Material"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NGSkits"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Personal_information"/>
+        <Class IRI="#Personal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal_Identifier"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Phenotypic_terms"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sample_preparation_information"/>
+        <Class IRI="#Sample_preparation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sampling_time_stamp"/>
+        <Class IRI="#Sequencing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sequencing_date"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sequencing_information"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Study_information"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Information_on_leaflet:_Title"/>
+        <Class IRI="#Study"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/edam#identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AbstractDataLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AgeAtDeath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AgeAtDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AgeAtLastScreening"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AgeOfOnset"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AlgorithmUsed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AllowLinkage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AllowRecontacting"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AllowResearch"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AnalysisIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AnatomicalSource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AverageReadDepth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BelongsToDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BelongsToMaterial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BelongsToPerson"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BelongsToSample"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BelongsToSequencing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bioinformatic_protocol_used"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ClinicalDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ClinicalIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CollectedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CompletionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Consanguinity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConsentFormAcceptedDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConsentFormCreator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConsentFormIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConsentFormUsed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConsentFormValidUntil"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ConsentFormVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ContactInformation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CountryOfResidence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DataFormatsStored"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DerivedFrom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Deviation_from_protocol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DrugRegimen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ExpirationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FamilyMembersAffected"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FamilyMembersSequenced"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FirstContact"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Functioning"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GenotypicSex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InclusionCriteria"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InclusionStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IndividualConsentIdentifier"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Information_consent_form_signing_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InputAmount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IntendedInsertSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IntendedReadLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LeafletDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LeafletTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LeafletVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LibraryPreparationKit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MaterialIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MaterialType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MedicalHistory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Medication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MolecularDiagnosisGene"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MolecularDiagnosisOther"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ObservedInsertSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ObservedReadLength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OtherQualityMetrics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PCR_Free"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ParticipatesInStudy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PercentageQ30"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PercentageTR20"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PercentageTumorCells"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PersonalIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Phenotype"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PhenotypicDataAvailable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PhysicalDataLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PhysicalLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PrimaryAffiliatedInstitute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PrincipalInvestigator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Reason_for_deviation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RegistrationTimestamp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RepresentedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ResourcesInOtherInstitutes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RestrictedTo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RestrictionSpecification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SampleprepIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SamplingProtocol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SamplingTimestamp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SequencingDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SequencingInstrumentModel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SequencingPlatform"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SequencingType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sequencing_identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SigningDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SourceType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StorageConditions"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StudyDesign"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Study_ID"/>
@@ -77,67 +353,2752 @@
         <DataProperty IRI="#Study_Name"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#TargetEnrichmentKit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UMIsPresent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UnobservedPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ValidFrom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ValidUntil"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#WGS_guideline_followed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOntology"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/YearOfBrth"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AbstractDataLocation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AgeAtDeath"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AgeAtDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AgeAtLastScreening"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AgeOfOnset"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AlgorithmUsed"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AllowLinkage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AllowRecontacting"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AllowResearch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AnalysisIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AnatomicalSource"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#AverageReadDeath"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#BelongsToDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#BelongsToMaterial"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#BelongsToPerson"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#BelongsToSample"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#BelongsToSequencing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Bioinformatic_protocol_used"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ClinicalDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ClinicalIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#CollectedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#CompletionDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Consanguinity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ConsentFormAcceptedDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ConsentFormCreator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ConsentFormIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ConsentFormUsed"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ConsentFormValidUntil"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ConsentFormVersion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ContactInformation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#CountryOfResidence"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#DataFormatsStored"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#DerivedFrom"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Deviation_from_protocol"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#DrugRegimen"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ExpirationDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#FamilyMembersAffected"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#FamilyMembersSequenced"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#FirstContact"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Functioning"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#GenotypicSex"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#InclusionCriteria"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#InclusionStatus"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#IndividualConsentIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#InputAmount"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#IntendedInsertSize"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#IntendedReadLength"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#LeafletDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#LeafletTitle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#LeafletVersion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#LibraryPreparationKit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#MaterialIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#MedicalHistory"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Medication"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#MolecularDiagnosisGene"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#MolecularDiagnosisOther"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ObservedInsertSize"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ObservedReadLength"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OtherQualityMetrics"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PCR_Free"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ParticipatesInStudy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PercentageQ30"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PercentageTR20"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PercentageTumorCells"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PersonalIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Phenotype"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PhenotypicDataAvailable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PhysicalDataLocation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PhysicalLocation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PrimaryAffiliatedInstitute"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#PrincipalInvestigator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Reason_for_deviation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RegistrationTimestamp"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RepresentedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ResourcesInOtherInstitutes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RestrictedTo"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#RestrictionSpecification"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SampleprepIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SamplingProtocol"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SamplingTimestamp"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SequencingDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SequencingInstrumentModel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SequencingPlatform"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SequencingType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Sequencing_identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SigningDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#SourceType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#StartDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#StorageConditions"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#StudyDesign"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#TargetEnrichmeKit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#TargetEnrichmentKit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#UMIsPresent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#UnobservedPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ValidFrom"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ValidUntil"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#WGS_guideline_followed"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/#MaterialType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/#YearOfBirth"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdf:type"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#Algorithms_used"/>
-        <Class IRI="#Analysis_information"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#General_Consent_information"/>
-        <Class IRI="#Consent_information"/>
+        <Class IRI="#Consent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Individual_ID"/>
-        <Class IRI="#Personal_information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Individual_consent_information"/>
-        <Class IRI="#Consent_information"/>
+        <Class IRI="#IndividualConsent"/>
+        <Class IRI="#Consent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NGSkits"/>
-        <Class IRI="#Sample_preparation_information"/>
+        <Class IRI="#Sample_preparation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personal_Identifier"/>
+        <Class IRI="#Personal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Phenotypic_terms"/>
-        <Class IRI="#Clinical_information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Sampling_time_stamp"/>
-        <Class IRI="#Materials_information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Sequencing_date"/>
-        <Class IRI="#Sequencing_information"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Information_on_leaflet:_Title"/>
-        <Class IRI="#General_Consent_information"/>
+        <Class IRI="#Clinical"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies"/>
         <Class IRI="#NGSkits"/>
     </SubClassOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOntology"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#Information_consent_form_signing_date"/>
-        <Class IRI="#Individual_consent_information"/>
+        <Class IRI="#IndividualConsent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Study_ID"/>
-        <Class IRI="#Study_information"/>
+        <Class IRI="#Study"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Study_Name"/>
-        <Class IRI="#Study_information"/>
+        <Class IRI="#Study"/>
     </DataPropertyDomain>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/Gender</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/Gender</IRI>
+        <Literal>Biological sex is the quality of a biological organism based on reproductive function or organs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/Gender</IRI>
+        <Literal>Gender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.obolibrary.org/obo/edam#identifier</IRI>
+        <Literal>An alphanumeric identifier assigned to a specific patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/edam#identifier</IRI>
+        <Literal>Personal identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C142494 [http://purl.obolibrary.org/obo/NCIT_C142494]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>To maintain data by placing the data, or a copy of the data, onto an electronically accessible device for preservation (either in plain-text or encrypted format).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Abstract data location</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AbstractDataLocation"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Algorithms used</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AlgorithmUsed"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: AFR:0001979 [http://purl.allotrope.org/ontologies/result#AFR_0001979</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An assay identifier is an identifier that identifies some assay (analysis).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Analysis identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AnalysisIdentifier"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceOne [Sequencing]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Link to the sequencing performed i.e. source on which the analysis is based.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Belongs to sequencing</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#BelongsToSequencing"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>EDAM:data_2531 [http://edamontology.org/data_2531]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Bioinformatic protocol used</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Bioinformatic_protocol_used"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>EDAM:format_1915 [http://edamontology.org/format_1915]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/DataFormats.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Data formats stored</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#DataFormatsStored"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Deviation from protocol</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Deviation_from_protocol"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Physical data location</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PhysicalDataLocation"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The rationale for why a deviation from the bioinformatic protocol has occurred.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Reason for deviation</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Reason_for_deviation"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C17564 [http://purl.obolibrary.org/obo/NCIT_C17564]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>WGS guideline followed</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#WGS_guideline_followed"/>
+        <IRI>#Analysis</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Analysis</IRI>
+        <Literal>Analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <IRI>#Clinical</IRI>
+        <Literal>NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Age at diagnosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AgeAtDiagnosis"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C81258 [http://purl.obolibrary.org/obo/NCIT_C81258]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Age of the patient at the moment of the most recent screening.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Age at last screening</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AgeAtLastScreening"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Age of onset of clinical manifestations related to a clinical entity.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Age of onset</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AgeOfOnset"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:000641 [http://semanticscience.org/resource/SIO_000641]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>This diagnosis c.q. clinical examination is based on one or more sampled materials. [WORK IN PROGRESS. This field should be proper ReferenceMany to Material, but this is technically problematic due to circular dependencies.]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Belongs to material</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#BelongsToMaterial"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceOne [Personal]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Link to the person whom the clinical information is about.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Belongs to person</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#BelongsToPerson"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/Diseases.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A diagnosis made from a study of the signs and symptoms of a disease.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Clinical diagnosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ClinicalDiagnosis"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C87853 [http://purl.obolibrary.org/obo/NCIT_C87853]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A character or string used to name, or characterize a clinical events reference.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Clinical identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ClinicalIdentifier"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Information on whether the patient is a child from two family members who are second cousins or closer.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Consanguinity</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Consanguinity"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C142516 [http://purl.obolibrary.org/obo/NCIT_C142516]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Drug regimen</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#DrugRegimen"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/FamilyMembers.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Family members affected</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#FamilyMembersAffected"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C71384 [http://purl.obolibrary.org/obo/NCIT_C71384]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/FamilyMembers.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A person related by descent rather than by marriage or law that was also sequenced.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Family members sequenced</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#FamilyMembersSequenced"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>First contact with specialised center in context of disease or inclusion.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>First contact</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#FirstContact"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Patient&apos;s classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Functioning</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Functioning"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/MedicalHistory.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A record of a person&apos;s background regarding health, occurrence of disease events and surgical procedures.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Medical history</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#MedicalHistory"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>EDAM:data_3103 [http://edamontology.org/data_3103]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/Drugs.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Medication</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Medication"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/Genes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Gene affected by pathogenic variation that is causal for disease of the patient.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Molecular diagnosis gene</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#MolecularDiagnosisGene"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Molecular diagnosis other</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#MolecularDiagnosisOther"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C16977 [http://purl.obolibrary.org/obo/NCIT_C16977]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/Phenotypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Phenotype</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Phenotype"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:DCMIType [http://purl.org/dc/terms/DCMIType]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/DCMITypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Types of phenotypic data collected in a clinical setting that is potentially available upon request.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Phenotypic data available</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PhenotypicDataAvailable"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>HL7:C0442737 [http://purl.bioontology.org/ontology/HL7/C0442737]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/Phenotypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Unobserved phenotype</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#UnobservedPhenotype"/>
+        <IRI>#Clinical</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clinical</IRI>
+        <Literal>Data obtained through patient examination or treatment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clinical</IRI>
+        <Literal>Clinical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal>NCIT:C16468 [http://purl.obolibrary.org/obo/NCIT_C16468]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:dateAccepted [http://purl.org/dc/terms/dateAccepted]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Date of acceptance of the resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Consent form accepted date</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ConsentFormAcceptedDate"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Consent form creator</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ConsentFormCreator"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:identifier [http://purl.org/dc/terms/identifier]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Consent form identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ConsentFormIdentifier"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>End date of the validity of a resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Consent form valid until</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ConsentFormValidUntil"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A related resource that is a version, edition, or adaptation of the described resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Consent form version</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ConsentFormVersion"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:date [http://purl.org/dc/terms/date]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A point or period of time associated with an event in the lifecycle of the resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Leaflet date</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#LeafletDate"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:title [http://purl.org/dc/terms/title]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A name given to the resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Leaflet title</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#LeafletTitle"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A related resource that is a version, edition, or adaptation of the described resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Leaflet version</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#LeafletVersion"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal>A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#General_Consent_information</IRI>
+        <Literal>Leaflet and consent form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GenotypicSex</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal>NCIT:C16735 [http://purl.obolibrary.org/obo/NCIT_C16735]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A study in which data from different sources are &quot;linked&quot;. Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Allow linkage</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AllowLinkage"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany_NoGlobals [lookups/Recontacting.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Allow recontacting</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AllowRecontacting"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Allow research</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AllowResearch"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Indicates the person, group, or institution who performed the collection act.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Collected by</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#CollectedBy"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceOne [Leaflet and consent form]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The informed consent form that was signed.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Consent form used</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ConsentFormUsed"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A data item consisting of a unique identification code designating an informed consent.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Individual consent identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#IndividualConsentIdentifier"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceOne [Personal]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The person (subject) whom this individual consent applies.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Personal identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PersonalIdentifier"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Represented by</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#RepresentedBy"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany_NoGlobals [lookups/DataUseRestrictions.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Restricted to</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#RestrictedTo"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:000090 [http://semanticscience.org/resource/SIO_000090]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Restriction specification</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#RestrictionSpecification"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ICO:0000036 [http://purl.obolibrary.org/obo/ICO_0000036]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A date specification that designates when an informed consent form was signed.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Signing date</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SigningDate"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Starting date of the validity of a resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Valid from</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ValidFrom"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>End date of the validity of a resource.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Valid until</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ValidUntil"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal>Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#IndividualConsent</IRI>
+        <Literal>Individual consent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <IRI>#Material</IRI>
+        <Literal>NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/AnatomicalSources.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Biological entity that constitutes the structural organization of an individual member of a biological species.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Anatomical source</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AnatomicalSource"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:000068 [http://semanticscience.org/resource/SIO_000068]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceMany [Clinical]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>This material is part of a diagnosis c.q. clinical examination. There can be multiple diagnoses when a non-tumor material is reused as reference.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Belongs to diagnosis</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#BelongsToDiagnosis"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:000244 [http://semanticscience.org/resource/SIO_000244]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceOne [Personal]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Link to the person from whom the material was collected.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Belongs to person</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#BelongsToPerson"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A material produced from or related to another. [WORK IN PROGRESS. This field should be proper ReferenceOne to Material, but this is technically problematic due to circular dependencies.]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Derived from</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#DerivedFrom"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Deviation from protocol</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Deviation_from_protocol"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C164516 [http://purl.obolibrary.org/obo/NCIT_C164516]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The date beyond which a substance is no longer regarded as fit for use.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Expiration date</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ExpirationDate"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The unique identification of a material in a specific context.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Material identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#MaterialIdentifier"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Decimal</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Percentage tumor cells</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PercentageTumorCells"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Physical location</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PhysicalLocation"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The rationale for why a deviation from the sampling protocol has occurred.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Reason for deviation</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Reason_for_deviation"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C25646 [http://purl.obolibrary.org/obo/NCIT_C25646]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>DateTime</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The act of listing or recording officially; officially qualified or enrolled.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Registration timestamp</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#RegistrationTimestamp"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>EFO:0005518 [http://www.ebi.ac.uk/efo/EFO_0005518]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Describes the procedure whereby biological material for an experiment is sampled.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sampling protocol</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SamplingProtocol"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>values: DateTime</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Date and time at which this sample was collected.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sampling timestamp</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SamplingTimestamp"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C164617 [http://purl.obolibrary.org/obo/NCIT_C164617]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/SourceTypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A coded value specifying the type of tissue from which the biospecimen is derived.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Source type</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SourceType"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/StorageConditions.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The conditions specified for the storage of a biological material.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Storage conditions</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#StorageConditions"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/MaterialTypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Material distinguishable as an identifiable class based on common qualities.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Material type</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="/#MaterialType"/>
+        <IRI>#Material</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Material</IRI>
+        <Literal>Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Material</IRI>
+        <Literal>Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:010029 [https://semanticscience.org/resource/SIO_010029.rdf]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/Gender.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Biological sex is the quality of a biological organism based on reproductive function or organs.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Gender</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
+        <IRI>#Personal</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The age at which death occurred.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Age at death</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AgeAtDeath"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C171105 [http://purl.obolibrary.org/obo/NCIT_C171105]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/Countries.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Country of Residence at Enrollment.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Country of residence</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#CountryOfResidence"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>PATO:0020000 [http://purl.obolibrary.org/obo/PATO_0020000]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/GenotypicSex.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Genotypic sex</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#GenotypicSex"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/InclusionCriteria.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Inclusion criteria</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#InclusionCriteria"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>values: LookupOne [lookups/InclusionStatus.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An indicator that provides information on the current health status of a patient.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Inclusion status</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#InclusionStatus"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceMany [Study]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>description: The study or studies in which this person participates.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Participates in study</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ParticipatesInStudy"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Primary affiliated institute</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PrimaryAffiliatedInstitute"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupMany [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Resources in other institutes</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ResourcesInOtherInstitutes"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The year in which a person was born.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Year of birth</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="/#YearOfBirth"/>
+        <IRI>#Personal</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Personal</IRI>
+        <Literal>Data, facts or figures about an individual; the set of relevant items would depend on the use case.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <IRI>#Personal_Identifier</IRI>
+        <Literal>NCIT:C164337 [http://purl.obolibrary.org/obo/NCIT_C164337]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+        <IRI>#Personal_Identifier</IRI>
+        <Literal>UniqueID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdf:type"/>
-        <IRI>#Individual_ID</IRI>
+        <IRI>#Personal_Identifier</IRI>
         <IRI>http://edamontology.org/data_0842</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Personal_Identifier</IRI>
+        <Literal>Personal identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceOne [Material]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Link to the source material from which this sample was prepared.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Belongs to material</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#BelongsToMaterial"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Amount of input material in ng.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Input amount</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#InputAmount"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>FG:IntendedInsertSize [https://fair-genomes.org/IntendedInsertSize]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Intended insert size</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#IntendedInsertSize"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Intended read length</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#IntendedReadLength"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/NGSKits.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Library preparation kit</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#LibraryPreparationKit"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>PCR free</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PCR_Free"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C132299 [http://purl.obolibrary.org/obo/NCIT_C132299]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Any of one or more unique codes that refers to a specific protocol.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sampleprep identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SampleprepIdentifier"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/NGSKits.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Any of various techniques designed to select or increase a target item in a mixed sample.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Target enrichment kit</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#TargetEnrichmeKit"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>UMIs present</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#UMIsPresent"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Average read depth</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#AverageReadDeath"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>ReferenceOne [Sample preparation]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Link to the prepared sample i.e. source that was sequenced.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Belongs to sample</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#BelongsToSample"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>FG:ObservedInsertSize [https://fair-genomes.org/ObservedInsertSize]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Observed insert size</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ObservedInsertSize"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>.NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Observed read length</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ObservedReadLength"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>ontology: EDAM:data_3914 [http://edamontology.org/data_3914]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Other NGS quality control metrics, including but not limited to (i) sequencer metrics such as yield, error rate, density (K/mm2), cluster PF (%) and phas/prephas (%), (ii) alignment metrics such as QM insert size, GC content, QM duplicated reads (%), QM error rate, uniformity/evenness of coverage and maternal cell contamination, and (iii) variant call metrics such as number of SNVs/CNVs/SVs called, number of missense/nonsense variants, common variants (%), unique variants (%), gender match and trio inheritance check.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Other Quality Metrics</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#OtherQualityMetrics"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GENEPIO:0000089 [http://purl.obolibrary.org/obo/GENEPIO_0000089]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Decimal</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Percentage of reads with a Phred quality score over 30, which indicates less than a 1/1000 chance that the base was called incorrectly.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Percentage Q30</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PercentageQ30"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>FG:PercentageTR20 [https://fair-genomes.org/PercentageTR20]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Decimal</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Percentage of the target sequence on which 20 or more unique reads were successfully mapped.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Percentage TR20</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PercentageTR20"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GENEPIO:0000069 [http://purl.obolibrary.org/obo/GENEPIO_0000069]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>description: Date the sequencing run was performed.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sequencing date</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SequencingDate"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GENEPIO:0001921 [http://purl.obolibrary.org/obo/GENEPIO_0001921]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/SequencingInstrumentModels.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A product name and model number of a manufacturer&apos;s genomic (dna) sequencer.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sequencing instrument model</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SequencingInstrumentModel"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/SequencingPlatform.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A sequencing plaform (brand) is a name of a company that produces sequencer equipment.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sequencing platform</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SequencingPlatform"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>LookupOne [lookups/SequencingTypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Sequencing distinguishable as an identifiable class based on common qualities.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sequencing type</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#SequencingType"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A unique identifier assigned to raw data from a performed nucleic acid sequencing assay.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Sequencing identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Sequencing_identifier"/>
+        <IRI>#Sequencing</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C142702 [http://purl.obolibrary.org/obo/NCIT_C142702]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Completion date</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#CompletionDate"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>An email address for the purpose of contacting a sample collection or study contact person.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Contact information</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#ContactInformation"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A textual entity describing a study aim or a sample collection.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Description</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Description"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A sample collection or study proper name that is centrally registered and unique within one framework.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Identifier</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Identifier"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A proper name that designates a study.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Name</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#Name"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The principle investigtor or responsible person for a study or a sample collection.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Principal investigator</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#PrincipalInvestigator"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The date on which a study began.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Start date</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#StartDate"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+            <Literal>OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+            <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Study design</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#StudyDesign"/>
+        <IRI>#Study</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Study</IRI>
+        <Literal>A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Study</IRI>
+        <Literal>Study</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -148,6 +3109,11 @@
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#exactMatch"/>
         <IRI>#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.biocompare.com/9479-Adapters-Cassettes/13423323-NEXTFLEX-Unique-Dual-Index-Barcodes/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <Literal>A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
