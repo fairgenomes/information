@@ -371,16 +371,16 @@
         <DataProperty IRI="#WGS_guideline_followed"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasOntology"/>
+        <DataProperty IRI="#rdfs:isDefinedBy"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="/YearOfBrth"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
@@ -729,7 +729,7 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#hasOntology"/>
+        <DataProperty IRI="#rdfs:isDefinedBy"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
@@ -770,13 +770,18 @@
         <Literal>Personal identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C142494 [http://purl.obolibrary.org/obo/NCIT_C142494]</Literal>
-        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+        <IRI>#Analysis</IRI>
+        <Literal>EDAM:operation_2945 [http://edamontology.org/operation_2945]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C142494 [http://purl.obolibrary.org/obo/NCIT_C142494]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -792,12 +797,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -813,12 +818,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: AFR:0001979 [http://purl.allotrope.org/ontologies/result#AFR_0001979</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: AFR:0001979 [http://purl.allotrope.org/ontologies/result#AFR_0001979</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -834,12 +839,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceOne [Sequencing]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -855,12 +860,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>EDAM:data_2531 [http://edamontology.org/data_2531]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>EDAM:data_2531 [http://edamontology.org/data_2531]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -876,12 +881,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>EDAM:format_1915 [http://edamontology.org/format_1915]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/DataFormats.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>EDAM:format_1915 [http://edamontology.org/format_1915]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -897,12 +902,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -918,12 +923,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -939,12 +944,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -960,12 +965,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C17564 [http://purl.obolibrary.org/obo/NCIT_C17564]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C17564 [http://purl.obolibrary.org/obo/NCIT_C17564]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -980,23 +985,28 @@
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Analysis</IRI>
+        <Literal>Apply analytical methods to existing data of a specific type.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Analysis</IRI>
         <Literal>Analysis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
         <IRI>#Clinical</IRI>
         <Literal>NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1012,12 +1022,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C81258 [http://purl.obolibrary.org/obo/NCIT_C81258]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C81258 [http://purl.obolibrary.org/obo/NCIT_C81258]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1033,12 +1043,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1054,12 +1064,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:000641 [http://semanticscience.org/resource/SIO_000641]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:000641 [http://semanticscience.org/resource/SIO_000641]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1075,12 +1085,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceOne [Personal]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1096,12 +1106,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/Diseases.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1117,12 +1127,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C87853 [http://purl.obolibrary.org/obo/NCIT_C87853]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C87853 [http://purl.obolibrary.org/obo/NCIT_C87853]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1138,12 +1148,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1159,12 +1169,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C142516 [http://purl.obolibrary.org/obo/NCIT_C142516]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C142516 [http://purl.obolibrary.org/obo/NCIT_C142516]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1180,12 +1190,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/FamilyMembers.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1201,12 +1211,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C71384 [http://purl.obolibrary.org/obo/NCIT_C71384]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/FamilyMembers.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C71384 [http://purl.obolibrary.org/obo/NCIT_C71384]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1222,12 +1232,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1243,12 +1253,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1264,12 +1274,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/MedicalHistory.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1285,12 +1295,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>EDAM:data_3103 [http://edamontology.org/data_3103]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/Drugs.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>EDAM:data_3103 [http://edamontology.org/data_3103]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1306,12 +1316,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/Genes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1327,12 +1337,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1348,12 +1358,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C16977 [http://purl.obolibrary.org/obo/NCIT_C16977]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/Phenotypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C16977 [http://purl.obolibrary.org/obo/NCIT_C16977]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1369,12 +1379,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:DCMIType [http://purl.org/dc/terms/DCMIType]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/DCMITypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:DCMIType [http://purl.org/dc/terms/DCMIType]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1390,12 +1400,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>HL7:C0442737 [http://purl.bioontology.org/ontology/HL7/C0442737]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/Phenotypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>HL7:C0442737 [http://purl.bioontology.org/ontology/HL7/C0442737]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1420,18 +1430,18 @@
         <Literal>Clinical</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
         <IRI>#General_Consent_information</IRI>
         <Literal>NCIT:C16468 [http://purl.obolibrary.org/obo/NCIT_C16468]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:dateAccepted [http://purl.org/dc/terms/dateAccepted]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:dateAccepted [http://purl.org/dc/terms/dateAccepted]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1447,12 +1457,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1468,12 +1478,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:identifier [http://purl.org/dc/terms/identifier]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:identifier [http://purl.org/dc/terms/identifier]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1489,12 +1499,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1510,12 +1520,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1531,12 +1541,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:date [http://purl.org/dc/terms/date]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:date [http://purl.org/dc/terms/date]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1552,12 +1562,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:title [http://purl.org/dc/terms/title]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:title [http://purl.org/dc/terms/title]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1573,12 +1583,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1605,21 +1615,21 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GenotypicSex</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
         <IRI>#IndividualConsent</IRI>
         <Literal>NCIT:C16735 [http://purl.obolibrary.org/obo/NCIT_C16735]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1635,12 +1645,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany_NoGlobals [lookups/Recontacting.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1656,12 +1666,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1677,12 +1687,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1698,12 +1708,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceOne [Leaflet and consent form]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1719,12 +1729,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1740,12 +1750,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceOne [Personal]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1761,12 +1771,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1782,12 +1792,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany_NoGlobals [lookups/DataUseRestrictions.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1803,12 +1813,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:000090 [http://semanticscience.org/resource/SIO_000090]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:000090 [http://semanticscience.org/resource/SIO_000090]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1824,12 +1834,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ICO:0000036 [http://purl.obolibrary.org/obo/ICO_0000036]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ICO:0000036 [http://purl.obolibrary.org/obo/ICO_0000036]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1845,12 +1855,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1866,12 +1876,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>DC:valid [http://purl.org/dc/terms/valid]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1896,18 +1906,18 @@
         <Literal>Individual consent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
         <IRI>#Material</IRI>
         <Literal>NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/AnatomicalSources.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1923,12 +1933,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:000068 [http://semanticscience.org/resource/SIO_000068]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceMany [Clinical]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:000068 [http://semanticscience.org/resource/SIO_000068]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1944,12 +1954,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:000244 [http://semanticscience.org/resource/SIO_000244]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceOne [Personal]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:000244 [http://semanticscience.org/resource/SIO_000244]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1965,12 +1975,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1986,12 +1996,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2007,12 +2017,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C164516 [http://purl.obolibrary.org/obo/NCIT_C164516]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C164516 [http://purl.obolibrary.org/obo/NCIT_C164516]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2028,12 +2038,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2049,12 +2059,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Decimal</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2070,12 +2080,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2091,12 +2101,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2112,12 +2122,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C25646 [http://purl.obolibrary.org/obo/NCIT_C25646]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>DateTime</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C25646 [http://purl.obolibrary.org/obo/NCIT_C25646]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2133,12 +2143,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>EFO:0005518 [http://www.ebi.ac.uk/efo/EFO_0005518]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>EFO:0005518 [http://www.ebi.ac.uk/efo/EFO_0005518]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2154,12 +2164,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>values: DateTime</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2175,12 +2185,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C164617 [http://purl.obolibrary.org/obo/NCIT_C164617]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/SourceTypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C164617 [http://purl.obolibrary.org/obo/NCIT_C164617]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2196,12 +2206,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/StorageConditions.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2217,12 +2227,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/MaterialTypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2247,13 +2257,18 @@
         <Literal>Material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:010029 [https://semanticscience.org/resource/SIO_010029.rdf]</Literal>
-        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+        <IRI>#Personal</IRI>
+        <Literal>NCIT:C90492 [http://purl.obolibrary.org/obo/NCIT_C90492]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/Gender.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:010029 [https://semanticscience.org/resource/SIO_010029.rdf]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2265,16 +2280,16 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
         <IRI>#Personal</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <AnonymousIndividual nodeID="_:genid2147483651"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2290,12 +2305,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C171105 [http://purl.obolibrary.org/obo/NCIT_C171105]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/Countries.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C171105 [http://purl.obolibrary.org/obo/NCIT_C171105]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2311,12 +2326,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>PATO:0020000 [http://purl.obolibrary.org/obo/PATO_0020000]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/GenotypicSex.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>PATO:0020000 [http://purl.obolibrary.org/obo/PATO_0020000]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2332,12 +2347,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/InclusionCriteria.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2353,12 +2368,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>values: LookupOne [lookups/InclusionStatus.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2374,12 +2389,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceMany [Study]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2395,12 +2410,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2416,12 +2431,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupMany [lookups/Institutes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2437,12 +2452,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2462,14 +2477,19 @@
         <Literal>Data, facts or figures about an individual; the set of relevant items would depend on the use case.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-        <IRI>#Personal_Identifier</IRI>
-        <Literal>NCIT:C164337 [http://purl.obolibrary.org/obo/NCIT_C164337]</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Personal</IRI>
+        <Literal>Personal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
         <IRI>#Personal_Identifier</IRI>
         <Literal>UniqueID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+        <IRI>#Personal_Identifier</IRI>
+        <Literal>NCIT:C164337 [http://purl.obolibrary.org/obo/NCIT_C164337]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdf:type"/>
@@ -2482,13 +2502,18 @@
         <Literal>Personal identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
-        </Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal>OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceOne [Material]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2504,12 +2529,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2525,12 +2550,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>FG:IntendedInsertSize [https://fair-genomes.org/IntendedInsertSize]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>FG:IntendedInsertSize [https://fair-genomes.org/IntendedInsertSize]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2546,12 +2571,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2567,12 +2592,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/NGSKits.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2588,12 +2613,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2609,12 +2634,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C132299 [http://purl.obolibrary.org/obo/NCIT_C132299]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C132299 [http://purl.obolibrary.org/obo/NCIT_C132299]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2630,12 +2655,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/NGSKits.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2651,12 +2676,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Boolean</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2671,13 +2696,28 @@
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]</Literal>
-        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal>A sample preparation for assay that preparation of nucleic acids for a sequencing assay.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sample_preparation</IRI>
+        <Literal>Sample preparation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+        <IRI>#Sequencing</IRI>
+        <Literal>EDAM:topic_3168 [http://edamontology.org/topic_3168]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2693,12 +2733,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>ReferenceOne [Sample preparation]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2714,12 +2754,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>FG:ObservedInsertSize [https://fair-genomes.org/ObservedInsertSize]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>FG:ObservedInsertSize [https://fair-genomes.org/ObservedInsertSize]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2735,12 +2775,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>.NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Integer</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>.NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2756,12 +2796,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>ontology: EDAM:data_3914 [http://edamontology.org/data_3914]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>ontology: EDAM:data_3914 [http://edamontology.org/data_3914]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2777,12 +2817,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GENEPIO:0000089 [http://purl.obolibrary.org/obo/GENEPIO_0000089]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Decimal</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GENEPIO:0000089 [http://purl.obolibrary.org/obo/GENEPIO_0000089]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2798,12 +2838,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>FG:PercentageTR20 [https://fair-genomes.org/PercentageTR20]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Decimal</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>FG:PercentageTR20 [https://fair-genomes.org/PercentageTR20]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2819,12 +2859,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GENEPIO:0000069 [http://purl.obolibrary.org/obo/GENEPIO_0000069]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GENEPIO:0000069 [http://purl.obolibrary.org/obo/GENEPIO_0000069]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2840,12 +2880,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GENEPIO:0001921 [http://purl.obolibrary.org/obo/GENEPIO_0001921]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/SequencingInstrumentModels.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GENEPIO:0001921 [http://purl.obolibrary.org/obo/GENEPIO_0001921]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2861,12 +2901,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/SequencingPlatform.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2882,12 +2922,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>LookupOne [lookups/SequencingTypes.txt]</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2903,12 +2943,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2923,13 +2963,28 @@
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C142702 [http://purl.obolibrary.org/obo/NCIT_C142702]</Literal>
-        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sequencing</IRI>
+        <Literal>The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sequencing</IRI>
+        <Literal>Sequencing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+        <IRI>#Study</IRI>
+        <Literal>NCIT:C63536 [http://purl.obolibrary.org/obo/NCIT_C63536]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C142702 [http://purl.obolibrary.org/obo/NCIT_C142702]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2945,12 +3000,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2966,12 +3021,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2987,12 +3042,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>UniqueID</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3008,12 +3063,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3029,12 +3084,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>String</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3050,12 +3105,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Date</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3071,12 +3126,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasOntology"/>
-            <Literal>OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]</Literal>
-        </Annotation>
-        <Annotation>
             <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
             <Literal>Text</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+            <Literal>OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3112,7 +3167,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
         <Literal>A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</Literal>
     </AnnotationAssertion>
 </Ontology>
