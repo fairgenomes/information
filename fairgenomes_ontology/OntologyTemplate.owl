@@ -59,7 +59,103 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/edam#identifier"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
+        <ObjectProperty IRI="#AllowRecontacting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AnatomicalSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ClinicalDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CollectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ConsentFormCreator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CountryOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CountryOfResidence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DataFormatsStored"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ethnicity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#FamilyMembersAffected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#FamilyMembersSequenced"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GenotypicSex"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InclusionCriteria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InclusionStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LibraryPreparationKit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MaterialType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MedicalHistory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Medication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MolecularDiagnosisGene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PercentageQ30"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Phenotype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PhenotypicDataAvailable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PrimaryAffiliatedInstitute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ResourcesInOtherInstitutes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#RestrictedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SequencingInstrumentModel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SequencingPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SequencingType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SourceType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#StorageConditions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TargetEnrichmentKit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UnobservedPhenotype"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#AbstractDataLocation"/>
@@ -83,16 +179,10 @@
         <DataProperty IRI="#AllowLinkage"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#AllowRecontacting"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#AllowResearch"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#AnalysisIdentifier"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#AnatomicalSource"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#AverageReadDepth"/>
@@ -116,13 +206,7 @@
         <DataProperty IRI="#Bioinformatic_protocol_used"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#ClinicalDiagnosis"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#ClinicalIdentifier"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#CollectedBy"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#CompletionDate"/>
@@ -132,9 +216,6 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ConsentFormAcceptedDate"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#ConsentFormCreator"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ConsentFormIdentifier"/>
@@ -152,12 +233,6 @@
         <DataProperty IRI="#ContactInformation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#CountryOfResidence"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DataFormatsStored"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#DerivedFrom"/>
     </Declaration>
     <Declaration>
@@ -173,28 +248,13 @@
         <DataProperty IRI="#ExpirationDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#FamilyMembersAffected"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#FamilyMembersSequenced"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#FirstContact"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Functioning"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#GenotypicSex"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#Identifier"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#InclusionCriteria"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#InclusionStatus"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#IndividualConsentIdentifier"/>
@@ -221,22 +281,7 @@
         <DataProperty IRI="#LeafletVersion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#LibraryPreparationKit"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#MaterialIdentifier"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#MaterialType"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#MedicalHistory"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Medication"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#MolecularDiagnosisGene"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#MolecularDiagnosisOther"/>
@@ -272,19 +317,10 @@
         <DataProperty IRI="#PersonalIdentifier"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Phenotype"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#PhenotypicDataAvailable"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#PhysicalDataLocation"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#PhysicalLocation"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#PrimaryAffiliatedInstitute"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#PrincipalInvestigator"/>
@@ -297,12 +333,6 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#RepresentedBy"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#ResourcesInOtherInstitutes"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#RestrictedTo"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#RestrictionSpecification"/>
@@ -320,28 +350,13 @@
         <DataProperty IRI="#SequencingDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#SequencingInstrumentModel"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#SequencingPlatform"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#SequencingType"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#Sequencing_identifier"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#SigningDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#SourceType"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#StartDate"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#StorageConditions"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#StudyDesign"/>
@@ -353,13 +368,7 @@
         <DataProperty IRI="#Study_Name"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#TargetEnrichmentKit"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#UMIsPresent"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#UnobservedPhenotype"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ValidFrom"/>
@@ -725,10 +734,6 @@
         <Class IRI="#NGSkits"/>
     </SubClassOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="#rdfs:isDefinedBy"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -744,21 +749,6 @@
         <DataProperty IRI="#Study_Name"/>
         <Class IRI="#Study"/>
     </DataPropertyDomain>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/Gender</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.obolibrary.org/obo/Gender</IRI>
-        <Literal>Biological sex is the quality of a biological organism based on reproductive function or organs.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/Gender</IRI>
-        <Literal>Gender</Literal>
-    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.obolibrary.org/obo/edam#identifier</IRI>
@@ -1615,7 +1605,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#GenotypicSex</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
@@ -2280,7 +2270,7 @@
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/Gender"/>
         <IRI>#Personal</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483651"/>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -3167,7 +3157,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
         <Literal>A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</Literal>
     </AnnotationAssertion>
 </Ontology>
