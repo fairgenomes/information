@@ -1,0 +1,2240 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/fairgenomes/ontology"
+     xml:base="http://purl.org/fairgenomes/ontology"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs1="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:"
+     xmlns:ontology="http://purl.org/fairgenomes/ontology#"
+     xmlns:ontology2="http://purl.obolibrary.org/fairgenomes/ontology#"
+     xmlns:ontology3="http://purl.org/fairgenomes/ontology/#">
+    <owl:Ontology rdf:about="http://purl.org/fairgenomes/ontology">
+        <owl:versionIRI rdf:resource="http://purl.org/fairgenomes/ontology1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/fairgenomes/ontology#hasValue -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/fairgenomes/ontology#hasValue"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/fairgenomes/ontology#rdfs:isDefinedBy"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/Gender -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/Gender">
+        <ontology2:hasValue>LookupOne [lookups/Gender.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>SIO:010029 [https://semanticscience.org/resource/SIO_010029.rdf]</rdfs1:isDefinedBy>
+        <rdfs:comment>Biological sex is the quality of a biological organism based on reproductive function or organs.</rdfs:comment>
+        <rdfs:label>Gender</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AbstractDataLocation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AbstractDataLocation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeAtDeath -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeAtDeath"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeAtDiagnosis -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeAtDiagnosis"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeAtLastScreening -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeAtLastScreening"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeOfOnset -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeOfOnset"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AlgorithmUsed -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AlgorithmUsed"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AllowLinkage -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AllowLinkage"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AllowRecontacting -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AllowRecontacting"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AllowResearch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AllowResearch"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AnalysisIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AnalysisIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AnatomicalSource -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AnatomicalSource"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AverageReadDeath -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#AverageReadDeath">
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]</rdfs1:isDefinedBy>
+        <rdfs:comment>The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.</rdfs:comment>
+        <rdfs:label>Average read depth</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToDiagnosis -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToDiagnosis"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToMaterial -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToMaterial"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToPerson -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToPerson"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToSample -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToSample"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToSequencing -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToSequencing"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Bioinformatic_protocol_used -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Bioinformatic_protocol_used"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ClinicalDiagnosis -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ClinicalDiagnosis"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ClinicalIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ClinicalIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#CollectedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#CollectedBy"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#CompletionDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#CompletionDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Consanguinity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Consanguinity"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormAcceptedDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormAcceptedDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormCreator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormCreator"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormUsed -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormUsed"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormValidUntil -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormValidUntil"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormVersion"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ContactInformation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ContactInformation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#CountryOfResidence -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#CountryOfResidence"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#DataFormatsStored -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#DataFormatsStored"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#DerivedFrom -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#DerivedFrom"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Description"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Deviation_from_protocol -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Deviation_from_protocol"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#DrugRegimen -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#DrugRegimen"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ExpirationDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ExpirationDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#FamilyMembersAffected -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#FamilyMembersAffected"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#FamilyMembersSequenced -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#FamilyMembersSequenced"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#FirstContact -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#FirstContact"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Functioning -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Functioning"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#GenotypicSex -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#GenotypicSex"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Identifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#InclusionCriteria -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#InclusionCriteria"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#InclusionStatus -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#InclusionStatus"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#IndividualConsentIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#IndividualConsentIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#InputAmount -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#InputAmount"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#IntendedInsertSize -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#IntendedInsertSize"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#IntendedReadLength -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#IntendedReadLength"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LeafletDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#LeafletDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LeafletTitle -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#LeafletTitle"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LeafletVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#LeafletVersion"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LibraryPreparationKit -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#LibraryPreparationKit"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MaterialIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#MaterialIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MedicalHistory -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#MedicalHistory"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Medication -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Medication"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MolecularDiagnosisGene -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#MolecularDiagnosisGene"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MolecularDiagnosisOther -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#MolecularDiagnosisOther"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Name -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Name"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ObservedInsertSize -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ObservedInsertSize"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ObservedReadLength -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ObservedReadLength"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#OtherQualityMetrics -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#OtherQualityMetrics"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PCR_Free -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PCR_Free"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ParticipatesInStudy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ParticipatesInStudy"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PercentageQ30 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PercentageQ30"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PercentageTR20 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PercentageTR20"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PercentageTumorCells -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PercentageTumorCells"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PersonalIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PersonalIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Phenotype -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Phenotype"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PhenotypicDataAvailable -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PhenotypicDataAvailable"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PhysicalDataLocation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PhysicalDataLocation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PhysicalLocation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PhysicalLocation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PrimaryAffiliatedInstitute -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PrimaryAffiliatedInstitute"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PrincipalInvestigator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#PrincipalInvestigator"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Reason_for_deviation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Reason_for_deviation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RegistrationTimestamp -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#RegistrationTimestamp"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RepresentedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#RepresentedBy"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ResourcesInOtherInstitutes -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ResourcesInOtherInstitutes"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RestrictedTo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#RestrictedTo"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RestrictionSpecification -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#RestrictionSpecification"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SampleprepIdentifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SampleprepIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SamplingProtocol -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SamplingProtocol"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SamplingTimestamp -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SamplingTimestamp"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingInstrumentModel -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingInstrumentModel"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingPlatform -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingPlatform"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingType -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingType"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Sequencing_identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#Sequencing_identifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SigningDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SigningDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SourceType -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#SourceType"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#StartDate -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#StartDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#StorageConditions -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#StorageConditions"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#StudyDesign -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#StudyDesign"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#TargetEnrichmeKit -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#TargetEnrichmeKit">
+        <ontology2:hasValue>LookupOne [lookups/NGSKits.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]</rdfs1:isDefinedBy>
+        <rdfs:comment>Any of various techniques designed to select or increase a target item in a mixed sample.</rdfs:comment>
+        <rdfs:label>Target enrichment kit</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#TargetEnrichmentKit -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#TargetEnrichmentKit"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#UMIsPresent -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#UMIsPresent"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#UnobservedPhenotype -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#UnobservedPhenotype"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ValidFrom -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ValidFrom"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ValidUntil -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#ValidUntil"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#WGS_guideline_followed -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology#WGS_guideline_followed"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology/#MaterialType -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology/#MaterialType">
+        <ontology2:hasValue>LookupOne [lookups/MaterialTypes.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</rdfs1:isDefinedBy>
+        <rdfs:comment>Material distinguishable as an identifiable class based on common qualities.</rdfs:comment>
+        <rdfs:label>Material type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology/#YearOfBirth -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/fairgenomes/ontology/#YearOfBirth">
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]</rdfs1:isDefinedBy>
+        <rdfs:comment>The year in which a person was born.</rdfs:comment>
+        <rdfs:label>Year of birth</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/edam#identifier -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/edam#identifier">
+        <rdfs:comment>An alphanumeric identifier assigned to a specific patient</rdfs:comment>
+        <rdfs:label>Personal identifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AllowRecontacting -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#AllowRecontacting"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AnatomicalSource -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#AnatomicalSource"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ClinicalDiagnosis -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#ClinicalDiagnosis"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#CollectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#CollectedBy"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormCreator -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormCreator"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#CountryOfBirth -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#CountryOfBirth"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#CountryOfResidence -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#CountryOfResidence"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#DataFormatsStored -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#DataFormatsStored"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Ethnicity -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#Ethnicity"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#FamilyMembersAffected -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#FamilyMembersAffected"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#FamilyMembersSequenced -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#FamilyMembersSequenced"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Gender -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#Gender"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#GenotypicSex -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#GenotypicSex"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#InclusionCriteria -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#InclusionCriteria"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#InclusionStatus -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#InclusionStatus"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LibraryPreparationKit -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#LibraryPreparationKit"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MaterialType -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#MaterialType"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MedicalHistory -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#MedicalHistory"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Medication -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#Medication"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MolecularDiagnosisGene -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#MolecularDiagnosisGene"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PercentageQ30 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#PercentageQ30"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Phenotype -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#Phenotype"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PhenotypicDataAvailable -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#PhenotypicDataAvailable"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PrimaryAffiliatedInstitute -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#PrimaryAffiliatedInstitute"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ResourcesInOtherInstitutes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#ResourcesInOtherInstitutes"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RestrictedTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#RestrictedTo"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingInstrumentModel -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingInstrumentModel"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingPlatform -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingPlatform"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingType -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingType"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SourceType -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#SourceType"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#StorageConditions -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#StorageConditions"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#TargetEnrichmentKit -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#TargetEnrichmentKit"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#UnobservedPhenotype -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/fairgenomes/ontology#UnobservedPhenotype"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AbstractDataLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AbstractDataLocation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeAtDeath -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeAtDeath"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeAtDiagnosis -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeAtDiagnosis"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeAtLastScreening -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeAtLastScreening"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AgeOfOnset -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AgeOfOnset"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AlgorithmUsed -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AlgorithmUsed"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AllowLinkage -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AllowLinkage"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AllowResearch -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AllowResearch"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AnalysisIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AnalysisIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#AverageReadDepth -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#AverageReadDepth"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToDiagnosis -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToDiagnosis"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToMaterial -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToMaterial"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToPerson -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToPerson"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToSample -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToSample"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#BelongsToSequencing -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#BelongsToSequencing"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Bioinformatic_protocol_used -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Bioinformatic_protocol_used"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ClinicalIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ClinicalIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#CompletionDate -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#CompletionDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Consanguinity -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Consanguinity"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormAcceptedDate -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormAcceptedDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormUsed -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormUsed"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormValidUntil -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormValidUntil"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ConsentFormVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormVersion"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ContactInformation -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ContactInformation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#DerivedFrom -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#DerivedFrom"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Description"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Deviation_from_protocol -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Deviation_from_protocol"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#DrugRegimen -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#DrugRegimen"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ExpirationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ExpirationDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#FirstContact -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#FirstContact"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Functioning -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Functioning"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Identifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#IndividualConsentIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#IndividualConsentIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Information_consent_form_signing_date -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Information_consent_form_signing_date">
+        <rdfs:domain rdf:resource="http://purl.org/fairgenomes/ontology#IndividualConsent"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#InputAmount -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#InputAmount"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#IntendedInsertSize -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#IntendedInsertSize"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#IntendedReadLength -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#IntendedReadLength"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LeafletDate -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#LeafletDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LeafletTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#LeafletTitle"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#LeafletVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#LeafletVersion"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MaterialIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#MaterialIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#MolecularDiagnosisOther -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#MolecularDiagnosisOther"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Name"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ObservedInsertSize -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ObservedInsertSize"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ObservedReadLength -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ObservedReadLength"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#OtherQualityMetrics -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#OtherQualityMetrics"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PCR_Free -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PCR_Free"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ParticipatesInStudy -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ParticipatesInStudy"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PercentageQ30 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PercentageQ30"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PercentageTR20 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PercentageTR20"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PercentageTumorCells -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PercentageTumorCells"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PersonalIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PersonalIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PhysicalDataLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PhysicalDataLocation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PhysicalLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PhysicalLocation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#PrincipalInvestigator -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#PrincipalInvestigator"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Reason_for_deviation -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Reason_for_deviation"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RegistrationTimestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#RegistrationTimestamp"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RepresentedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#RepresentedBy"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#RestrictionSpecification -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#RestrictionSpecification"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SampleprepIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#SampleprepIdentifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SamplingProtocol -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#SamplingProtocol"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SamplingTimestamp -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#SamplingTimestamp"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SequencingDate -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#SequencingDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Sequencing_identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Sequencing_identifier"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#SigningDate -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#SigningDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#StartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#StartDate"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#StudyDesign -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#StudyDesign"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Study_ID -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Study_ID">
+        <rdfs:domain rdf:resource="http://purl.org/fairgenomes/ontology#Study"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Study_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#Study_Name">
+        <rdfs:domain rdf:resource="http://purl.org/fairgenomes/ontology#Study"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#UMIsPresent -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#UMIsPresent"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ValidFrom -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ValidFrom"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#ValidUntil -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#ValidUntil"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#WGS_guideline_followed -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology#WGS_guideline_followed"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology/YearOfBirth -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/fairgenomes/ontology/YearOfBirth"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Analysis -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Analysis">
+        <rdfs1:isDefinedBy>EDAM:operation_2945 [http://edamontology.org/operation_2945]</rdfs1:isDefinedBy>
+        <ontology:AbstractDataLocation></ontology:AbstractDataLocation>
+        <ontology:AlgorithmUsed></ontology:AlgorithmUsed>
+        <ontology:AnalysisIdentifier></ontology:AnalysisIdentifier>
+        <ontology:BelongsToSequencing></ontology:BelongsToSequencing>
+        <ontology:Bioinformatic_protocol_used></ontology:Bioinformatic_protocol_used>
+        <ontology:DataFormatsStored></ontology:DataFormatsStored>
+        <ontology:Deviation_from_protocol></ontology:Deviation_from_protocol>
+        <ontology:PhysicalDataLocation></ontology:PhysicalDataLocation>
+        <ontology:Reason_for_deviation></ontology:Reason_for_deviation>
+        <ontology:WGS_guideline_followed></ontology:WGS_guideline_followed>
+        <rdfs:comment>Apply analytical methods to existing data of a specific type.</rdfs:comment>
+        <rdfs:label>Analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Clinical -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Clinical">
+        <rdfs1:isDefinedBy>NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]</rdfs1:isDefinedBy>
+        <ontology:AgeAtDiagnosis></ontology:AgeAtDiagnosis>
+        <ontology:AgeAtLastScreening></ontology:AgeAtLastScreening>
+        <ontology:AgeOfOnset></ontology:AgeOfOnset>
+        <ontology:BelongsToMaterial></ontology:BelongsToMaterial>
+        <ontology:BelongsToPerson></ontology:BelongsToPerson>
+        <ontology:ClinicalDiagnosis></ontology:ClinicalDiagnosis>
+        <ontology:ClinicalIdentifier></ontology:ClinicalIdentifier>
+        <ontology:Consanguinity></ontology:Consanguinity>
+        <ontology:DrugRegimen></ontology:DrugRegimen>
+        <ontology:FamilyMembersAffected></ontology:FamilyMembersAffected>
+        <ontology:FamilyMembersSequenced></ontology:FamilyMembersSequenced>
+        <ontology:FirstContact></ontology:FirstContact>
+        <ontology:Functioning></ontology:Functioning>
+        <ontology:MedicalHistory></ontology:MedicalHistory>
+        <ontology:Medication></ontology:Medication>
+        <ontology:MolecularDiagnosisGene></ontology:MolecularDiagnosisGene>
+        <ontology:MolecularDiagnosisOther></ontology:MolecularDiagnosisOther>
+        <ontology:Phenotype></ontology:Phenotype>
+        <ontology:PhenotypicDataAvailable></ontology:PhenotypicDataAvailable>
+        <ontology:UnobservedPhenotype></ontology:UnobservedPhenotype>
+        <rdfs:comment>Data obtained through patient examination or treatment.</rdfs:comment>
+        <rdfs:label>Clinical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Consent -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Consent"/>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#General_Consent_information -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#General_Consent_information">
+        <rdfs:subClassOf rdf:resource="http://purl.org/fairgenomes/ontology#Consent"/>
+        <rdfs1:isDefinedBy>NCIT:C16468 [http://purl.obolibrary.org/obo/NCIT_C16468]</rdfs1:isDefinedBy>
+        <ontology:ConsentFormAcceptedDate></ontology:ConsentFormAcceptedDate>
+        <ontology:ConsentFormCreator></ontology:ConsentFormCreator>
+        <ontology:ConsentFormIdentifier></ontology:ConsentFormIdentifier>
+        <ontology:ConsentFormValidUntil></ontology:ConsentFormValidUntil>
+        <ontology:ConsentFormVersion></ontology:ConsentFormVersion>
+        <ontology:LeafletDate></ontology:LeafletDate>
+        <ontology:LeafletTitle></ontology:LeafletTitle>
+        <ontology:LeafletVersion></ontology:LeafletVersion>
+        <rdfs:comment>A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian.</rdfs:comment>
+        <rdfs:label>Leaflet and consent form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#IndividualConsent -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#IndividualConsent">
+        <rdfs:subClassOf rdf:resource="http://purl.org/fairgenomes/ontology#Consent"/>
+        <rdfs1:isDefinedBy>NCIT:C16735 [http://purl.obolibrary.org/obo/NCIT_C16735]</rdfs1:isDefinedBy>
+        <ontology:AllowLinkage></ontology:AllowLinkage>
+        <ontology:AllowRecontacting></ontology:AllowRecontacting>
+        <ontology:AllowResearch></ontology:AllowResearch>
+        <ontology:CollectedBy></ontology:CollectedBy>
+        <ontology:ConsentFormUsed></ontology:ConsentFormUsed>
+        <ontology:IndividualConsentIdentifier></ontology:IndividualConsentIdentifier>
+        <ontology:PersonalIdentifier></ontology:PersonalIdentifier>
+        <ontology:RepresentedBy></ontology:RepresentedBy>
+        <ontology:RestrictedTo></ontology:RestrictedTo>
+        <ontology:RestrictionSpecification></ontology:RestrictionSpecification>
+        <ontology:SigningDate></ontology:SigningDate>
+        <ontology:ValidFrom></ontology:ValidFrom>
+        <ontology:ValidUntil></ontology:ValidUntil>
+        <rdfs:comment>Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved.</rdfs:comment>
+        <rdfs:label>Individual consent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Material -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Material">
+        <rdfs1:isDefinedBy>NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]</rdfs1:isDefinedBy>
+        <ontology:AnatomicalSource></ontology:AnatomicalSource>
+        <ontology:BelongsToDiagnosis></ontology:BelongsToDiagnosis>
+        <ontology:BelongsToPerson></ontology:BelongsToPerson>
+        <ontology:DerivedFrom></ontology:DerivedFrom>
+        <ontology:Deviation_from_protocol></ontology:Deviation_from_protocol>
+        <ontology:ExpirationDate></ontology:ExpirationDate>
+        <ontology:MaterialIdentifier></ontology:MaterialIdentifier>
+        <ontology:PercentageTumorCells></ontology:PercentageTumorCells>
+        <ontology:PhysicalLocation></ontology:PhysicalLocation>
+        <ontology:Reason_for_deviation></ontology:Reason_for_deviation>
+        <ontology:RegistrationTimestamp></ontology:RegistrationTimestamp>
+        <ontology:SamplingProtocol></ontology:SamplingProtocol>
+        <ontology:SamplingTimestamp></ontology:SamplingTimestamp>
+        <ontology:SourceType></ontology:SourceType>
+        <ontology:StorageConditions></ontology:StorageConditions>
+        <ontology3:MaterialType></ontology3:MaterialType>
+        <rdfs:comment>Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.</rdfs:comment>
+        <rdfs:label>Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#NGSkits -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#NGSkits">
+        <rdfs:subClassOf rdf:resource="http://purl.org/fairgenomes/ontology#Sample_preparation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Personal -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Personal">
+        <rdfs1:isDefinedBy>NCIT:C90492 [http://purl.obolibrary.org/obo/NCIT_C90492]</rdfs1:isDefinedBy>
+        <obo:Gender></obo:Gender>
+        <ontology:AgeAtDeath></ontology:AgeAtDeath>
+        <ontology:CountryOfResidence></ontology:CountryOfResidence>
+        <ontology:GenotypicSex></ontology:GenotypicSex>
+        <ontology:InclusionCriteria></ontology:InclusionCriteria>
+        <ontology:InclusionStatus></ontology:InclusionStatus>
+        <ontology:ParticipatesInStudy></ontology:ParticipatesInStudy>
+        <ontology:PrimaryAffiliatedInstitute></ontology:PrimaryAffiliatedInstitute>
+        <ontology:ResourcesInOtherInstitutes></ontology:ResourcesInOtherInstitutes>
+        <ontology3:YearOfBirth></ontology3:YearOfBirth>
+        <rdfs:comment>Data, facts or figures about an individual; the set of relevant items would depend on the use case.</rdfs:comment>
+        <rdfs:label>Personal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Phenotypic_terms -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Phenotypic_terms">
+        <rdfs:subClassOf rdf:resource="http://purl.org/fairgenomes/ontology#Clinical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Sample_preparation -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Sample_preparation">
+        <rdfs1:isDefinedBy>OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]</rdfs1:isDefinedBy>
+        <ontology:BelongsToMaterial></ontology:BelongsToMaterial>
+        <ontology:InputAmount></ontology:InputAmount>
+        <ontology:IntendedInsertSize></ontology:IntendedInsertSize>
+        <ontology:IntendedReadLength></ontology:IntendedReadLength>
+        <ontology:LibraryPreparationKit></ontology:LibraryPreparationKit>
+        <ontology:PCR_Free></ontology:PCR_Free>
+        <ontology:SampleprepIdentifier></ontology:SampleprepIdentifier>
+        <ontology:TargetEnrichmeKit></ontology:TargetEnrichmeKit>
+        <ontology:UMIsPresent></ontology:UMIsPresent>
+        <rdfs:comment>A sample preparation for assay that preparation of nucleic acids for a sequencing assay.</rdfs:comment>
+        <rdfs:label>Sample preparation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Sequencing -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Sequencing">
+        <rdfs1:isDefinedBy>EDAM:topic_3168 [http://edamontology.org/topic_3168]</rdfs1:isDefinedBy>
+        <ontology:AverageReadDeath></ontology:AverageReadDeath>
+        <ontology:BelongsToSample></ontology:BelongsToSample>
+        <ontology:ObservedInsertSize></ontology:ObservedInsertSize>
+        <ontology:ObservedReadLength></ontology:ObservedReadLength>
+        <ontology:OtherQualityMetrics></ontology:OtherQualityMetrics>
+        <ontology:PercentageQ30></ontology:PercentageQ30>
+        <ontology:PercentageTR20></ontology:PercentageTR20>
+        <ontology:SequencingDate></ontology:SequencingDate>
+        <ontology:SequencingInstrumentModel></ontology:SequencingInstrumentModel>
+        <ontology:SequencingPlatform></ontology:SequencingPlatform>
+        <ontology:SequencingType></ontology:SequencingType>
+        <ontology:Sequencing_identifier></ontology:Sequencing_identifier>
+        <rdfs:comment>The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.</rdfs:comment>
+        <rdfs:label>Sequencing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#Study -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#Study">
+        <rdfs1:isDefinedBy>NCIT:C63536 [http://purl.obolibrary.org/obo/NCIT_C63536]</rdfs1:isDefinedBy>
+        <ontology:CompletionDate></ontology:CompletionDate>
+        <ontology:ContactInformation></ontology:ContactInformation>
+        <ontology:Description></ontology:Description>
+        <ontology:Identifier></ontology:Identifier>
+        <ontology:Name></ontology:Name>
+        <ontology:PrincipalInvestigator></ontology:PrincipalInvestigator>
+        <ontology:StartDate></ontology:StartDate>
+        <ontology:StudyDesign></ontology:StudyDesign>
+        <rdfs:comment>A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.</rdfs:comment>
+        <rdfs:label>Study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/fairgenomes/ontology#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies -->
+
+    <owl:Class rdf:about="http://purl.org/fairgenomes/ontology#OneSeq_1Mb_CNV_Backbone+3-5.9Mb,_96_Auto_by_Agilent_Technologies">
+        <rdfs:subClassOf rdf:resource="http://purl.org/fairgenomes/ontology#NGSkits"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">NEXTFLEX Unique Dual Index Barcodes by PerkinElmer</rdfs:label>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.biocompare.com/9479-Adapters-Cassettes/13423323-NEXTFLEX-Unique-Dual-Index-Barcodes/</skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AbstractDataLocation">
+        <rdfs1:isDefinedBy>NCIT:C142494 [http://purl.obolibrary.org/obo/NCIT_C142494]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs:label>Abstract data location</rdfs:label>
+        <rdfs:comment>To maintain data by placing the data, or a copy of the data, onto an electronically accessible device for preservation (either in plain-text or encrypted format).</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AgeAtDeath">
+        <rdfs1:isDefinedBy>ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]</rdfs1:isDefinedBy>
+        <rdfs:label>Age at death</rdfs:label>
+        <rdfs:comment>The age at which death occurred.</rdfs:comment>
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AgeAtDiagnosis">
+        <rdfs:comment>The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.</rdfs:comment>
+        <rdfs1:isDefinedBy>SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]</rdfs1:isDefinedBy>
+        <rdfs:label>Age at diagnosis</rdfs:label>
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AgeAtLastScreening">
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs:label>Age at last screening</rdfs:label>
+        <rdfs:comment>Age of the patient at the moment of the most recent screening.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C81258 [http://purl.obolibrary.org/obo/NCIT_C81258]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AgeOfOnset">
+        <rdfs:comment>Age of onset of clinical manifestations related to a clinical entity.</rdfs:comment>
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs:label>Age of onset</rdfs:label>
+        <rdfs1:isDefinedBy>Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AlgorithmUsed">
+        <ontology2:hasValue>Text</ontology2:hasValue>
+        <rdfs:comment>A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer.</rdfs:comment>
+        <rdfs:label>Algorithms used</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AllowLinkage">
+        <rdfs:label>Allow linkage</rdfs:label>
+        <ontology2:hasValue>Boolean</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]</rdfs1:isDefinedBy>
+        <rdfs:comment>A study in which data from different sources are &quot;linked&quot;. Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AllowRecontacting">
+        <rdfs1:isDefinedBy>ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupMany_NoGlobals [lookups/Recontacting.txt]</ontology2:hasValue>
+        <rdfs:comment>The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.</rdfs:comment>
+        <rdfs:label>Allow recontacting</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AllowResearch">
+        <ontology2:hasValue>Boolean</ontology2:hasValue>
+        <rdfs:comment>Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.</rdfs:comment>
+        <rdfs1:isDefinedBy>ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]</rdfs1:isDefinedBy>
+        <rdfs:label>Allow research</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AnalysisIdentifier">
+        <rdfs:label>Analysis identifier</rdfs:label>
+        <rdfs:comment>An assay identifier is an identifier that identifies some assay (analysis).</rdfs:comment>
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs1:isDefinedBy>ontology: AFR:0001979 [http://purl.allotrope.org/ontologies/result#AFR_0001979</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#AnatomicalSource">
+        <ontology2:hasValue>LookupOne [lookups/AnatomicalSources.txt]</ontology2:hasValue>
+        <rdfs:label>Anatomical source</rdfs:label>
+        <rdfs:comment>Biological entity that constitutes the structural organization of an individual member of a biological species.</rdfs:comment>
+        <rdfs1:isDefinedBy>UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#BelongsToDiagnosis">
+        <rdfs1:isDefinedBy>SIO:000068 [http://semanticscience.org/resource/SIO_000068]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>ReferenceMany [Clinical]</ontology2:hasValue>
+        <rdfs:comment>This material is part of a diagnosis c.q. clinical examination. There can be multiple diagnoses when a non-tumor material is reused as reference.</rdfs:comment>
+        <rdfs:label>Belongs to diagnosis</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#BelongsToMaterial">
+        <rdfs:comment>This diagnosis c.q. clinical examination is based on one or more sampled materials. [WORK IN PROGRESS. This field should be proper ReferenceMany to Material, but this is technically problematic due to circular dependencies.]</rdfs:comment>
+        <rdfs:label>Belongs to material</rdfs:label>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs1:isDefinedBy>SIO:000641 [http://semanticscience.org/resource/SIO_000641]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>ReferenceOne [Material]</ontology2:hasValue>
+        <rdfs:comment>Link to the source material from which this sample was prepared.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#BelongsToPerson">
+        <rdfs1:isDefinedBy>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>ReferenceOne [Personal]</ontology2:hasValue>
+        <rdfs:isDefinedBy>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</rdfs:isDefinedBy>
+        <rdfs:label>Belongs to person</rdfs:label>
+        <rdfs:comment>Link to the person from whom the material was collected.</rdfs:comment>
+        <rdfs1:isDefinedBy>SIO:000244 [http://semanticscience.org/resource/SIO_000244]</rdfs1:isDefinedBy>
+        <rdfs:comment>Link to the person whom the clinical information is about.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#BelongsToSample">
+        <rdfs:comment>Link to the prepared sample i.e. source that was sequenced.</rdfs:comment>
+        <ontology2:hasValue>ReferenceOne [Sample preparation]</ontology2:hasValue>
+        <rdfs:label>Belongs to sample</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#BelongsToSequencing">
+        <rdfs:comment>Link to the sequencing performed i.e. source on which the analysis is based.</rdfs:comment>
+        <ontology2:hasValue>ReferenceOne [Sequencing]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]</rdfs1:isDefinedBy>
+        <rdfs:label>Belongs to sequencing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Bioinformatic_protocol_used">
+        <rdfs:comment>A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis.</rdfs:comment>
+        <rdfs:label>Bioinformatic protocol used</rdfs:label>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+        <rdfs1:isDefinedBy>EDAM:data_2531 [http://edamontology.org/data_2531]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ClinicalDiagnosis">
+        <rdfs:comment>A diagnosis made from a study of the signs and symptoms of a disease.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupMany [lookups/Diseases.txt]</ontology2:hasValue>
+        <rdfs:label>Clinical diagnosis</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ClinicalIdentifier">
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs:comment>A character or string used to name, or characterize a clinical events reference.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C87853 [http://purl.obolibrary.org/obo/NCIT_C87853]</rdfs1:isDefinedBy>
+        <rdfs:label>Clinical identifier</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#CollectedBy">
+        <rdfs:comment>Indicates the person, group, or institution who performed the collection act.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupOne [lookups/Institutes.txt]</ontology2:hasValue>
+        <rdfs:label>Collected by</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#CompletionDate">
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs:label>Completion date</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C142702 [http://purl.obolibrary.org/obo/NCIT_C142702]</rdfs1:isDefinedBy>
+        <rdfs:comment>The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Consanguinity">
+        <rdfs:comment>Information on whether the patient is a child from two family members who are second cousins or closer.</rdfs:comment>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs:label>Consanguinity</rdfs:label>
+        <rdfs1:isDefinedBy>GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormAcceptedDate">
+        <rdfs:comment>Date of acceptance of the resource.</rdfs:comment>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs1:isDefinedBy>DC:dateAccepted [http://purl.org/dc/terms/dateAccepted]</rdfs1:isDefinedBy>
+        <rdfs:label>Consent form accepted date</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormCreator">
+        <rdfs1:isDefinedBy>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</rdfs1:isDefinedBy>
+        <rdfs:label>Consent form creator</rdfs:label>
+        <ontology2:hasValue>LookupOne [lookups/Institutes.txt]</ontology2:hasValue>
+        <rdfs:comment>Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormIdentifier">
+        <rdfs1:isDefinedBy>DC:identifier [http://purl.org/dc/terms/identifier]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs:label>Consent form identifier</rdfs:label>
+        <rdfs:comment>An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormUsed">
+        <ontology2:hasValue>ReferenceOne [Leaflet and consent form]</ontology2:hasValue>
+        <rdfs:label>Consent form used</rdfs:label>
+        <rdfs:comment>The informed consent form that was signed.</rdfs:comment>
+        <rdfs1:isDefinedBy>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormValidUntil">
+        <rdfs:label>Consent form valid until</rdfs:label>
+        <rdfs:comment>End date of the validity of a resource.</rdfs:comment>
+        <rdfs1:isDefinedBy>DC:valid [http://purl.org/dc/terms/valid]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ConsentFormVersion">
+        <rdfs1:isDefinedBy>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</rdfs1:isDefinedBy>
+        <rdfs:label>Consent form version</rdfs:label>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs:comment>A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ContactInformation">
+        <rdfs:label>Contact information</rdfs:label>
+        <rdfs1:isDefinedBy>OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs:comment>An email address for the purpose of contacting a sample collection or study contact person.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#CountryOfResidence">
+        <rdfs:comment>Country of Residence at Enrollment.</rdfs:comment>
+        <rdfs:label>Country of residence</rdfs:label>
+        <ontology2:hasValue>LookupOne [lookups/Countries.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C171105 [http://purl.obolibrary.org/obo/NCIT_C171105]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#DataFormatsStored">
+        <rdfs1:isDefinedBy>EDAM:format_1915 [http://edamontology.org/format_1915]</rdfs1:isDefinedBy>
+        <rdfs:label>Data formats stored</rdfs:label>
+        <ontology2:hasValue>LookupMany [lookups/DataFormats.txt]</ontology2:hasValue>
+        <rdfs:comment>A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#DerivedFrom">
+        <rdfs:label>Derived from</rdfs:label>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]</rdfs1:isDefinedBy>
+        <rdfs:comment>A material produced from or related to another. [WORK IN PROGRESS. This field should be proper ReferenceOne to Material, but this is technically problematic due to circular dependencies.]</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Description">
+        <ontology2:hasValue>Text</ontology2:hasValue>
+        <rdfs:label>Description</rdfs:label>
+        <rdfs:comment>A textual entity describing a study aim or a sample collection.</rdfs:comment>
+        <rdfs1:isDefinedBy>OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Deviation_from_protocol">
+        <rdfs:comment>A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.</rdfs:comment>
+        <rdfs:comment>A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]</rdfs1:isDefinedBy>
+        <rdfs:label>Deviation from protocol</rdfs:label>
+        <ontology2:hasValue>String</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#DrugRegimen">
+        <rdfs:comment>The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.</rdfs:comment>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+        <rdfs:label>Drug regimen</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C142516 [http://purl.obolibrary.org/obo/NCIT_C142516]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ExpirationDate">
+        <rdfs:label>Expiration date</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C164516 [http://purl.obolibrary.org/obo/NCIT_C164516]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs:comment>The date beyond which a substance is no longer regarded as fit for use.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#FamilyMembersAffected">
+        <rdfs1:isDefinedBy>HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupMany [lookups/FamilyMembers.txt]</ontology2:hasValue>
+        <rdfs:label>Family members affected</rdfs:label>
+        <rdfs:comment>This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband).</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#FamilyMembersSequenced">
+        <rdfs:comment>A person related by descent rather than by marriage or law that was also sequenced.</rdfs:comment>
+        <rdfs:label>Family members sequenced</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C71384 [http://purl.obolibrary.org/obo/NCIT_C71384]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupMany [lookups/FamilyMembers.txt]</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#FirstContact">
+        <rdfs1:isDefinedBy>LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]</rdfs1:isDefinedBy>
+        <rdfs:comment>First contact with specialised center in context of disease or inclusion.</rdfs:comment>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs:label>First contact</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Functioning">
+        <rdfs1:isDefinedBy>NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+        <rdfs:label>Functioning</rdfs:label>
+        <rdfs:comment>Patient&apos;s classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#GenotypicSex">
+        <rdfs:label>Genotypic sex</rdfs:label>
+        <rdfs:comment>A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</rdfs:comment>
+        <rdfs:label>
+            <rdf:Description>
+                <rdfs:comment>A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.</rdfs:comment>
+            </rdf:Description>
+        </rdfs:label>
+        <ontology2:hasValue>LookupOne [lookups/GenotypicSex.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>PATO:0020000 [http://purl.obolibrary.org/obo/PATO_0020000]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Identifier">
+        <rdfs:comment>A sample collection or study proper name that is centrally registered and unique within one framework.</rdfs:comment>
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs1:isDefinedBy>OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]</rdfs1:isDefinedBy>
+        <rdfs:label>Identifier</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#InclusionCriteria">
+        <rdfs:label>Inclusion criteria</rdfs:label>
+        <rdfs:comment>An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.</rdfs:comment>
+        <rdfs1:isDefinedBy>OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupMany [lookups/InclusionCriteria.txt]</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#InclusionStatus">
+        <ontology2:hasValue>values: LookupOne [lookups/InclusionStatus.txt]</ontology2:hasValue>
+        <rdfs:label>Inclusion status</rdfs:label>
+        <rdfs1:isDefinedBy>ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]</rdfs1:isDefinedBy>
+        <rdfs:comment>An indicator that provides information on the current health status of a patient.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#IndividualConsentIdentifier">
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs1:isDefinedBy>ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]</rdfs1:isDefinedBy>
+        <rdfs:comment>A data item consisting of a unique identification code designating an informed consent.</rdfs:comment>
+        <rdfs:label>Individual consent identifier</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#InputAmount">
+        <rdfs1:isDefinedBy>AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]</rdfs1:isDefinedBy>
+        <rdfs:label>Input amount</rdfs:label>
+        <rdfs:comment>Amount of input material in ng.</rdfs:comment>
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#IntendedInsertSize">
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs:label>Intended insert size</rdfs:label>
+        <rdfs1:isDefinedBy>FG:IntendedInsertSize [https://fair-genomes.org/IntendedInsertSize]</rdfs1:isDefinedBy>
+        <rdfs:comment>In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#IntendedReadLength">
+        <rdfs1:isDefinedBy>ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs:label>Intended read length</rdfs:label>
+        <rdfs:comment>The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#LeafletDate">
+        <rdfs:comment>A point or period of time associated with an event in the lifecycle of the resource.</rdfs:comment>
+        <rdfs1:isDefinedBy>DC:date [http://purl.org/dc/terms/date]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs:label>Leaflet date</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#LeafletTitle">
+        <rdfs1:isDefinedBy>DC:title [http://purl.org/dc/terms/title]</rdfs1:isDefinedBy>
+        <rdfs:label>Leaflet title</rdfs:label>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs:comment>A name given to the resource.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#LeafletVersion">
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs1:isDefinedBy>DC:hasVersion [http://purl.org/dc/terms/hasVersion]</rdfs1:isDefinedBy>
+        <rdfs:comment>A related resource that is a version, edition, or adaptation of the described resource.</rdfs:comment>
+        <rdfs:label>Leaflet version</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#LibraryPreparationKit">
+        <ontology2:hasValue>LookupOne [lookups/NGSKits.txt]</ontology2:hasValue>
+        <rdfs:comment>Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.</rdfs:comment>
+        <rdfs1:isDefinedBy>GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]</rdfs1:isDefinedBy>
+        <rdfs:comment>Library preparation kit</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#MaterialIdentifier">
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]</rdfs1:isDefinedBy>
+        <rdfs:label>Material identifier</rdfs:label>
+        <rdfs:comment>The unique identification of a material in a specific context.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#MedicalHistory">
+        <rdfs:label>Medical history</rdfs:label>
+        <ontology2:hasValue>LookupMany [lookups/MedicalHistory.txt]</ontology2:hasValue>
+        <rdfs:comment>A record of a person&apos;s background regarding health, occurrence of disease events and surgical procedures.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Medication">
+        <rdfs:label>Medication</rdfs:label>
+        <ontology2:hasValue>LookupMany [lookups/Drugs.txt]</ontology2:hasValue>
+        <rdfs:comment>Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).</rdfs:comment>
+        <rdfs1:isDefinedBy>EDAM:data_3103 [http://edamontology.org/data_3103]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#MolecularDiagnosisGene">
+        <ontology2:hasValue>LookupMany [lookups/Genes.txt]</ontology2:hasValue>
+        <rdfs:label>Molecular diagnosis gene</rdfs:label>
+        <rdfs:comment>Gene affected by pathogenic variation that is causal for disease of the patient.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#MolecularDiagnosisOther">
+        <rdfs1:isDefinedBy>NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]</rdfs1:isDefinedBy>
+        <rdfs:label>Molecular diagnosis other</rdfs:label>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+        <rdfs:comment>Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Name">
+        <rdfs:label>Name</rdfs:label>
+        <rdfs1:isDefinedBy>OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]</rdfs1:isDefinedBy>
+        <rdfs:comment>A proper name that designates a study.</rdfs:comment>
+        <ontology2:hasValue>String</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ObservedInsertSize">
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs:label>Observed insert size</rdfs:label>
+        <rdfs1:isDefinedBy>FG:ObservedInsertSize [https://fair-genomes.org/ObservedInsertSize]</rdfs1:isDefinedBy>
+        <rdfs:comment>In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ObservedReadLength">
+        <ontology2:hasValue>Integer</ontology2:hasValue>
+        <rdfs:label>Observed read length</rdfs:label>
+        <rdfs1:isDefinedBy>.NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]</rdfs1:isDefinedBy>
+        <rdfs:comment>The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#OtherQualityMetrics">
+        <rdfs1:isDefinedBy>ontology: EDAM:data_3914 [http://edamontology.org/data_3914]</rdfs1:isDefinedBy>
+        <rdfs:label>Other Quality Metrics</rdfs:label>
+        <rdfs:comment>Other NGS quality control metrics, including but not limited to (i) sequencer metrics such as yield, error rate, density (K/mm2), cluster PF (%) and phas/prephas (%), (ii) alignment metrics such as QM insert size, GC content, QM duplicated reads (%), QM error rate, uniformity/evenness of coverage and maternal cell contamination, and (iii) variant call metrics such as number of SNVs/CNVs/SVs called, number of missense/nonsense variants, common variants (%), unique variants (%), gender match and trio inheritance check.</rdfs:comment>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PCR_Free">
+        <rdfs:comment>A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.</rdfs:comment>
+        <rdfs1:isDefinedBy>ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]</rdfs1:isDefinedBy>
+        <rdfs:label>PCR free</rdfs:label>
+        <ontology2:hasValue>Boolean</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ParticipatesInStudy">
+        <rdfs:label>Participates in study</rdfs:label>
+        <rdfs:comment>description: The study or studies in which this person participates.</rdfs:comment>
+        <rdfs1:isDefinedBy>RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>ReferenceMany [Study]</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PercentageQ30">
+        <rdfs:label>Percentage Q30</rdfs:label>
+        <rdfs:comment>Percentage of reads with a Phred quality score over 30, which indicates less than a 1/1000 chance that the base was called incorrectly.</rdfs:comment>
+        <ontology2:hasValue>Decimal</ontology2:hasValue>
+        <rdfs1:isDefinedBy>GENEPIO:0000089 [http://purl.obolibrary.org/obo/GENEPIO_0000089]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PercentageTR20">
+        <rdfs:label>Percentage TR20</rdfs:label>
+        <rdfs:comment>Percentage of the target sequence on which 20 or more unique reads were successfully mapped.</rdfs:comment>
+        <rdfs1:isDefinedBy>FG:PercentageTR20 [https://fair-genomes.org/PercentageTR20]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Decimal</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PercentageTumorCells">
+        <rdfs:label>Percentage tumor cells</rdfs:label>
+        <rdfs:comment>The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Decimal</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PersonalIdentifier">
+        <rdfs:label>Personal identifier</rdfs:label>
+        <ontology2:hasValue>ReferenceOne [Personal]</ontology2:hasValue>
+        <rdfs:comment>The person (subject) whom this individual consent applies.</rdfs:comment>
+        <rdfs1:isDefinedBy>IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Phenotype">
+        <rdfs:comment>The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease.</rdfs:comment>
+        <ontology2:hasValue>LookupMany [lookups/Phenotypes.txt]</ontology2:hasValue>
+        <rdfs:label>Phenotype</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C16977 [http://purl.obolibrary.org/obo/NCIT_C16977]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PhenotypicDataAvailable">
+        <rdfs:comment>Types of phenotypic data collected in a clinical setting that is potentially available upon request.</rdfs:comment>
+        <ontology2:hasValue>LookupMany [lookups/DCMITypes.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>DC:DCMIType [http://purl.org/dc/terms/DCMIType]</rdfs1:isDefinedBy>
+        <rdfs:label>Phenotypic data available</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PhysicalDataLocation">
+        <rdfs:comment>A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).</rdfs:comment>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs1:isDefinedBy>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</rdfs1:isDefinedBy>
+        <rdfs:label>Physical data location</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PhysicalLocation">
+        <rdfs1:isDefinedBy>GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs:label>Physical location</rdfs:label>
+        <rdfs:comment>A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PrimaryAffiliatedInstitute">
+        <rdfs1:isDefinedBy>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupOne [lookups/Institutes.txt]</ontology2:hasValue>
+        <rdfs:label>Primary affiliated institute</rdfs:label>
+        <rdfs:comment>The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#PrincipalInvestigator">
+        <rdfs:comment>The principle investigtor or responsible person for a study or a sample collection.</rdfs:comment>
+        <rdfs:label>Principal investigator</rdfs:label>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs1:isDefinedBy>OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Reason_for_deviation">
+        <rdfs1:isDefinedBy>NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</rdfs1:isDefinedBy>
+        <rdfs:label>Reason for deviation</rdfs:label>
+        <rdfs:comment>The rationale for why a deviation from the bioinformatic protocol has occurred.</rdfs:comment>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs1:isDefinedBy>ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]</rdfs1:isDefinedBy>
+        <rdfs:comment>The rationale for why a deviation from the sampling protocol has occurred.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#RegistrationTimestamp">
+        <rdfs1:isDefinedBy>NCIT:C25646 [http://purl.obolibrary.org/obo/NCIT_C25646]</rdfs1:isDefinedBy>
+        <rdfs:label>Registration timestamp</rdfs:label>
+        <rdfs:comment>The act of listing or recording officially; officially qualified or enrolled.</rdfs:comment>
+        <ontology2:hasValue>DateTime</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#RepresentedBy">
+        <rdfs:comment>An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]</rdfs1:isDefinedBy>
+        <rdfs:label>Represented by</rdfs:label>
+        <ontology2:hasValue>String</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ResourcesInOtherInstitutes">
+        <ontology2:hasValue>LookupMany [lookups/Institutes.txt]</ontology2:hasValue>
+        <rdfs:label>Resources in other institutes</rdfs:label>
+        <rdfs:comment>Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.</rdfs:comment>
+        <rdfs1:isDefinedBy>SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#RestrictedTo">
+        <rdfs:label>Restricted to</rdfs:label>
+        <rdfs1:isDefinedBy>DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]</rdfs1:isDefinedBy>
+        <rdfs:comment>E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.</rdfs:comment>
+        <ontology2:hasValue>LookupMany_NoGlobals [lookups/DataUseRestrictions.txt]</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#RestrictionSpecification">
+        <rdfs1:isDefinedBy>SIO:000090 [http://semanticscience.org/resource/SIO_000090]</rdfs1:isDefinedBy>
+        <rdfs:label>Restriction specification</rdfs:label>
+        <rdfs:comment>Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.</rdfs:comment>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SampleprepIdentifier">
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs:comment>Any of one or more unique codes that refers to a specific protocol.</rdfs:comment>
+        <rdfs1:isDefinedBy>NCIT:C132299 [http://purl.obolibrary.org/obo/NCIT_C132299]</rdfs1:isDefinedBy>
+        <rdfs:label>Sampleprep identifier</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SamplingProtocol">
+        <rdfs:label>Sampling protocol</rdfs:label>
+        <rdfs1:isDefinedBy>EFO:0005518 [http://www.ebi.ac.uk/efo/EFO_0005518]</rdfs1:isDefinedBy>
+        <rdfs:comment>Describes the procedure whereby biological material for an experiment is sampled.</rdfs:comment>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SamplingTimestamp">
+        <ontology2:hasValue>values: DateTime</ontology2:hasValue>
+        <rdfs:comment>Date and time at which this sample was collected.</rdfs:comment>
+        <rdfs:label>Sampling timestamp</rdfs:label>
+        <rdfs1:isDefinedBy>EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SequencingDate">
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs:comment>description: Date the sequencing run was performed.</rdfs:comment>
+        <rdfs1:isDefinedBy>GENEPIO:0000069 [http://purl.obolibrary.org/obo/GENEPIO_0000069]</rdfs1:isDefinedBy>
+        <rdfs:label>Sequencing date</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SequencingInstrumentModel">
+        <rdfs:label>Sequencing instrument model</rdfs:label>
+        <ontology2:hasValue>LookupOne [lookups/SequencingInstrumentModels.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>GENEPIO:0001921 [http://purl.obolibrary.org/obo/GENEPIO_0001921]</rdfs1:isDefinedBy>
+        <rdfs:comment>A product name and model number of a manufacturer&apos;s genomic (dna) sequencer.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SequencingPlatform">
+        <rdfs1:isDefinedBy>GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupOne [lookups/SequencingPlatform.txt]</ontology2:hasValue>
+        <rdfs:comment>A sequencing plaform (brand) is a name of a company that produces sequencer equipment.</rdfs:comment>
+        <rdfs:label>Sequencing platform</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SequencingType">
+        <rdfs1:isDefinedBy>NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]</rdfs1:isDefinedBy>
+        <rdfs:comment>Sequencing distinguishable as an identifiable class based on common qualities.</rdfs:comment>
+        <rdfs:label>Sequencing type</rdfs:label>
+        <ontology2:hasValue>LookupOne [lookups/SequencingTypes.txt]</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#Sequencing_identifier">
+        <ontology2:hasValue>UniqueID</ontology2:hasValue>
+        <rdfs:label>Sequencing identifier</rdfs:label>
+        <rdfs1:isDefinedBy>NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]</rdfs1:isDefinedBy>
+        <rdfs:comment>A unique identifier assigned to raw data from a performed nucleic acid sequencing assay.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SigningDate">
+        <rdfs:comment>A date specification that designates when an informed consent form was signed.</rdfs:comment>
+        <rdfs1:isDefinedBy>ICO:0000036 [http://purl.obolibrary.org/obo/ICO_0000036]</rdfs1:isDefinedBy>
+        <rdfs:label>Signing date</rdfs:label>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#SourceType">
+        <rdfs:comment>A coded value specifying the type of tissue from which the biospecimen is derived.</rdfs:comment>
+        <ontology2:hasValue>LookupOne [lookups/SourceTypes.txt]</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C164617 [http://purl.obolibrary.org/obo/NCIT_C164617]</rdfs1:isDefinedBy>
+        <rdfs:label>Source type</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#StartDate">
+        <rdfs1:isDefinedBy>NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]</rdfs1:isDefinedBy>
+        <rdfs:comment>The date on which a study began.</rdfs:comment>
+        <rdfs:label>Start date</rdfs:label>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#StorageConditions">
+        <rdfs1:isDefinedBy>NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>LookupOne [lookups/StorageConditions.txt]</ontology2:hasValue>
+        <rdfs:label>Storage conditions</rdfs:label>
+        <rdfs:comment>The conditions specified for the storage of a biological material.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#StudyDesign">
+        <rdfs1:isDefinedBy>OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Text</ontology2:hasValue>
+        <rdfs:comment>A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</rdfs:comment>
+        <rdfs:label>Study design</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#UMIsPresent">
+        <rdfs:label>UMIs present</rdfs:label>
+        <rdfs:comment>A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.</rdfs:comment>
+        <rdfs1:isDefinedBy>EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]</rdfs1:isDefinedBy>
+        <ontology2:hasValue>Boolean</ontology2:hasValue>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#UnobservedPhenotype">
+        <rdfs:label>Unobserved phenotype</rdfs:label>
+        <ontology2:hasValue>LookupMany [lookups/Phenotypes.txt]</ontology2:hasValue>
+        <rdfs:comment>Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance.</rdfs:comment>
+        <rdfs1:isDefinedBy>HL7:C0442737 [http://purl.bioontology.org/ontology/HL7/C0442737]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ValidFrom">
+        <rdfs:label>Valid from</rdfs:label>
+        <rdfs:comment>Starting date of the validity of a resource.</rdfs:comment>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs1:isDefinedBy>DC:valid [http://purl.org/dc/terms/valid]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#ValidUntil">
+        <rdfs:comment>End date of the validity of a resource.</rdfs:comment>
+        <rdfs:label>Valid until</rdfs:label>
+        <ontology2:hasValue>Date</ontology2:hasValue>
+        <rdfs1:isDefinedBy>DC:valid [http://purl.org/dc/terms/valid]</rdfs1:isDefinedBy>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/fairgenomes/ontology#WGS_guideline_followed">
+        <rdfs:comment>Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.</rdfs:comment>
+        <ontology2:hasValue>String</ontology2:hasValue>
+        <rdfs1:isDefinedBy>NCIT:C17564 [http://purl.obolibrary.org/obo/NCIT_C17564]</rdfs1:isDefinedBy>
+        <rdfs:label>WGS guideline followed</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
